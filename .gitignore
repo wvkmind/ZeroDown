@@ -1,1 +1,7 @@
 .svn/
+.bin/
+.Library/
+.obj/
+.Packages/
+.Temp/
+*.csproj
