@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <AssetBundleCollection>
+    <AssetBundles>
+      <AssetBundle Name="GameScript/Localization/Default" LoadType="0" Packed="False" />
+      <AssetBundle Name="Image/Kimchi_0" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/2DCameras" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/Black" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/Desert" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/Forest" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/Grassland" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/Hills" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/InitCamera" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/Kimchi" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/Path" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/Person" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/Smile" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/Snowfield" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/UIDemo" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/Water" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/Wetlands" LoadType="0" Packed="False" />
+      <AssetBundle Name="Prefab/White" LoadType="0" Packed="False" />
+      <AssetBundle Name="Scenes/BigmapScenes" LoadType="0" Packed="False" />
+      <AssetBundle Name="Scenes/Init" LoadType="0" Packed="False" />
+      <AssetBundle Name="Sound/5" LoadType="0" Packed="False" />
+      <AssetBundle Name="TopDownEngine/Demos/Minimal2D/Sprites/Background/PrototypeBackgroundTexture" LoadType="0" Packed="False" />
+      <AssetBundle Name="TopDownEngine/Demos/Minimal2D/Sprites/Blocks/blocks" LoadType="0" Packed="False" />
+      <AssetBundle Name="TopDownEngine/Demos/Minimal2D/Sprites/MinimalCharacter" LoadType="0" Packed="False" />
+      <AssetBundle Name="TopDownEngine/Demos/Minimal2D/Sprites/Props/Materials/MinimalShootingRangeTarget" LoadType="0" Packed="False" />
+      <AssetBundle Name="TopDownEngine/Demos/Minimal2D/Sprites/Props/MinimalShootingRangeTarget" LoadType="0" Packed="False" />
+      <AssetBundle Name="UtilsScript/ConfigData/Asset/NORMAL_TABLE_TableData" LoadType="0" Packed="False" />
+    </AssetBundles>
+    <Assets>
+      <Asset Guid="0372686897e2c4368aba2883e45dd809" AssetBundleName="Scenes/Init" />
+      <Asset Guid="0fed9dc0a657f44f4ae426a9594f998d" AssetBundleName="UtilsScript/ConfigData/Asset/NORMAL_TABLE_TableData" />
+      <Asset Guid="1239a2e1d806b4352ab8383e13cc88ba" AssetBundleName="Prefab/InitCamera" />
+      <Asset Guid="1609d925b3a74fc40aaed0c45ca21a6c" AssetBundleName="TopDownEngine/Demos/Minimal2D/Sprites/Background/PrototypeBackgroundTexture" />
+      <Asset Guid="277d5263826ca4ea78afb3f0aa1044a6" AssetBundleName="Prefab/Water" />
+      <Asset Guid="2d4cd798180ed4f21afb0fff9a8fa7fe" AssetBundleName="Prefab/Snowfield" />
+      <Asset Guid="378e5dcbbee05429da5a33d1bd37166c" AssetBundleName="Prefab/Kimchi" />
+      <Asset Guid="4caa98197e5614d0b850d4549cdf71c3" AssetBundleName="Prefab/Grassland" />
+      <Asset Guid="56ed2465350d8491f9281603339d7a5d" AssetBundleName="Prefab/Desert" />
+      <Asset Guid="57f1f8b8e4dce42b7a8c1cff7ce8eb13" AssetBundleName="Prefab/Person" />
+      <Asset Guid="5a65424b033550849932ad408e9e1241" AssetBundleName="TopDownEngine/Demos/Minimal2D/Sprites/Props/MinimalShootingRangeTarget" />
+      <Asset Guid="b32da4723db97474f84bf3c38dab11a1" AssetBundleName="Sound/5" />
+      <Asset Guid="b3dd893d8a378430f8eae44437a2aa52" AssetBundleName="Prefab/Hills" />
+      <Asset Guid="b6993e89d9af3f64182a41c77cf345c2" AssetBundleName="Prefab/2DCameras" />
+      <Asset Guid="c1f8410bdc85c44a3a49824cc2a253b6" AssetBundleName="Scenes/BigmapScenes" />
+      <Asset Guid="c905514830adb4d61975953887da7e8c" AssetBundleName="Prefab/Wetlands" />
+      <Asset Guid="ca0eda449e71e4cce99a56a5832d15f8" AssetBundleName="Prefab/Black" />
+      <Asset Guid="ca2766572aa68458396d826e7fa54616" AssetBundleName="Image/Kimchi_0" />
+      <Asset Guid="d6626856318ff4acd8f772cb3df58a78" AssetBundleName="Prefab/UIDemo" />
+      <Asset Guid="dbb1ff0fb3145da4581e36c16ce3cb72" AssetBundleName="TopDownEngine/Demos/Minimal2D/Sprites/Blocks/blocks" />
+      <Asset Guid="e23ba536d4c314f5d9ed8649c7e787b0" AssetBundleName="GameScript/Localization/Default" />
+      <Asset Guid="e5daabb9431bc4fcf87ffaae68dc5cb5" AssetBundleName="Prefab/Forest" />
+      <Asset Guid="ea3b99ba788b34546b18021cefd70b62" AssetBundleName="TopDownEngine/Demos/Minimal2D/Sprites/Props/Materials/MinimalShootingRangeTarget" />
+      <Asset Guid="eb85363a8680449eda3b26e59ec6aa5b" AssetBundleName="Prefab/Path" />
+      <Asset Guid="eeb68d44a260e964584c4310ad5add3a" AssetBundleName="TopDownEngine/Demos/Minimal2D/Sprites/MinimalCharacter" />
+      <Asset Guid="f1e7e2e358f074e259971311210ae9f3" AssetBundleName="Prefab/Smile" />
+      <Asset Guid="f65f6a191e7f846d8ba350b55d017cd2" AssetBundleName="Prefab/White" />
+    </Assets>
+  </AssetBundleCollection>
+</UnityGameFramework>

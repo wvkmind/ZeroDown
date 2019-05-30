@@ -1,0 +1,59 @@
+﻿<Properties StartupConfiguration="{A2859A56-AB4A-51F9-60BB-1B6FC96E8C70}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameScript/Path/Path.Logic.cs">
+    <Files>
+      <File FileName="Assets/GameScript/Procedure/ProcedureEntrance.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameFramework/Scripts/Editor/Misc/Type.cs" Line="109" Column="59" />
+      <File FileName="Assets/GameFramework/Scripts/Editor/AssetBundleBuilder/AssetBundleBuilderConfigPathAttribute.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameScript/Procedure/ProcedureDemo.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameFramework/Scripts/Runtime/Entity/EntityComponent.cs" Line="63" Column="24" />
+      <File FileName="Assets/GameFramework/Scripts/Runtime/Entity/EntityComponent.EntityGroup.cs" Line="30" Column="29" />
+      <File FileName="Assets/GameFramework/Scripts/Runtime/Localization/DefaultLocalizationHelper.cs" Line="35" Column="16" />
+      <File FileName="Assets/GameFramework/Scripts/Runtime/Localization/LoadDictionaryInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameScript/UI/Logic/UIDemoLogic.cs" Line="13" Column="2" />
+      <File FileName="Assets/GameFramework/Scripts/Runtime/Procedure/ProcedureComponent.cs" Line="67" Column="1" />
+      <File FileName="Assets/UtilsScript/ConfigData/Runtime/ConfigData.Runtime.Manager.cs" Line="59" Column="34" />
+      <File FileName="Assets/UtilsScript/ConfigData/Runtime/ConfigData.Runtime.LoadSuccessEventArgs.cs" Line="1" Column="1" />
+      <File FileName="Assets/UtilsScript/ConfigData/Runtime/ConfigData.Runtime.DataType.cs" Line="1" Column="1" />
+      <File FileName="Assets/UtilsScript/ConfigData/Runtime/ConfigData.Runtime.TableDataDemo.cs" Line="5" Column="23" />
+      <File FileName="Assets/UtilsScript/ConfigData/Runtime/ConfigData.Runtime.Data.cs" Line="1" Column="26" />
+      <File FileName="Assets/GameScript/UI/Logic/UICreateCharacterLogic.cs" Line="17" Column="28" />
+      <File FileName="Assets/GameScript/Player/AtlasRegionAttacher.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameScript/Path/Path.Analysis.cs" Line="93" Column="108" />
+      <File FileName="Assets/GameScript/Terrain/Terrain.BigMapInfo.cs" Line="54" Column="1" />
+      <File FileName="Assets/GameScript/Terrain/Terrain.Config.cs" Line="28" Column="51" />
+      <File FileName="Assets/GameScript/Path/Path.Logic.cs" Line="33" Column="31" />
+      <File FileName="Assets/GameScript/Entity/Logic/Commando.PlayerLogic.cs" Line="46" Column="47" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="client" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="GameScript" expanded="True">
+                <Node name="Entity" expanded="True">
+                  <Node name="Logic" expanded="True" />
+                </Node>
+                <Node name="Path" expanded="True">
+                  <Node name="Path.Logic.cs" selected="True" />
+                </Node>
+                <Node name="Player" expanded="True" />
+                <Node name="Procedure" expanded="True" />
+                <Node name="Terrain" expanded="True" />
+                <Node name="UI" expanded="True">
+                  <Node name="Logic" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c8920ec7-15cd-44a5-ae10-861eeb73f389" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

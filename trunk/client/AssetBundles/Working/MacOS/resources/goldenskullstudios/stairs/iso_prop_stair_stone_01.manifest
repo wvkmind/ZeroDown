@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3853764134
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5edda5dbd67e3448e9d51718c89f3377
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_01.png
+Dependencies: []

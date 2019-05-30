@@ -1,0 +1,305 @@
+have_library: checking for main() in -lgdi32... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IC:/Ruby22-x64/include/ruby-2.2.0/x64-mingw32 -IC:/Ruby22-x64/include/ruby-2.2.0/ruby/backward -IC:/Ruby22-x64/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wextra -Wall -Wno-unused-parameter -std=gnu99  -DSAY_WIN conftest.c  -L. -LC:/Ruby22-x64/lib -L.      -lx64-msvcrt-ruby220  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return 0;
+8: }
+/* end */
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IC:/Ruby22-x64/include/ruby-2.2.0/x64-mingw32 -IC:/Ruby22-x64/include/ruby-2.2.0/ruby/backward -IC:/Ruby22-x64/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wextra -Wall -Wno-unused-parameter -std=gnu99  -DSAY_WIN conftest.c  -L. -LC:/Ruby22-x64/lib -L.      -lx64-msvcrt-ruby220 -lgdi32  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+conftest.c: In function 't':
+conftest.c:16:32: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))main; return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for main() in -lopengl32... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IC:/Ruby22-x64/include/ruby-2.2.0/x64-mingw32 -IC:/Ruby22-x64/include/ruby-2.2.0/ruby/backward -IC:/Ruby22-x64/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wextra -Wall -Wno-unused-parameter -std=gnu99  -DSAY_WIN -I"./vendor/glew/include" conftest.c  -L. -LC:/Ruby22-x64/lib -L.  -L"./vendor/glew/lib"    -lgdi32  -lx64-msvcrt-ruby220 -lopengl32 -lgdi32  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+conftest.c: In function 't':
+conftest.c:16:32: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))main; return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for main() in -lglew32... -------------------- no
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IC:/Ruby22-x64/include/ruby-2.2.0/x64-mingw32 -IC:/Ruby22-x64/include/ruby-2.2.0/ruby/backward -IC:/Ruby22-x64/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wextra -Wall -Wno-unused-parameter -std=gnu99  -DSAY_WIN -I"./vendor/glew/include" conftest.c  -L. -LC:/Ruby22-x64/lib -L.  -L"./vendor/glew/lib"    -lopengl32 -lgdi32  -lx64-msvcrt-ruby220 -lglew32 -lopengl32 -lgdi32  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+conftest.c: In function 't':
+conftest.c:16:32: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./glew32.dll when searching for -lglew32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./glew32.dll when searching for -lglew32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/glew/lib/libglew32.dll.a when searching for -lglew32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/glew/lib/libglew32.a when searching for -lglew32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/glew/lib/glew32.dll when searching for -lglew32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/glew/lib\libglew32.a when searching for -lglew32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./glew32.dll when searching for -lglew32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./glew32.dll when searching for -lglew32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/glew/lib/libglew32.dll.a when searching for -lglew32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/glew/lib/libglew32.a when searching for -lglew32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/glew/lib/glew32.dll when searching for -lglew32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lglew32
+collect2.exe: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))main; return 0; }
+/* end */
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IC:/Ruby22-x64/include/ruby-2.2.0/x64-mingw32 -IC:/Ruby22-x64/include/ruby-2.2.0/ruby/backward -IC:/Ruby22-x64/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wextra -Wall -Wno-unused-parameter -std=gnu99  -DSAY_WIN -I"./vendor/glew/include" conftest.c  -L. -LC:/Ruby22-x64/lib -L.  -L"./vendor/glew/lib"    -lopengl32 -lgdi32  -lx64-msvcrt-ruby220 -lglew32 -lopengl32 -lgdi32  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+conftest.c: In function 't':
+conftest.c:16:1: error: too few arguments to function 'main'
+conftest.c:8:5: note: declared here
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { main(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for main() in -llibfreetype... -------------------- no
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IC:/Ruby22-x64/include/ruby-2.2.0/x64-mingw32 -IC:/Ruby22-x64/include/ruby-2.2.0/ruby/backward -IC:/Ruby22-x64/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wextra -Wall -Wno-unused-parameter -std=gnu99  -DSAY_WIN -I"./vendor/glew/include" -I"./vendor/freetype/include" -I"./vendor/freetype/include/freetype2" conftest.c  -L. -LC:/Ruby22-x64/lib -L.  -L"./vendor/glew/lib" -L"./vendor/freetype/lib"    -lopengl32 -lgdi32  -lx64-msvcrt-ruby220 -llibfreetype -lopengl32 -lgdi32  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+conftest.c: In function 't':
+conftest.c:16:32: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/freetype/lib/libfreetype.dll.a when searching for -llibfreetype
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/freetype/lib/libfreetype.dll.a when searching for -llibfreetype
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibfreetype
+collect2.exe: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))main; return 0; }
+/* end */
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IC:/Ruby22-x64/include/ruby-2.2.0/x64-mingw32 -IC:/Ruby22-x64/include/ruby-2.2.0/ruby/backward -IC:/Ruby22-x64/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wextra -Wall -Wno-unused-parameter -std=gnu99  -DSAY_WIN -I"./vendor/glew/include" -I"./vendor/freetype/include" -I"./vendor/freetype/include/freetype2" conftest.c  -L. -LC:/Ruby22-x64/lib -L.  -L"./vendor/glew/lib" -L"./vendor/freetype/lib"    -lopengl32 -lgdi32  -lx64-msvcrt-ruby220 -llibfreetype -lopengl32 -lgdi32  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+conftest.c: In function 't':
+conftest.c:16:1: error: too few arguments to function 'main'
+conftest.c:8:5: note: declared here
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { main(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for main() in -lOpenAL32... -------------------- no
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IC:/Ruby22-x64/include/ruby-2.2.0/x64-mingw32 -IC:/Ruby22-x64/include/ruby-2.2.0/ruby/backward -IC:/Ruby22-x64/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wextra -Wall -Wno-unused-parameter -std=gnu99  -DSAY_WIN -I"./vendor/glew/include" -I"./vendor/freetype/include" -I"./vendor/freetype/include/freetype2" -I"./vendor/openal/include" conftest.c  -L. -LC:/Ruby22-x64/lib -L.  -L"./vendor/glew/lib" -L"./vendor/freetype/lib" -L"./vendor/openal/lib"    -lopengl32 -lgdi32  -lx64-msvcrt-ruby220 -lOpenAL32 -lopengl32 -lgdi32  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+conftest.c: In function 't':
+conftest.c:16:32: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./OpenAL32.dll when searching for -lOpenAL32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./OpenAL32.dll when searching for -lOpenAL32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/openal/lib/libOpenAL32.dll.a when searching for -lOpenAL32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./OpenAL32.dll when searching for -lOpenAL32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./OpenAL32.dll when searching for -lOpenAL32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/openal/lib/libOpenAL32.dll.a when searching for -lOpenAL32
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lOpenAL32
+collect2.exe: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))main; return 0; }
+/* end */
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IC:/Ruby22-x64/include/ruby-2.2.0/x64-mingw32 -IC:/Ruby22-x64/include/ruby-2.2.0/ruby/backward -IC:/Ruby22-x64/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wextra -Wall -Wno-unused-parameter -std=gnu99  -DSAY_WIN -I"./vendor/glew/include" -I"./vendor/freetype/include" -I"./vendor/freetype/include/freetype2" -I"./vendor/openal/include" conftest.c  -L. -LC:/Ruby22-x64/lib -L.  -L"./vendor/glew/lib" -L"./vendor/freetype/lib" -L"./vendor/openal/lib"    -lopengl32 -lgdi32  -lx64-msvcrt-ruby220 -lOpenAL32 -lopengl32 -lgdi32  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+conftest.c: In function 't':
+conftest.c:16:1: error: too few arguments to function 'main'
+conftest.c:8:5: note: declared here
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { main(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for main() in -llibsndfile-1... -------------------- no
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IC:/Ruby22-x64/include/ruby-2.2.0/x64-mingw32 -IC:/Ruby22-x64/include/ruby-2.2.0/ruby/backward -IC:/Ruby22-x64/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wextra -Wall -Wno-unused-parameter -std=gnu99  -DSAY_WIN -I"./vendor/glew/include" -I"./vendor/freetype/include" -I"./vendor/freetype/include/freetype2" -I"./vendor/openal/include" -I"./vendor/sndfile/include" conftest.c  -L. -LC:/Ruby22-x64/lib -L.  -L"./vendor/glew/lib" -L"./vendor/freetype/lib" -L"./vendor/openal/lib" -L"./vendor/sndfile/lib"    -lopengl32 -lgdi32  -lx64-msvcrt-ruby220 -llibsndfile-1 -lopengl32 -lgdi32  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+conftest.c: In function 't':
+conftest.c:16:32: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./libsndfile-1.dll when searching for -llibsndfile-1
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./libsndfile-1.dll when searching for -llibsndfile-1
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/sndfile/lib/libsndfile-1.lib when searching for -llibsndfile-1
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./libsndfile-1.dll when searching for -llibsndfile-1
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./libsndfile-1.dll when searching for -llibsndfile-1
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/sndfile/lib/libsndfile-1.lib when searching for -llibsndfile-1
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible ./vendor/sndfile/lib\libsndfile-1.lib when searching for -llibsndfile-1
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibsndfile-1
+collect2.exe: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))main; return 0; }
+/* end */
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IC:/Ruby22-x64/include/ruby-2.2.0/x64-mingw32 -IC:/Ruby22-x64/include/ruby-2.2.0/ruby/backward -IC:/Ruby22-x64/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wextra -Wall -Wno-unused-parameter -std=gnu99  -DSAY_WIN -I"./vendor/glew/include" -I"./vendor/freetype/include" -I"./vendor/freetype/include/freetype2" -I"./vendor/openal/include" -I"./vendor/sndfile/include" conftest.c  -L. -LC:/Ruby22-x64/lib -L.  -L"./vendor/glew/lib" -L"./vendor/freetype/lib" -L"./vendor/openal/lib" -L"./vendor/sndfile/lib"    -lopengl32 -lgdi32  -lx64-msvcrt-ruby220 -llibsndfile-1 -lopengl32 -lgdi32  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+conftest.c: In function 't':
+conftest.c:16:1: error: too few arguments to function 'main'
+conftest.c:8:5: note: declared here
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { main(); return 0; }
+/* end */
+
+--------------------
+

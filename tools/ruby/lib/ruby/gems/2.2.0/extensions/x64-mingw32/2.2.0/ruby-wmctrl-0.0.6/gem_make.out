@@ -1,0 +1,29 @@
+D:/env/ruby-2.2.6-x64-mingw32/bin/ruby.exe -r ./siteconf20170328-5320-130gjft.rb extconf.rb
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=D:/env/ruby-2.2.6-x64-mingw32/bin/$(RUBY_BASE_NAME)
+	--with-pkg-config
+	--without-pkg-config
+	--with-override-variables
+	--without-override-variables
+D:/env/ruby-2.2.6-x64-mingw32/lib/ruby/gems/2.2.0/gems/pkg-config-1.1.7/lib/pkg-config.rb:265:in `parse_pc': .pc for glib-2.0 doesn't exist. (RuntimeError)
+	from D:/env/ruby-2.2.6-x64-mingw32/lib/ruby/gems/2.2.0/gems/pkg-config-1.1.7/lib/pkg-config.rb:185:in `declaration'
+	from D:/env/ruby-2.2.6-x64-mingw32/lib/ruby/gems/2.2.0/gems/pkg-config-1.1.7/lib/pkg-config.rb:199:in `collect_cflags'
+	from D:/env/ruby-2.2.6-x64-mingw32/lib/ruby/gems/2.2.0/gems/pkg-config-1.1.7/lib/pkg-config.rb:138:in `cflags'
+	from extconf.rb:7:in `<main>'
+
+extconf failed, exit code 1

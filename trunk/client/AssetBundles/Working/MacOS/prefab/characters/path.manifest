@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 2223491714
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 31230decc71282f556abb5f91d5c507e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 73ee73b9566f933e0d208937bb6d76c6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Characters/Path.prefab
+Dependencies:
+- /Users/wvkmind/MyCode/ZeroDown/trunk/client/AssetBundles/Working/MacOS/resources/goldenskullstudios/path

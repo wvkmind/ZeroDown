@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4239966307
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b76f4545330f02ddd3baa3b9ef83ae64
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/5.wav
+Dependencies: []

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3225291987
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f852930a4ab7db9c80a543001e10d887
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_04.png
+Dependencies: []

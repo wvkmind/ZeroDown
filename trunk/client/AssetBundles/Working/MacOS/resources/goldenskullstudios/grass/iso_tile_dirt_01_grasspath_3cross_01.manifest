@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 734781427
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3f92b7c8310bafc695f3a6b9c6e332dd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_01.png
+Dependencies: []

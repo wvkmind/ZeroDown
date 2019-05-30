@@ -1,0 +1,14 @@
+C:/Ruby22-x64/bin/ruby.exe -r ./siteconf20160707-5344-1w5fwc7.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating glew-x64-mingw32.def
+compiling glew_wrap.cxx
+linking shared-object glew.so
+d:/devkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lGLEW
+collect2.exe: error: ld returned 1 exit status
+make: *** [glew.so] Error 1
+
+make failed, exit code 2

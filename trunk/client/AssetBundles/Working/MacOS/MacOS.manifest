@@ -1,0 +1,723 @@
+ManifestFileVersion: 0
+CRC: 519832952
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: gamescript/localization/default
+      Dependencies: {}
+    Info_1:
+      Name: prefab/terrain/water
+      Dependencies:
+        Dependency_0: resources/goldenskullstudios/water/water00000000
+    Info_2:
+      Name: prefab/ui/createcharacter
+      Dependencies: {}
+    Info_3:
+      Name: prefab/ui/gameinfosettings
+      Dependencies: {}
+    Info_4:
+      Name: prefab/ui/loading
+      Dependencies: {}
+    Info_5:
+      Name: prefab/ui/selectmode
+      Dependencies: {}
+    Info_6:
+      Name: prefab/ui/startmenu
+      Dependencies: {}
+    Info_7:
+      Name: scenes/bigmap
+      Dependencies: {}
+    Info_8:
+      Name: scenes/demoscenes
+      Dependencies:
+        Dependency_0: prefab/characters/footsoldier
+        Dependency_1: prefab/characters/footsoldierbase
+        Dependency_2: prefab/characters/path
+        Dependency_3: prefab/terrain/mountain
+    Info_9:
+      Name: scenes/init
+      Dependencies:
+        Dependency_0: prefab/ui/loading
+    Info_10:
+      Name: scenes/startmenu
+      Dependencies: {}
+    Info_11:
+      Name: sound/5
+      Dependencies: {}
+    Info_12:
+      Name: gamescript/utilsscript/configdata/asset/normal_table_tabledata
+      Dependencies: {}
+    Info_13:
+      Name: prefab/characters/footsoldier
+      Dependencies:
+        Dependency_0: prefab/characters/footsoldierbase
+    Info_14:
+      Name: prefab/characters/footsoldierbase
+      Dependencies: {}
+    Info_15:
+      Name: prefab/characters/path
+      Dependencies:
+        Dependency_0: resources/goldenskullstudios/path
+    Info_16:
+      Name: prefab/terrain/city
+      Dependencies:
+        Dependency_0: resources/image/city
+    Info_17:
+      Name: prefab/terrain/ground
+      Dependencies:
+        Dependency_0: resources/goldenskullstudios/brick/iso_tile_brick_brick_01
+    Info_18:
+      Name: prefab/terrain/mountain
+      Dependencies:
+        Dependency_0: resources/goldenskullstudios/brick/iso_tile_brick_brick_01
+    Info_19:
+      Name: resources/goldenskullstudios/brick/iso_tile_brick_brick_01
+      Dependencies: {}
+    Info_20:
+      Name: resources/goldenskullstudios/brick/iso_tile_brick_brick_02
+      Dependencies: {}
+    Info_21:
+      Name: resources/goldenskullstudios/brick/iso_tile_brick_brick_03
+      Dependencies: {}
+    Info_22:
+      Name: resources/goldenskullstudios/brick/iso_tile_brick_brick_04
+      Dependencies: {}
+    Info_23:
+      Name: resources/goldenskullstudios/brick/iso_tile_brick_sandstone_01
+      Dependencies: {}
+    Info_24:
+      Name: resources/goldenskullstudios/brick/iso_tile_brick_snow_01
+      Dependencies: {}
+    Info_25:
+      Name: resources/goldenskullstudios/brick/iso_tile_brick_stone_01
+      Dependencies: {}
+    Info_26:
+      Name: resources/goldenskullstudios/brick/iso_tile_brick_stone_01_02
+      Dependencies: {}
+    Info_27:
+      Name: resources/goldenskullstudios/brick/iso_tile_brick_stone_01_03
+      Dependencies: {}
+    Info_28:
+      Name: resources/goldenskullstudios/brick/iso_tile_brick_stone_01_04
+      Dependencies: {}
+    Info_29:
+      Name: resources/goldenskullstudios/brick/iso_tile_brick_stone_01_05
+      Dependencies: {}
+    Info_30:
+      Name: resources/goldenskullstudios/brick/iso_tile_brick_stone_02_01
+      Dependencies: {}
+    Info_31:
+      Name: resources/goldenskullstudios/dirt/iso_tile_dirt_01
+      Dependencies: {}
+    Info_32:
+      Name: resources/goldenskullstudios/dirt/iso_tile_dirt_01_tosnow_01
+      Dependencies: {}
+    Info_33:
+      Name: resources/goldenskullstudios/dirt/iso_tile_dirt_01_tosnow_02
+      Dependencies: {}
+    Info_34:
+      Name: resources/goldenskullstudios/dirt/iso_tile_dirt_01_tostone_01
+      Dependencies: {}
+    Info_35:
+      Name: resources/goldenskullstudios/dirt/iso_tile_dirt_01_tostone_02
+      Dependencies: {}
+    Info_36:
+      Name: resources/goldenskullstudios/dirt/iso_tile_dirt_02
+      Dependencies: {}
+    Info_37:
+      Name: resources/goldenskullstudios/dirt/iso_tile_dirt_02_tostone_01
+      Dependencies: {}
+    Info_38:
+      Name: resources/goldenskullstudios/dirt/iso_tile_dirt_02_tostone_02
+      Dependencies: {}
+    Info_39:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grass_01
+      Dependencies: {}
+    Info_40:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspatch_01
+      Dependencies: {}
+    Info_41:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspatch_02
+      Dependencies: {}
+    Info_42:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspatch_03
+      Dependencies: {}
+    Info_43:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_3cross_01
+      Dependencies: {}
+    Info_44:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_3cross_02
+      Dependencies: {}
+    Info_45:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_3cross_03
+      Dependencies: {}
+    Info_46:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_3cross_04
+      Dependencies: {}
+    Info_47:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_4cross
+      Dependencies: {}
+    Info_48:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_curve_01
+      Dependencies: {}
+    Info_49:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_curve_02
+      Dependencies: {}
+    Info_50:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_curve_03
+      Dependencies: {}
+    Info_51:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_curve_04
+      Dependencies: {}
+    Info_52:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_end_01
+      Dependencies: {}
+    Info_53:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_end_02
+      Dependencies: {}
+    Info_54:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_end_03
+      Dependencies: {}
+    Info_55:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_end_04
+      Dependencies: {}
+    Info_56:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_single
+      Dependencies: {}
+    Info_57:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_straight_01
+      Dependencies: {}
+    Info_58:
+      Name: resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_straight_02
+      Dependencies: {}
+    Info_59:
+      Name: resources/goldenskullstudios/iso_tile_template_01
+      Dependencies: {}
+    Info_60:
+      Name: resources/goldenskullstudios/lava/iso_tile_lava_01
+      Dependencies: {}
+    Info_61:
+      Name: resources/goldenskullstudios/lava/iso_tile_lava_02
+      Dependencies: {}
+    Info_62:
+      Name: resources/goldenskullstudios/lava/iso_tile_lavacracks_01
+      Dependencies: {}
+    Info_63:
+      Name: resources/goldenskullstudios/lava/iso_tile_lavastone_01
+      Dependencies: {}
+    Info_64:
+      Name: resources/goldenskullstudios/low/iso_lowtile_dirt_01
+      Dependencies: {}
+    Info_65:
+      Name: resources/goldenskullstudios/low/iso_lowtile_dirttostonetransition_01
+      Dependencies: {}
+    Info_66:
+      Name: resources/goldenskullstudios/low/iso_lowtile_dirttostonetransition_02
+      Dependencies: {}
+    Info_67:
+      Name: resources/goldenskullstudios/low/iso_lowtile_riverbed_01
+      Dependencies: {}
+    Info_68:
+      Name: resources/goldenskullstudios/low/iso_lowtile_riverbed_02
+      Dependencies: {}
+    Info_69:
+      Name: resources/goldenskullstudios/low/iso_lowtile_riverbed_03
+      Dependencies: {}
+    Info_70:
+      Name: resources/goldenskullstudios/low/iso_lowtile_riverbed_04
+      Dependencies: {}
+    Info_71:
+      Name: resources/goldenskullstudios/low/iso_lowtile_sand_01
+      Dependencies: {}
+    Info_72:
+      Name: resources/goldenskullstudios/low/iso_lowtile_sand_02
+      Dependencies: {}
+    Info_73:
+      Name: resources/goldenskullstudios/low/iso_lowtile_sand_03
+      Dependencies: {}
+    Info_74:
+      Name: resources/goldenskullstudios/low/iso_lowtile_stone_01
+      Dependencies: {}
+    Info_75:
+      Name: resources/goldenskullstudios/low/iso_lowtile_stone_02
+      Dependencies: {}
+    Info_76:
+      Name: resources/goldenskullstudios/low/iso_lowtile_stone_03
+      Dependencies: {}
+    Info_77:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_cracks_01
+      Dependencies: {}
+    Info_78:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_cracks_02
+      Dependencies: {}
+    Info_79:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_glow_01
+      Dependencies: {}
+    Info_80:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_glow_02
+      Dependencies: {}
+    Info_81:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_01
+      Dependencies: {}
+    Info_82:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_half_h_01
+      Dependencies: {}
+    Info_83:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_half_h_02
+      Dependencies: {}
+    Info_84:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_half_v_01
+      Dependencies: {}
+    Info_85:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch__h_01
+      Dependencies: {}
+    Info_86:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch__h_02
+      Dependencies: {}
+    Info_87:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch__v_01
+      Dependencies: {}
+    Info_88:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch__v_02
+      Dependencies: {}
+    Info_89:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch_01
+      Dependencies: {}
+    Info_90:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch_02
+      Dependencies: {}
+    Info_91:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch_02_h_01
+      Dependencies: {}
+    Info_92:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch_02_h_02
+      Dependencies: {}
+    Info_93:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch_02_v_01
+      Dependencies: {}
+    Info_94:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch_02_v_02
+      Dependencies: {}
+    Info_95:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch_03
+      Dependencies: {}
+    Info_96:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch_03_h_01
+      Dependencies: {}
+    Info_97:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch_03_h_02
+      Dependencies: {}
+    Info_98:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch_03_v_01
+      Dependencies: {}
+    Info_99:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_grass_patch_03_v_02
+      Dependencies: {}
+    Info_100:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_cross
+      Dependencies: {}
+    Info_101:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_cross3_01
+      Dependencies: {}
+    Info_102:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_cross3_02
+      Dependencies: {}
+    Info_103:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_cross3_03
+      Dependencies: {}
+    Info_104:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_cross3_04
+      Dependencies: {}
+    Info_105:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_curve_01
+      Dependencies: {}
+    Info_106:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_curve_02
+      Dependencies: {}
+    Info_107:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_curve_03
+      Dependencies: {}
+    Info_108:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_curve_04
+      Dependencies: {}
+    Info_109:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_end_01
+      Dependencies: {}
+    Info_110:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_end_02
+      Dependencies: {}
+    Info_111:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_end_03
+      Dependencies: {}
+    Info_112:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_end_04
+      Dependencies: {}
+    Info_113:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_single
+      Dependencies: {}
+    Info_114:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_straight_01
+      Dependencies: {}
+    Info_115:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_path_straight_02
+      Dependencies: {}
+    Info_116:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_shore_corner_d
+      Dependencies: {}
+    Info_117:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_shore_corner_l
+      Dependencies: {}
+    Info_118:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_shore_corner_r
+      Dependencies: {}
+    Info_119:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_shore_corner_ru
+      Dependencies: {}
+    Info_120:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_shore_corner_u
+      Dependencies: {}
+    Info_121:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_shore_straight_ld
+      Dependencies: {}
+    Info_122:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_shore_straight_lu
+      Dependencies: {}
+    Info_123:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_shore_straight_rd
+      Dependencies: {}
+    Info_124:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_shore_straight_ru
+      Dependencies: {}
+    Info_125:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_stonepieces_01
+      Dependencies: {}
+    Info_126:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_stonepieces_01_half_h_01
+      Dependencies: {}
+    Info_127:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_stonepieces_01_half_h_02
+      Dependencies: {}
+    Info_128:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_stonepieces_01_half_v_01
+      Dependencies: {}
+    Info_129:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_stonepieces_01_half_v_02
+      Dependencies: {}
+    Info_130:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_stonepieces_02
+      Dependencies: {}
+    Info_131:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_stonepieces_02_half_h_01
+      Dependencies: {}
+    Info_132:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_stonepieces_02_half_h_02
+      Dependencies: {}
+    Info_133:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_stonepieces_02_half_v_01
+      Dependencies: {}
+    Info_134:
+      Name: resources/goldenskullstudios/overlay/iso_overlay_stonepieces_02_half_v_02
+      Dependencies: {}
+    Info_135:
+      Name: resources/goldenskullstudios/path
+      Dependencies: {}
+    Info_136:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_01
+      Dependencies: {}
+    Info_137:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_02
+      Dependencies: {}
+    Info_138:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_03
+      Dependencies: {}
+    Info_139:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_04
+      Dependencies: {}
+    Info_140:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_05
+      Dependencies: {}
+    Info_141:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_06
+      Dependencies: {}
+    Info_142:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_07
+      Dependencies: {}
+    Info_143:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_08
+      Dependencies: {}
+    Info_144:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_09
+      Dependencies: {}
+    Info_145:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_10
+      Dependencies: {}
+    Info_146:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_11
+      Dependencies: {}
+    Info_147:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_12
+      Dependencies: {}
+    Info_148:
+      Name: resources/goldenskullstudios/roof/iso_overlay_roof_hay_13
+      Dependencies: {}
+    Info_149:
+      Name: resources/goldenskullstudios/sand/iso_tile_sand_01
+      Dependencies: {}
+    Info_150:
+      Name: resources/goldenskullstudios/sand/iso_tile_sand_01_tostone_01
+      Dependencies: {}
+    Info_151:
+      Name: resources/goldenskullstudios/sand/iso_tile_sand_01_tostone_02
+      Dependencies: {}
+    Info_152:
+      Name: resources/goldenskullstudios/sand/iso_tile_sand_02
+      Dependencies: {}
+    Info_153:
+      Name: resources/goldenskullstudios/sand/iso_tile_sand_02_tostone_01
+      Dependencies: {}
+    Info_154:
+      Name: resources/goldenskullstudios/sand/iso_tile_sand_02_tostone_02
+      Dependencies: {}
+    Info_155:
+      Name: resources/goldenskullstudios/sand/iso_tile_sand_03
+      Dependencies: {}
+    Info_156:
+      Name: resources/goldenskullstudios/sand/iso_tile_sand_03_tostone_01
+      Dependencies: {}
+    Info_157:
+      Name: resources/goldenskullstudios/sand/iso_tile_sand_03_tostone_02
+      Dependencies: {}
+    Info_158:
+      Name: resources/goldenskullstudios/sand/iso_tile_sand_04
+      Dependencies: {}
+    Info_159:
+      Name: resources/goldenskullstudios/snow/iso_tile_snow_01
+      Dependencies: {}
+    Info_160:
+      Name: resources/goldenskullstudios/snow/iso_tile_snow_01_tostone_01
+      Dependencies: {}
+    Info_161:
+      Name: resources/goldenskullstudios/snow/iso_tile_snow_01_tostone_02
+      Dependencies: {}
+    Info_162:
+      Name: resources/goldenskullstudios/snow/iso_tile_snow_02
+      Dependencies: {}
+    Info_163:
+      Name: resources/goldenskullstudios/snow/iso_tile_snow_02_tostone_01
+      Dependencies: {}
+    Info_164:
+      Name: resources/goldenskullstudios/snow/iso_tile_snow_02_tostone_02
+      Dependencies: {}
+    Info_165:
+      Name: resources/goldenskullstudios/stairs/iso_prop_stair_stone_01
+      Dependencies: {}
+    Info_166:
+      Name: resources/goldenskullstudios/stairs/iso_prop_stair_stone_02
+      Dependencies: {}
+    Info_167:
+      Name: resources/goldenskullstudios/stairs/iso_prop_stair_stone_03
+      Dependencies: {}
+    Info_168:
+      Name: resources/goldenskullstudios/stairs/iso_prop_stair_stone_04
+      Dependencies: {}
+    Info_169:
+      Name: resources/goldenskullstudios/stairs/iso_prop_stair_stone_05
+      Dependencies: {}
+    Info_170:
+      Name: resources/goldenskullstudios/stairs/iso_prop_stair_stone_06
+      Dependencies: {}
+    Info_171:
+      Name: resources/goldenskullstudios/stairs/iso_prop_stair_stone_07
+      Dependencies: {}
+    Info_172:
+      Name: resources/goldenskullstudios/stairs/iso_prop_stair_stone_08
+      Dependencies: {}
+    Info_173:
+      Name: resources/goldenskullstudios/stairs/iso_prop_stair_stone_09
+      Dependencies: {}
+    Info_174:
+      Name: resources/goldenskullstudios/stairs/iso_prop_stair_stone_10
+      Dependencies: {}
+    Info_175:
+      Name: resources/goldenskullstudios/stairs/iso_prop_stair_stone_11
+      Dependencies: {}
+    Info_176:
+      Name: resources/goldenskullstudios/stairs/iso_prop_stair_stone_12
+      Dependencies: {}
+    Info_177:
+      Name: resources/goldenskullstudios/stone/iso_tile_riverbed_01
+      Dependencies: {}
+    Info_178:
+      Name: resources/goldenskullstudios/stone/iso_tile_riverbed_02
+      Dependencies: {}
+    Info_179:
+      Name: resources/goldenskullstudios/stone/iso_tile_riverbed_03
+      Dependencies: {}
+    Info_180:
+      Name: resources/goldenskullstudios/stone/iso_tile_riverbed_04
+      Dependencies: {}
+    Info_181:
+      Name: resources/goldenskullstudios/stone/iso_tile_stone_01
+      Dependencies: {}
+    Info_182:
+      Name: resources/goldenskullstudios/stone/iso_tile_stone_02
+      Dependencies: {}
+    Info_183:
+      Name: resources/goldenskullstudios/stone/iso_tile_stone_03
+      Dependencies: {}
+    Info_184:
+      Name: resources/goldenskullstudios/water/water00000000
+      Dependencies: {}
+    Info_185:
+      Name: resources/goldenskullstudios/water/water00000001
+      Dependencies: {}
+    Info_186:
+      Name: resources/goldenskullstudios/water/water00000010
+      Dependencies: {}
+    Info_187:
+      Name: resources/goldenskullstudios/water/water00000100
+      Dependencies: {}
+    Info_188:
+      Name: resources/goldenskullstudios/water/water00000101
+      Dependencies: {}
+    Info_189:
+      Name: resources/goldenskullstudios/water/water00001000
+      Dependencies: {}
+    Info_190:
+      Name: resources/goldenskullstudios/water/water00001010
+      Dependencies: {}
+    Info_191:
+      Name: resources/goldenskullstudios/water/water00001100
+      Dependencies: {}
+    Info_192:
+      Name: resources/goldenskullstudios/water/water00010000
+      Dependencies: {}
+    Info_193:
+      Name: resources/goldenskullstudios/water/water00010001
+      Dependencies: {}
+    Info_194:
+      Name: resources/goldenskullstudios/water/water00010010
+      Dependencies: {}
+    Info_195:
+      Name: resources/goldenskullstudios/water/water00011000
+      Dependencies: {}
+    Info_196:
+      Name: resources/goldenskullstudios/water/water00011010
+      Dependencies: {}
+    Info_197:
+      Name: resources/goldenskullstudios/water/water00100000
+      Dependencies: {}
+    Info_198:
+      Name: resources/goldenskullstudios/water/water00100001
+      Dependencies: {}
+    Info_199:
+      Name: resources/goldenskullstudios/water/water00100010
+      Dependencies: {}
+    Info_200:
+      Name: resources/goldenskullstudios/water/water00100100
+      Dependencies: {}
+    Info_201:
+      Name: resources/goldenskullstudios/water/water00100101
+      Dependencies: {}
+    Info_202:
+      Name: resources/goldenskullstudios/water/water00110000
+      Dependencies: {}
+    Info_203:
+      Name: resources/goldenskullstudios/water/water00110001
+      Dependencies: {}
+    Info_204:
+      Name: resources/goldenskullstudios/water/water00110010
+      Dependencies: {}
+    Info_205:
+      Name: resources/goldenskullstudios/water/water01000000
+      Dependencies: {}
+    Info_206:
+      Name: resources/goldenskullstudios/water/water01000001
+      Dependencies: {}
+    Info_207:
+      Name: resources/goldenskullstudios/water/water01000010
+      Dependencies: {}
+    Info_208:
+      Name: resources/goldenskullstudios/water/water01000100
+      Dependencies: {}
+    Info_209:
+      Name: resources/goldenskullstudios/water/water01000101
+      Dependencies: {}
+    Info_210:
+      Name: resources/goldenskullstudios/water/water01001000
+      Dependencies: {}
+    Info_211:
+      Name: resources/goldenskullstudios/water/water01001010
+      Dependencies: {}
+    Info_212:
+      Name: resources/goldenskullstudios/water/water01001100
+      Dependencies: {}
+    Info_213:
+      Name: resources/goldenskullstudios/water/water01010000
+      Dependencies: {}
+    Info_214:
+      Name: resources/goldenskullstudios/water/water01010001
+      Dependencies: {}
+    Info_215:
+      Name: resources/goldenskullstudios/water/water01010010
+      Dependencies: {}
+    Info_216:
+      Name: resources/goldenskullstudios/water/water01011000
+      Dependencies: {}
+    Info_217:
+      Name: resources/goldenskullstudios/water/water10000000
+      Dependencies: {}
+    Info_218:
+      Name: resources/goldenskullstudios/water/water10000001
+      Dependencies: {}
+    Info_219:
+      Name: resources/goldenskullstudios/water/water10000010
+      Dependencies: {}
+    Info_220:
+      Name: resources/goldenskullstudios/water/water10000100
+      Dependencies: {}
+    Info_221:
+      Name: resources/goldenskullstudios/water/water10000101
+      Dependencies: {}
+    Info_222:
+      Name: resources/goldenskullstudios/water/water10001000
+      Dependencies: {}
+    Info_223:
+      Name: resources/goldenskullstudios/water/water10001010
+      Dependencies: {}
+    Info_224:
+      Name: resources/goldenskullstudios/water/water10001100
+      Dependencies: {}
+    Info_225:
+      Name: resources/goldenskullstudios/water/water10100000
+      Dependencies: {}
+    Info_226:
+      Name: resources/goldenskullstudios/water/water10100001
+      Dependencies: {}
+    Info_227:
+      Name: resources/goldenskullstudios/water/water10100010
+      Dependencies: {}
+    Info_228:
+      Name: resources/goldenskullstudios/water/water10100100
+      Dependencies: {}
+    Info_229:
+      Name: resources/goldenskullstudios/water/water10100101
+      Dependencies: {}
+    Info_230:
+      Name: resources/goldenskullstudios/water/water11111111
+      Dependencies: {}
+    Info_231:
+      Name: resources/goldenskullstudios/wood/iso_tile_wood_01
+      Dependencies: {}
+    Info_232:
+      Name: resources/goldenskullstudios/wood/iso_tile_wood_02
+      Dependencies: {}
+    Info_233:
+      Name: resources/goldenskullstudios/wood/iso_tile_wood_03
+      Dependencies: {}
+    Info_234:
+      Name: resources/goldenskullstudios/wood/iso_tile_wood_04
+      Dependencies: {}
+    Info_235:
+      Name: resources/image/city
+      Dependencies: {}

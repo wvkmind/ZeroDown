@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{815D8E50-C766-A986-4B4B-C194373057D9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameScript/Procedure/ProcedureDemo.cs">
+    <Files>
+      <File FileName="Assets/GameScript/Entity/Logic/Commando.Entity.Logic.Ground.cs" Line="41" Column="1" />
+      <File FileName="Assets/GameScript/Procedure/ProcedureDemo.cs" Line="126" Column="40" />
+      <File FileName="Assets/GameScript/Entity/Helper/Commando.Entity.Helper.PathAnalysis.cs" Line="65" Column="72" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="pathdemo" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="GameScript" expanded="True">
+                <Node name="Entity" expanded="True">
+                  <Node name="Helper" expanded="True" />
+                  <Node name="Logic" expanded="True" />
+                </Node>
+                <Node name="Procedure" expanded="True">
+                  <Node name="ProcedureDemo.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="pathdemo" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1b781f7d-f628-4c3a-856f-261368591141" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

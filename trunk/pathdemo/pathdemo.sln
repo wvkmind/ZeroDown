@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{815D8E50-C766-A986-4B4B-C194373057D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityGameFramework.Runtime", "UnityGameFramework.Runtime.csproj", "{7FE971BA-07E5-6773-D1C5-B6BE6678AFAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponents", "NavMeshComponents.csproj", "{84A89766-4902-4228-2640-10740B4A2EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityGameFramework.Editor", "UnityGameFramework.Editor.csproj", "{D7A332BA-9D9E-16DF-20D0-AF823438BFD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{F1653770-9D39-C689-BDB2-3B74486C84DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsEditor", "NavMeshComponentsEditor.csproj", "{B6C70147-A79A-DB7D-A0B3-DA31A8DBD41D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{815D8E50-C766-A986-4B4B-C194373057D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815D8E50-C766-A986-4B4B-C194373057D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815D8E50-C766-A986-4B4B-C194373057D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815D8E50-C766-A986-4B4B-C194373057D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE971BA-07E5-6773-D1C5-B6BE6678AFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE971BA-07E5-6773-D1C5-B6BE6678AFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE971BA-07E5-6773-D1C5-B6BE6678AFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE971BA-07E5-6773-D1C5-B6BE6678AFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A89766-4902-4228-2640-10740B4A2EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A89766-4902-4228-2640-10740B4A2EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A89766-4902-4228-2640-10740B4A2EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A89766-4902-4228-2640-10740B4A2EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A332BA-9D9E-16DF-20D0-AF823438BFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A332BA-9D9E-16DF-20D0-AF823438BFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A332BA-9D9E-16DF-20D0-AF823438BFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A332BA-9D9E-16DF-20D0-AF823438BFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1653770-9D39-C689-BDB2-3B74486C84DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1653770-9D39-C689-BDB2-3B74486C84DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1653770-9D39-C689-BDB2-3B74486C84DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1653770-9D39-C689-BDB2-3B74486C84DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C70147-A79A-DB7D-A0B3-DA31A8DBD41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C70147-A79A-DB7D-A0B3-DA31A8DBD41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C70147-A79A-DB7D-A0B3-DA31A8DBD41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C70147-A79A-DB7D-A0B3-DA31A8DBD41D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,59 @@
+have_header: checking for vm_core.h... -------------------- no
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0/x64-mingw32 -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0/ruby/backward -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat conftest.c  -L. -LD:/env/ruby-2.2.6-x64-mingw32/lib -L.      -lx64-msvcrt-ruby220  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return 0;
+8: }
+/* end */
+
+"x86_64-w64-mingw32-gcc -E -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0/x64-mingw32 -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0/ruby/backward -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0 -I. -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64   -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat  conftest.c -o conftest.i"
+conftest.c:5:21: fatal error: vm_core.h: No such file or directory
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <vm_core.h>
+/* end */
+
+--------------------
+
+have_header: checking for vm_core.h... -------------------- no
+
+"x86_64-w64-mingw32-gcc -E -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0/x64-mingw32 -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0/ruby/backward -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0 -I. -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0/ruby-2.2.6-p396  -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat  conftest.c -o conftest.i"
+conftest.c:5:21: fatal error: vm_core.h: No such file or directory
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <vm_core.h>
+/* end */
+
+--------------------
+
+have_header: checking for vm_core.h... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -E -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0/x64-mingw32 -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0/ruby/backward -ID:/env/ruby-2.2.6-x64-mingw32/include/ruby-2.2.0 -I. -ID:/env/ruby-2.2.6-x64-mingw32/lib/ruby/gems/2.2.0/gems/debase-ruby_core_source-0.9.6/lib/debase/ruby_core_source/ruby-2.2.6-p396  -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <vm_core.h>
+/* end */
+
+--------------------
+

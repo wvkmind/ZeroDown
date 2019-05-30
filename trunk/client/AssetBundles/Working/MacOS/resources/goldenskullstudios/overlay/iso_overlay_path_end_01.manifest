@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2334171384
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 39048818333b38a4c6567b1f606b3ac1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_01.png
+Dependencies: []

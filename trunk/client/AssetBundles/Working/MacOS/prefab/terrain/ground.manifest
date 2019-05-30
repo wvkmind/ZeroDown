@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 551978292
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eca992883e3932c300bb7bb8b9259c0e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6d08f30b03547a241114986d1a541fd3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Terrain/Ground.prefab
+Dependencies:
+- /Users/wvkmind/MyCode/ZeroDown/trunk/client/AssetBundles/Working/MacOS/resources/goldenskullstudios/brick/iso_tile_brick_brick_01

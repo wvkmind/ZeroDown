@@ -1,0 +1,13 @@
+C:/Ruby22-x64/bin/ruby.exe -r ./siteconf20160707-28616-1ep8a7a.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating glfw3-x64-mingw32.def
+compiling glfw3.c
+glfw3.c:2:24: fatal error: GLFW/glfw3.h: No such file or directory
+compilation terminated.
+make: *** [glfw3.o] Error 1
+
+make failed, exit code 2

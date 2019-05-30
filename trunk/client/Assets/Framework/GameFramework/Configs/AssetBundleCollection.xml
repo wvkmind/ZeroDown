@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <AssetBundleCollection>
+    <AssetBundles>
+      <AssetBundle Name="GameScript/Localization/Default" LoadType="1" Packed="True" />
+      <AssetBundle Name="GameScript/UtilsScript/ConfigData/Asset/NORMAL_TABLE_TableData" LoadType="1" Packed="True" />
+      <AssetBundle Name="Prefab/Characters/FootSoldier" LoadType="1" Packed="True" />
+      <AssetBundle Name="Prefab/Characters/FootSoldierBase" LoadType="1" Packed="True" />
+      <AssetBundle Name="Prefab/Characters/Path" LoadType="1" Packed="True" />
+      <AssetBundle Name="Prefab/Terrain/City" LoadType="1" Packed="True" />
+      <AssetBundle Name="Prefab/Terrain/Ground" LoadType="1" Packed="True" />
+      <AssetBundle Name="Prefab/Terrain/Mountain" LoadType="1" Packed="True" />
+      <AssetBundle Name="Prefab/Terrain/Water" LoadType="1" Packed="True" />
+      <AssetBundle Name="Prefab/UI/CreateCharacter" LoadType="1" Packed="True" />
+      <AssetBundle Name="Prefab/UI/GameInfoSettings" LoadType="1" Packed="True" />
+      <AssetBundle Name="Prefab/UI/Loading" LoadType="1" Packed="True" />
+      <AssetBundle Name="Prefab/UI/SelectMode" LoadType="1" Packed="True" />
+      <AssetBundle Name="Prefab/UI/StartMenu" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_SandStone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Snow_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01_05" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_02_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01_ToSnow_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01_ToSnow_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01_ToStone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01_ToStone_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_02_ToStone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_02_ToStone_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_Grass_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPatch_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPatch_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPatch_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_4Cross" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Curve_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Curve_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Curve_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Curve_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Single" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Straight_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Straight_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/ISO_Tile_Template_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Lava/ISO_Tile_Lava_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Lava/ISO_Tile_Lava_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Lava/ISO_Tile_LavaCracks_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Lava/ISO_Tile_LavaStone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_Dirt_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_DirtToStoneTransition_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_DirtToStoneTransition_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_Riverbed_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_Riverbed_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_Riverbed_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_Riverbed_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_Sand_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_Sand_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_Sand_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_Stone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_Stone_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Low/ISO_LowTile_Stone_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Cracks_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Cracks_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Glow_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Glow_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Half_H_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Half_H_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Half_V_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch__H_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch__H_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch__V_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch__V_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02_H_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02_H_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02_V_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02_V_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03_H_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03_H_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03_V_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03_V_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross3_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross3_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross3_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross3_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Curve_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Curve_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Curve_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Curve_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Single" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Straight_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Straight_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_D" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_L" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_R" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_RU" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_U" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Straight_LD" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Straight_LU" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Straight_RD" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Straight_RU" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01_Half_H_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01_Half_H_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01_Half_V_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01_Half_V_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02_Half_H_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02_Half_H_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02_Half_V_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02_Half_V_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/path" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_05" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_06" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_07" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_08" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_09" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_10" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_11" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_12" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_13" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_01_ToStone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_01_ToStone_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_02_ToStone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_02_ToStone_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_03_ToStone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_03_ToStone_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_01_ToStone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_01_ToStone_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_02_ToStone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_02_ToStone_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_05" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_06" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_07" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_08" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_09" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_10" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_11" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_12" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stone/ISO_Tile_Riverbed_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stone/ISO_Tile_Riverbed_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stone/ISO_Tile_Riverbed_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stone/ISO_Tile_Riverbed_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stone/ISO_Tile_Stone_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stone/ISO_Tile_Stone_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Stone/ISO_Tile_Stone_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00000000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00000001" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00000010" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00000100" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00000101" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00001000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00001010" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00001100" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00010000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00010001" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00010010" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00011000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00011010" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00100000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00100001" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00100010" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00100100" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00100101" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00110000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00110001" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water00110010" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water01000000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water01000001" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water01000010" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water01000100" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water01000101" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water01001000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water01001010" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water01001100" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water01010000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water01010001" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water01010010" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water01011000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10000000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10000001" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10000010" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10000100" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10000101" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10001000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10001010" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10001100" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10100000" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10100001" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10100010" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10100100" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water10100101" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Water/Water11111111" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_01" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_02" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_03" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_04" LoadType="1" Packed="True" />
+      <AssetBundle Name="Resources/Image/City" LoadType="1" Packed="True" />
+      <AssetBundle Name="Scenes/BigMap" LoadType="1" Packed="True" />
+      <AssetBundle Name="Scenes/DemoScenes" LoadType="1" Packed="True" />
+      <AssetBundle Name="Scenes/Init" LoadType="1" Packed="True" />
+      <AssetBundle Name="Scenes/StartMenu" LoadType="1" Packed="True" />
+      <AssetBundle Name="Sound/5" LoadType="1" Packed="True" />
+    </AssetBundles>
+    <Assets>
+      <Asset Guid="003ccdb1a474b4748aeeaa090fe5e37f" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Curve_02" />
+      <Asset Guid="0304ac18602995447abd0bd6973ae28e" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Straight_01" />
+      <Asset Guid="035f00ee1289dd147a384068f68ef852" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_Sand_02" />
+      <Asset Guid="03714e6aaa131ca4f83cdccfdf4222f3" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03_H_02" />
+      <Asset Guid="0372686897e2c4368aba2883e45dd809" AssetBundleName="Scenes/Init" />
+      <Asset Guid="0590e34ada19a3e4c98aa2c89b6ad262" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Curve_04" />
+      <Asset Guid="05c645c8f4cf019489890b173b980328" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02_Half_H_01" />
+      <Asset Guid="0b063a986bd70f041a1bf0e0e65b935a" AssetBundleName="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01_02" />
+      <Asset Guid="0c493dbfa170c2041a423ab369d896ea" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_04" />
+      <Asset Guid="0c603f767ac321a4f84cc515a722ecc4" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_L" />
+      <Asset Guid="0d24fd69acb911047a1538d90d9094f6" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_03" />
+      <Asset Guid="0d5f95ab5946e4516bfef4e9bb4732bb" AssetBundleName="Prefab/Terrain/Mountain" />
+      <Asset Guid="0de0d83dc4fb6e147a6016081095473c" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10100010" />
+      <Asset Guid="0f1b8ab85a24b90408802bb9d5240da0" AssetBundleName="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_02" />
+      <Asset Guid="0fed9dc0a657f44f4ae426a9594f998d" AssetBundleName="GameScript/UtilsScript/ConfigData/Asset/NORMAL_TABLE_TableData" />
+      <Asset Guid="128cb0d643b04e149bd6022e421521a9" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_DirtToStoneTransition_02" />
+      <Asset Guid="13ea1d8428e49c14c90442cec4ef095e" AssetBundleName="Resources/GoldenSkullStudios/Lava/ISO_Tile_LavaCracks_01" />
+      <Asset Guid="14dc2936970870549b6885cb7ce423e3" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_08" />
+      <Asset Guid="154cf741d9069c549b326d280d5a3573" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_02" />
+      <Asset Guid="176584fb763af9c4098890c74260ab8d" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Curve_03" />
+      <Asset Guid="1913824c68b36ab42813b2a234a8276f" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10100000" />
+      <Asset Guid="1d284d309e6360c4d99983c54657443c" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_03" />
+      <Asset Guid="1f153e23efcc85c4dba48df6301da55a" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_Riverbed_03" />
+      <Asset Guid="202bdd2d9a2b4b64a871f63421fb7fcb" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Straight_LU" />
+      <Asset Guid="2047b67e95877e24b9ad5dd4a2b51c8e" AssetBundleName="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01_ToSnow_02" />
+      <Asset Guid="21f0655ca06d2674fb2cf03e4bcd3e12" AssetBundleName="Resources/GoldenSkullStudios/Water/Water01000001" />
+      <Asset Guid="22227a38cfcc1ad4eae607ee7031ba94" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_05" />
+      <Asset Guid="24b9df42d5e538141bb028763b6f6ed9" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross" />
+      <Asset Guid="27850de8d19393545a1af52d1a5c35cb" AssetBundleName="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_02_ToStone_02" />
+      <Asset Guid="28e3a2eda563a9843bda5129e0f2e2ba" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02_V_02" />
+      <Asset Guid="2bc05b660a58eef499e6c969ad4ccf24" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_07" />
+      <Asset Guid="2c5a3117d5db1264188c0e85c12e64c7" AssetBundleName="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_01" />
+      <Asset Guid="2d6fd31d5a94d0f40b9dd907cdd784a9" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00100101" />
+      <Asset Guid="2f54e04c282e9974fa282c5f24c0b640" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01" />
+      <Asset Guid="2f859d245f0aa0c4e923833663d25f04" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_4Cross" />
+      <Asset Guid="30cc86803a5ed6c42a8f299a8fa84ed8" AssetBundleName="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_02" />
+      <Asset Guid="32dc60015e4387947aad376940bb9294" AssetBundleName="Resources/GoldenSkullStudios/Water/Water01010001" />
+      <Asset Guid="3482f4445309da0488dca83e75962869" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_02" />
+      <Asset Guid="35014c7487370414296060e8e3cc5397" AssetBundleName="Resources/GoldenSkullStudios/path" />
+      <Asset Guid="351d188ac5383de43a0c2fe2129e7789" AssetBundleName="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01_ToStone_01" />
+      <Asset Guid="37b19e8bcfb413c47afc3cea216d1400" AssetBundleName="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_03_ToStone_02" />
+      <Asset Guid="38428ec49eccef2408e918cd1e061ec7" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Straight_RU" />
+      <Asset Guid="38f0f07655250c84c8d60e98f52ddd59" AssetBundleName="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01" />
+      <Asset Guid="392702bfcd797fb428e9644451a756ef" AssetBundleName="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_01_ToStone_01" />
+      <Asset Guid="399333853072b024b974a91657b5c511" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00011000" />
+      <Asset Guid="39c46cd7b33b3d44b9ef3a19d7741763" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch__H_02" />
+      <Asset Guid="3e691c28b7628f94bb6ad1fbbdfec63d" AssetBundleName="Resources/GoldenSkullStudios/Water/Water01011000" />
+      <Asset Guid="3efb15a68f7b8884a93bdc854ef65112" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01_Half_V_01" />
+      <Asset Guid="3f8ea39f9b01d3b4c8b98ebcb81088c9" AssetBundleName="Resources/GoldenSkullStudios/ISO_Tile_Template_01" />
+      <Asset Guid="4252029de9db04d4199f6e3defe30553" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Straight_RD" />
+      <Asset Guid="447aaf1fdec064f5f9bd98922945af0c" AssetBundleName="Prefab/UI/Loading" />
+      <Asset Guid="45b40bd7a0770fe4a988708dd77e61e3" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02" />
+      <Asset Guid="46d71b80a30deae43ac7d44d779252d4" AssetBundleName="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_03" />
+      <Asset Guid="46f11d9e14e034148b7d17e0d9c6acc2" AssetBundleName="Prefab/Characters/Path" />
+      <Asset Guid="48bdf5dbe052507438163310dfb7020f" AssetBundleName="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_SandStone_01" />
+      <Asset Guid="49cbee280ae08934e91f903903a803cc" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10000000" />
+      <Asset Guid="4a0616b303beb3c458acd3efd863e3ab" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Straight_01" />
+      <Asset Guid="4a40a5d6062d3994eb89546484780c26" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPatch_01" />
+      <Asset Guid="4a504b17bdf224f5ea8859f431b5ec22" AssetBundleName="Prefab/Terrain/City" />
+      <Asset Guid="4aa5b579a6924be44b8209e0e44ac421" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Straight_02" />
+      <Asset Guid="4ae23acbbd0567947a6051d8f4ef6629" AssetBundleName="Resources/GoldenSkullStudios/Lava/ISO_Tile_Lava_01" />
+      <Asset Guid="4b0d831f9e18c934e80b497a715e7d6d" AssetBundleName="Resources/GoldenSkullStudios/Water/Water01000101" />
+      <Asset Guid="4bee87d22d490ae468271651b579a909" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Straight_02" />
+      <Asset Guid="4f9d3a5b153ec5645984c247b4019dba" AssetBundleName="Resources/GoldenSkullStudios/Stone/ISO_Tile_Riverbed_01" />
+      <Asset Guid="4fa1d04c987d2824ab1a53a2abad9069" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Single" />
+      <Asset Guid="4fb6317702b904547933117de6dd6647" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_Riverbed_04" />
+      <Asset Guid="50e9fe18a261df54da4c9385c3ce24b6" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10001000" />
+      <Asset Guid="52bbc2883dd74435f9bbc519a230ea4e" AssetBundleName="Prefab/UI/CreateCharacter" />
+      <Asset Guid="54c65ae917e8366478791f5328125f2a" AssetBundleName="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_02_ToStone_01" />
+      <Asset Guid="55466e1209e73754d83ee65e4904d72b" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Half_H_02" />
+      <Asset Guid="5698fcbf22e5dd24989b4cb3e2a8c16a" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_04" />
+      <Asset Guid="57113a2de4a3b8d4ca496d483c804a22" AssetBundleName="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_11" />
+      <Asset Guid="5730cda6685e57845ae807d3a19f8386" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_Grass_01" />
+      <Asset Guid="59faa7897e95dce4eae684fe546322db" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00000101" />
+      <Asset Guid="5a631a29761112147a95067939cfdb28" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Glow_01" />
+      <Asset Guid="5b0c70040e2fa3848bf18821cee8daec" AssetBundleName="Resources/GoldenSkullStudios/Water/Water01001010" />
+      <Asset Guid="5beeaad761521af4a93280f706454502" AssetBundleName="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_02_01" />
+      <Asset Guid="5bf42eed73a154624932b0c77d8b0bce" AssetBundleName="Prefab/UI/SelectMode" />
+      <Asset Guid="5c504652684caa84c9d5b0bf8347ec39" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00000000" />
+      <Asset Guid="5c809256ff0eb254a99ffbe029ba5513" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch__H_01" />
+      <Asset Guid="5f31dcef41c3a1f4c926e4148766fc19" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_03" />
+      <Asset Guid="60191b1b55063b0489e2cd2ac8378ea7" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02_V_01" />
+      <Asset Guid="618a53cdf166b5948991fb74cc6b130c" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Curve_04" />
+      <Asset Guid="61ff7d2f444cada46bc7b947340994c5" AssetBundleName="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_03" />
+      <Asset Guid="6772d1026061fd244a988489ce84f01f" AssetBundleName="Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_01_ToStone_02" />
+      <Asset Guid="68c3b30b9bbac7a4fbfb8162c72e25f0" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch__V_01" />
+      <Asset Guid="6945c37f7a7e2354282970842401c9d4" AssetBundleName="Resources/GoldenSkullStudios/Water/Water01001100" />
+      <Asset Guid="6a1d4b7690f1d7b40bfc6aef4804ce18" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch__V_02" />
+      <Asset Guid="6b065eeebaa474a488c1295ea7f34c81" AssetBundleName="Scenes/BigMap" />
+      <Asset Guid="6ba61ff10f4e4704090da619160cff57" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01_Half_H_01" />
+      <Asset Guid="6baa8c28728a4ed40a4d94760a52b417" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02_Half_H_02" />
+      <Asset Guid="6bda9484823acea41a1b479642322a86" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_02" />
+      <Asset Guid="6d86d19acb7e4fd4296e03b727410c84" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00100100" />
+      <Asset Guid="6dacdbed3a6b7514399df3d1f7af634a" AssetBundleName="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_01" />
+      <Asset Guid="6fe01653ac26cee4b8e779a1717afc61" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_12" />
+      <Asset Guid="7035e0c524722e042adadca5083ff968" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Cracks_02" />
+      <Asset Guid="71e9db2a1fe1bd74cb18c16eec2b3f62" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Straight_LD" />
+      <Asset Guid="71fd0a1b84f12ca48be5515ddb5b854b" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00010001" />
+      <Asset Guid="73a81d9d4cf6d484688331816840d2ce" AssetBundleName="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_10" />
+      <Asset Guid="73c381840b9e96945986aa9fac9dcaf5" AssetBundleName="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_02" />
+      <Asset Guid="74b09da65e1639b4a9185bf4fb91cd50" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02_Half_V_01" />
+      <Asset Guid="7706d86777e7c7245ac761585cada2cd" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_03" />
+      <Asset Guid="7802a33db07bcaf43a94c27eb7a7137a" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross3_02" />
+      <Asset Guid="7b90af6ca594e3244b9ef0bd0f20603a" AssetBundleName="Resources/GoldenSkullStudios/Stone/ISO_Tile_Stone_03" />
+      <Asset Guid="7bc6fe1d58f03944ca77052cf19757dd" AssetBundleName="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_01_ToStone_02" />
+      <Asset Guid="7c6a6f4e202e191469c51b91f77a7cad" AssetBundleName="Resources/GoldenSkullStudios/Water/Water11111111" />
+      <Asset Guid="8101f733e050ce14d9a68d86770b02ff" AssetBundleName="Resources/GoldenSkullStudios/Stone/ISO_Tile_Stone_01" />
+      <Asset Guid="814d3233157368445ba630b9a4301367" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10000001" />
+      <Asset Guid="83f7c01fabea4a44e8482d2bf7ac7843" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03" />
+      <Asset Guid="84c6f0f8006966a4fa3b1b8ed8a8cffb" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Glow_02" />
+      <Asset Guid="8769273d12914a44f96e82d7322b66b1" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Cracks_01" />
+      <Asset Guid="87870c9534de46449918451f0c36595b" AssetBundleName="Resources/GoldenSkullStudios/Water/Water01000000" />
+      <Asset Guid="88723bce0a36c4147af3ef7b63296628" AssetBundleName="Prefab/UI/StartMenu" />
+      <Asset Guid="8b98552589603a543a3afe13d47ea132" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10100001" />
+      <Asset Guid="8ba6494715c915547b322c0c281b7b78" AssetBundleName="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_02_ToStone_01" />
+      <Asset Guid="8d0ea7c6932260f418e7e2b8dd14f2a6" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_02" />
+      <Asset Guid="8d4e61c74ae78854697316f19e4257f6" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_01" />
+      <Asset Guid="8f092a2899216d540bd0d9379a08d8f2" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10001100" />
+      <Asset Guid="8f6a5216709da5543b82b29539b94be4" AssetBundleName="Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_01_ToStone_01" />
+      <Asset Guid="8f754b99e67acc241af3b0119abbb09d" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00110001" />
+      <Asset Guid="9190b035fbe0d804bb633c3f6c9f3ffa" AssetBundleName="Resources/GoldenSkullStudios/Stone/ISO_Tile_Riverbed_03" />
+      <Asset Guid="92988273c73cf3a498dc94a1b2c8c71d" AssetBundleName="Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_02_ToStone_02" />
+      <Asset Guid="92c4a08493a4c1b49b880c6c013a888a" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00000100" />
+      <Asset Guid="937a0e285256b9348b5561d142b3fe43" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_Stone_01" />
+      <Asset Guid="943916d9019ebd04799ced3b2f79d638" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_01" />
+      <Asset Guid="950452833fae4eb4db71f71080a40241" AssetBundleName="Resources/GoldenSkullStudios/Water/Water01000100" />
+      <Asset Guid="95df30394352b864a8b93321f5d13d72" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Curve_01" />
+      <Asset Guid="96a9cec4f92ef447ca98ba45474dc6c0" AssetBundleName="Prefab/Characters/FootSoldier" />
+      <Asset Guid="96bc81499313d7940bb89c0bb487f1c9" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_01" />
+      <Asset Guid="97d7363c3727cbe4fa7b3e4ea4a759e6" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_04" />
+      <Asset Guid="97e5f88ad96f67f4db4e1872f3874c89" AssetBundleName="Resources/GoldenSkullStudios/Stone/ISO_Tile_Riverbed_02" />
+      <Asset Guid="9b09cd0c7aeec79409fcaa63a355d957" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02_H_02" />
+      <Asset Guid="9b2a2a6871c82e141b55447e1c5c8d84" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_RU" />
+      <Asset Guid="9be0ebe527c711448a4c393676ede500" AssetBundleName="Resources/GoldenSkullStudios/Lava/ISO_Tile_LavaStone_01" />
+      <Asset Guid="9caaffbb44d47cf4d81e42ffb704389e" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Half_V_01" />
+      <Asset Guid="9d58de61004294813ba9ac0d8e60e73d" AssetBundleName="Prefab/Characters/FootSoldierBase" />
+      <Asset Guid="9d6298f2cc3f78643a2c2a7645effaf0" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_Dirt_01" />
+      <Asset Guid="9e19b743955d8b74199963a542ab000e" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_Stone_03" />
+      <Asset Guid="9e820449f9bd5406d9b2887c477d4a2d" AssetBundleName="Prefab/UI/GameInfoSettings" />
+      <Asset Guid="9ff3665d6c157c5428234650deac5faf" AssetBundleName="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01_ToSnow_01" />
+      <Asset Guid="a12c85220205a2c49a382440bfc32f41" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_01" />
+      <Asset Guid="a1b0a68c44519324d9fec5baa1bce9fb" AssetBundleName="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Snow_01" />
+      <Asset Guid="a2272796b6753cf4a856601971d9dd5a" AssetBundleName="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01_03" />
+      <Asset Guid="a22f6f9567c944249b02e9b63bed38bf" AssetBundleName="Prefab/Terrain/Water" />
+      <Asset Guid="a2877342a79c82c4ab8c1d41c3be26ec" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross3_03" />
+      <Asset Guid="a416a1a7d55496a47950196a3edecb91" AssetBundleName="Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_01" />
+      <Asset Guid="a57785f55a3f9dd4dbfc3fa955962baf" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_01" />
+      <Asset Guid="a6c63294d9ba0ab4288f62d6011d6943" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00000010" />
+      <Asset Guid="aa47c6af9e5c1734b9250fee4078d48d" AssetBundleName="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_09" />
+      <Asset Guid="ac2dc907e36233c47977e698270dd634" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02" />
+      <Asset Guid="b1005c3b1984b424eac02037fff5e90e" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00001100" />
+      <Asset Guid="b32da4723db97474f84bf3c38dab11a1" AssetBundleName="Sound/5" />
+      <Asset Guid="b3362a07a7667a64d8a17c12c19ff704" AssetBundleName="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_02_ToStone_02" />
+      <Asset Guid="b38e70e355a14b544b10c7f09e46f42b" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10100100" />
+      <Asset Guid="b4646e1022a113e45a25e58262f2fa93" AssetBundleName="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_04" />
+      <Asset Guid="b563d454609fefe489faf69b79ab6109" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00011010" />
+      <Asset Guid="b5eae027f7e49a043af114bf3d4bf733" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_11" />
+      <Asset Guid="b70c6eb7dea2dc34cbdea09d655ac249" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03_V_01" />
+      <Asset Guid="b97b6eee9abd8cb4cad13acd131feeb9" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_06" />
+      <Asset Guid="bb2c21fa0f5adea4e811730949ce9578" AssetBundleName="Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_01" />
+      <Asset Guid="bb816b6bfac6508489d7914e92369deb" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_Sand_03" />
+      <Asset Guid="bb8ae8a9d6790474ea36d34f6f6d2b5f" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00100000" />
+      <Asset Guid="bc88e5be61642e44885c2d7d8048513f" AssetBundleName="Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_02" />
+      <Asset Guid="bff4be8db472efd4eb64cb859280f23e" AssetBundleName="Resources/GoldenSkullStudios/Water/Water01000010" />
+      <Asset Guid="c116e528227f1f841aaada1a74ab4013" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_Riverbed_01" />
+      <Asset Guid="c1a3bf26a4570784493b03906f787627" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01_Half_V_02" />
+      <Asset Guid="c1f8410bdc85c44a3a49824cc2a253b6" AssetBundleName="Scenes/DemoScenes" />
+      <Asset Guid="c307387b4bdf33b48be172c0d53c8ab6" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_01" />
+      <Asset Guid="c4129a90a8853d044826712ddb187089" AssetBundleName="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_03_ToStone_01" />
+      <Asset Guid="c497a200b5b458a44b0c5a5451fc52fd" AssetBundleName="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_03" />
+      <Asset Guid="c4f2726b0c3d9b044a219a1aac3ca205" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00110000" />
+      <Asset Guid="c53bca9d498f79c4a8e58b1dd0c9f1a2" AssetBundleName="Resources/GoldenSkullStudios/Stone/ISO_Tile_Stone_02" />
+      <Asset Guid="c6731511aa78ff2469895f654ba9957a" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPatch_03" />
+      <Asset Guid="c6f660a607553f44fbd0d5d8eb72a04b" AssetBundleName="Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_02" />
+      <Asset Guid="c8b8453953370db40b2c4ba42a63fe3b" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10001010" />
+      <Asset Guid="c9e9398b6c8f12e42a340ed2b455d191" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Curve_03" />
+      <Asset Guid="c9fc1522b17a641039419b97f5c20387" AssetBundleName="Prefab/Terrain/Ground" />
+      <Asset Guid="cb08e37655565fc4aa0f9c211c3e90bc" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10000100" />
+      <Asset Guid="cb3abe4ce269f43449a40999c2afa6f2" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_13" />
+      <Asset Guid="cc426c28c0496f74e9950b929c98b022" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03_V_02" />
+      <Asset Guid="cdd25e8ee4271f047b3ecb7bdcd1df9b" AssetBundleName="Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01_ToStone_02" />
+      <Asset Guid="cde0540a3ed58c840af2820dfcab3a1d" AssetBundleName="Resources/GoldenSkullStudios/Water/Water01001000" />
+      <Asset Guid="d0311ab56acbe5f41bcae6484b1d824e" AssetBundleName="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_04" />
+      <Asset Guid="d0a2b7fa8593841d6ac8b02c8c5537c0" AssetBundleName="Resources/Image/City" />
+      <Asset Guid="d0bc5237a1130714a8c90e829db8b78a" AssetBundleName="Resources/GoldenSkullStudios/Water/Water01010000" />
+      <Asset Guid="d1c5f017d1ca5684f948c7b37e5babd9" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10000101" />
+      <Asset Guid="d24b97af131668849bcfba3ee1accc16" AssetBundleName="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01_05" />
+      <Asset Guid="d3ed8f765a17c3645885937709506776" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00100001" />
+      <Asset Guid="d4072cf930358cc4c90ec4812e18e05d" AssetBundleName="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_01" />
+      <Asset Guid="d694043208e401f4a831fee8590fd520" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Single" />
+      <Asset Guid="d6ee73221ba9a1348b48655847c28b3e" AssetBundleName="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_02" />
+      <Asset Guid="d7bae2180659f49af86cac447f67b029" AssetBundleName="Scenes/StartMenu" />
+      <Asset Guid="d8456e6c819c51a40bab5e28c5746ed1" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_Riverbed_02" />
+      <Asset Guid="d862b5309164d78429acf8df1d570a66" AssetBundleName="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_06" />
+      <Asset Guid="d8826e2d807e2174ea8ed132c874418d" AssetBundleName="Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_03" />
+      <Asset Guid="daee479a9545e4241ad0f4b772fac976" AssetBundleName="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_07" />
+      <Asset Guid="dc4d268707bcab64c9623a3ae817468f" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_10" />
+      <Asset Guid="dcb33a2903f6ec9428e8865f3588c134" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00010000" />
+      <Asset Guid="dece5d2e84e02af41ad903aea8dff1fc" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10100101" />
+      <Asset Guid="dee0490310fc19947af67d766cf51503" AssetBundleName="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_12" />
+      <Asset Guid="dfe2a770858303943b5f831706023cad" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Half_H_01" />
+      <Asset Guid="e1046a3dad7a4884ea2044b778edd0c3" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00100010" />
+      <Asset Guid="e23ba536d4c314f5d9ed8649c7e787b0" AssetBundleName="GameScript/Localization/Default" />
+      <Asset Guid="e36f146cca9c61c46bfa476c624759e5" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross3_01" />
+      <Asset Guid="e37a01976df8ed344b14148af1dec545" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00001010" />
+      <Asset Guid="e59ad985b389e144290c96971476664f" AssetBundleName="Resources/GoldenSkullStudios/Water/Water01010010" />
+      <Asset Guid="e67a8d339d0ecf040a48d4237f0ad70d" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00000001" />
+      <Asset Guid="ea2f363ad044c184c852780eefbf7846" AssetBundleName="Resources/GoldenSkullStudios/Water/Water10000010" />
+      <Asset Guid="ea4cfaaedf6568847997ff2633225864" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01_Half_H_02" />
+      <Asset Guid="eb1f5fa0cc7f2924cad75355d3f6085b" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02_Half_V_02" />
+      <Asset Guid="ec1b266780a724d4d8c8d46e6b212f85" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Curve_02" />
+      <Asset Guid="ed5f57bb66487884b91b52bca0ed8c51" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_R" />
+      <Asset Guid="ede370f422c7f554a88320dc97c1a4b1" AssetBundleName="Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_09" />
+      <Asset Guid="ee37e4313b2352548944e3335a14212f" AssetBundleName="Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_02_ToStone_01" />
+      <Asset Guid="eef2814b295b565498b6c5a7d12f33e7" AssetBundleName="Resources/GoldenSkullStudios/Lava/ISO_Tile_Lava_02" />
+      <Asset Guid="ef14886e0a930b54ab5a29ec3d7b60b9" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPatch_02" />
+      <Asset Guid="f072c1210e6774f42a7b26d61194fd79" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00001000" />
+      <Asset Guid="f1773a959527d0840a123bde24932a80" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03_H_01" />
+      <Asset Guid="f19fa1a145c3d644ead1a5e87518ac35" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Curve_01" />
+      <Asset Guid="f1a367eae4851fb4f8acf77aaf240b7c" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross3_04" />
+      <Asset Guid="f1c54e49b8e6a294d90bfd7e637f460c" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02_H_01" />
+      <Asset Guid="f235e569219587c41a45ec42c5bc2899" AssetBundleName="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01_04" />
+      <Asset Guid="f43c57fe04fc4b041bd2035a199b4f96" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_U" />
+      <Asset Guid="f523ff05c4f70354086e177fec66e244" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00010010" />
+      <Asset Guid="f60a2e6adc7a1b1499affb2860b714ca" AssetBundleName="Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_04" />
+      <Asset Guid="f6cf977306fdf9843a5a111111ce4d5f" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_Sand_01" />
+      <Asset Guid="f70fd254b9525d1488d6d4f8ef80ed54" AssetBundleName="Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_D" />
+      <Asset Guid="f7d5a9e22477e204094f57ce65a461b8" AssetBundleName="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_05" />
+      <Asset Guid="f8262ca9b28baaa4c934bb5a7d1bc4a9" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_Stone_02" />
+      <Asset Guid="f9cd6857dc77920479e5554e295b406e" AssetBundleName="Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_04" />
+      <Asset Guid="fb0e7cfd4c205ee4f8ccc1588e5dfb02" AssetBundleName="Resources/GoldenSkullStudios/Low/ISO_LowTile_DirtToStoneTransition_01" />
+      <Asset Guid="fb435c1e87d0c1341b0d3b6ce0aadfca" AssetBundleName="Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_08" />
+      <Asset Guid="fb58ce6e1a161b74fa8f92b5765058b7" AssetBundleName="Resources/GoldenSkullStudios/Water/Water00110010" />
+      <Asset Guid="fc973a14319837a49bcf418f112a1533" AssetBundleName="Resources/GoldenSkullStudios/Stone/ISO_Tile_Riverbed_04" />
+      <Asset Guid="fd86dfe7337c54a49847b192495cb1d6" AssetBundleName="Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_04" />
+      <Asset Guid="ff1328e61be82ba4cb0d533e0bc16578" AssetBundleName="Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01" />
+    </Assets>
+  </AssetBundleCollection>
+</UnityGameFramework>

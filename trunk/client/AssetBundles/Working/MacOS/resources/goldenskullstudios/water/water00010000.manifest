@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3889564950
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3e5d63cab1a3566e39fa22b5dd1b3665
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/GoldenSkullStudios/Water/Water00010000.png
+Dependencies: []

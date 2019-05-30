@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1438770230
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a3844a1b58c54b8ae7833d3a106d2a48
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_01_ToStone_02.png
+Dependencies: []

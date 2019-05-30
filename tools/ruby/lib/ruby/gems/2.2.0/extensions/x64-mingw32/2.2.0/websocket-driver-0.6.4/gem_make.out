@@ -1,0 +1,12 @@
+D:/env/ruby-2.2.6-x64-mingw32/bin/ruby.exe -r ./siteconf20170308-11660-lxc627.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating websocket_mask-x64-mingw32.def
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20170308-11660-1rn99la

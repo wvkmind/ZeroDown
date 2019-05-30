@@ -1,0 +1,34 @@
+C:/Ruby22-x64/bin/ruby.exe -r ./siteconf20160722-14308-vm1gza.rb extconf.rb
+checking for Ruby version >= 1.8.5... yes
+checking for stdint.h... *** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=C:/Ruby22-x64/bin/$(RUBY_BASE_NAME)
+C:/Ruby22-x64/lib/ruby/2.2.0/mkmf.rb:456:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
+You have to install development tools first.
+	from C:/Ruby22-x64/lib/ruby/2.2.0/mkmf.rb:587:in `try_cpp'
+	from C:/Ruby22-x64/lib/ruby/2.2.0/mkmf.rb:1060:in `block in have_header'
+	from C:/Ruby22-x64/lib/ruby/2.2.0/mkmf.rb:911:in `block in checking_for'
+	from C:/Ruby22-x64/lib/ruby/2.2.0/mkmf.rb:351:in `block (2 levels) in postpone'
+	from C:/Ruby22-x64/lib/ruby/2.2.0/mkmf.rb:321:in `open'
+	from C:/Ruby22-x64/lib/ruby/2.2.0/mkmf.rb:351:in `block in postpone'
+	from C:/Ruby22-x64/lib/ruby/2.2.0/mkmf.rb:321:in `open'
+	from C:/Ruby22-x64/lib/ruby/2.2.0/mkmf.rb:347:in `postpone'
+	from C:/Ruby22-x64/lib/ruby/2.2.0/mkmf.rb:910:in `checking_for'
+	from C:/Ruby22-x64/lib/ruby/2.2.0/mkmf.rb:1059:in `have_header'
+	from extconf.rb:186:in `<main>'
+
+extconf failed, exit code 1

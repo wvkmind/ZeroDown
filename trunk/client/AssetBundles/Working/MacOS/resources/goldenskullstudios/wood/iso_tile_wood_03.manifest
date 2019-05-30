@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2646813009
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 263c9de36caf7d3089e01668a81aa83d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_03.png
+Dependencies: []

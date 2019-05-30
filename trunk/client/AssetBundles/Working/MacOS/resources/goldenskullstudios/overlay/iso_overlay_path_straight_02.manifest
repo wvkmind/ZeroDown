@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1635684083
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3f70acb07fa8c83977a6e0eb0490109e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Straight_02.png
+Dependencies: []

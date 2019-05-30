@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3922976578
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 16b42997fb1e0648c419cfe2930a3368
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_SandStone_01.png
+Dependencies: []

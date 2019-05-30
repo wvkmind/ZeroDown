@@ -1,0 +1,1199 @@
+C:/Ruby22-x64/bin/ruby.exe -r ./siteconf20160630-14196-fjtiic.rb extconf.rb
+checking for main() in -lgdi32... yes
+checking for main() in -lopengl32... yes
+checking for main() in -lglew32... no
+checking for main() in -llibfreetype... no
+checking for main() in -lOpenAL32... no
+checking for main() in -llibsndfile-1... no
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating ray_ext-x64-mingw32.def
+compiling audio.c
+compiling audio_source.c
+audio_source.c: In function 'ray_audio_source_set_volume':
+audio_source.c:38:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+audio_source.c: In function 'ray_audio_source_set_pitch':
+audio_source.c:64:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+audio_source.c: In function 'ray_audio_source_set_pos':
+audio_source.c:86:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+audio_source.c: In function 'ray_audio_source_set_relative':
+audio_source.c:113:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+audio_source.c: In function 'ray_audio_source_set_min_distance':
+audio_source.c:139:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling buffer_renderer.c
+buffer_renderer.c: In function 'ray_rb2buf_renderer':
+buffer_renderer.c:24:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+buffer_renderer.c: In function 'ray_buffer_renderer_init':
+buffer_renderer.c:63:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling color.c
+color.c: In function 'ray_rb2col':
+color.c:13:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+color.c: In function 'ray_color_init':
+color.c:42:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+color.c: In function 'ray_color_set_r':
+color.c:109:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+color.c: In function 'ray_color_set_g':
+color.c:125:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+color.c: In function 'ray_color_set_b':
+color.c:141:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+color.c: In function 'ray_color_set_a':
+color.c:157:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling drawable.c
+drawable.c: In function 'ray_drawable_fill_proc':
+drawable.c:35:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drawable.c: In function 'ray_rb2full_drawable':
+drawable.c:73:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drawable.c: In function 'ray_drawable_indices_fill_proc':
+drawable.c:95:14: warning: unknown conversion type character 'z' in format [-Wformat]
+drawable.c:95:14: warning: unknown conversion type character 'z' in format [-Wformat]
+drawable.c:95:14: warning: too many arguments for format [-Wformat-extra-args]
+drawable.c: In function 'ray_drawable_init':
+drawable.c:147:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drawable.c:150:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drawable.c:153:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drawable.c: In function 'ray_drawable_init_copy':
+drawable.c:188:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drawable.c:191:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling event.c
+event.c: In function 'ray_rb2event':
+event.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling font.c
+font.c: In function 'ray_rb2font':
+font.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling gl.c
+gl.c: In function 'ray_gl_draw_elements':
+gl.c:34:35: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+gl.c: In function 'ray_gl_draw_elements_instanced':
+gl.c:74:46: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+gl.c: In function 'ray_gl_debug_proc':
+gl.c:231:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl.c:247:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl.c:259:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling gl_buffer.c
+gl_buffer.c: In function 'ray_rb2buffer':
+gl_buffer.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c: In function 'ray_gl_buffer_init':
+gl_buffer.c:43:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c: In function 'ray_gl_buffer_get':
+gl_buffer.c:125:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c: In function 'ray_gl_buffer_set':
+gl_buffer.c:148:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c:154:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c:160:14: warning: unknown conversion type character 'z' in format [-Wformat]
+gl_buffer.c:160:14: warning: unknown conversion type character 'z' in format [-Wformat]
+gl_buffer.c:160:14: warning: too many arguments for format [-Wformat-extra-args]
+gl_buffer.c:163:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c: In function 'ray_gl_buffer_get_instance':
+gl_buffer.c:184:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c:190:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c: In function 'ray_gl_buffer_set_instance':
+gl_buffer.c:214:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c:219:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c:226:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c:231:14: warning: unknown conversion type character 'z' in format [-Wformat]
+gl_buffer.c:231:14: warning: unknown conversion type character 'z' in format [-Wformat]
+gl_buffer.c:231:14: warning: too many arguments for format [-Wformat-extra-args]
+gl_buffer.c:234:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c: In function 'ray_gl_buffer_update':
+gl_buffer.c:271:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c:279:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c:288:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c: In function 'ray_gl_buffer_update_instance':
+gl_buffer.c:325:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c:333:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c:342:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_buffer.c: In function 'ray_gl_buffer_resize_instance':
+gl_buffer.c:387:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling gl_index_buffer.c
+gl_index_buffer.c: In function 'ray_rb2index_buffer':
+gl_index_buffer.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_index_buffer.c: In function 'ray_gl_index_buffer_set':
+gl_index_buffer.c:98:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_index_buffer.c:104:14: warning: unknown conversion type character 'z' in format [-Wformat]
+gl_index_buffer.c:104:14: warning: unknown conversion type character 'z' in format [-Wformat]
+gl_index_buffer.c:104:14: warning: too many arguments for format [-Wformat-extra-args]
+gl_index_buffer.c: In function 'ray_gl_index_buffer_update':
+gl_index_buffer.c:139:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_index_buffer.c:147:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_index_buffer.c:156:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling gl_int_array.c
+gl_int_array.c: In function 'ray_rb2int_array':
+gl_int_array.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_int_array.c: In function 'ray_int_array_push':
+gl_int_array.c:61:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+gl_int_array.c: In function 'ray_int_array_set':
+gl_int_array.c:97:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling gl_vertex.c
+gl_vertex.c: In function 'ray_gl_vertex_make_type':
+gl_vertex.c:94:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling image.c
+image.c: In function 'ray_rb2image':
+image.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+image.c: In function 'ray_image_assert_pos':
+image.c:161:14: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'size_t' [-Wformat]
+image.c:161:14: warning: format '%ld' expects argument of type 'long int', but argument 4 has type 'size_t' [-Wformat]
+image.c:165:14: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'size_t' [-Wformat]
+image.c:165:14: warning: format '%ld' expects argument of type 'long int', but argument 4 has type 'size_t' [-Wformat]
+image.c: In function 'ray_image_set':
+image.c:203:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling image_target.c
+image_target.c: In function 'ray_rb2image_target':
+image_target.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+image_target.c: In function 'ray_image_target_alloc':
+image_target.c:21:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling input.c
+input.c: In function 'ray_rb2input':
+input.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling matrix.c
+matrix.c: In function 'ray_rb2matrix':
+matrix.c:18:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+matrix.c: In function 'ray_matrix_get':
+matrix.c:53:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+matrix.c: In function 'ray_matrix_set':
+matrix.c:76:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+matrix.c:79:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+matrix.c: In function 'ray_matrix_set_content':
+matrix.c:124:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+matrix.c: In function 'ray_matrix_translate':
+matrix.c:221:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+matrix.c: In function 'ray_matrix_scale':
+matrix.c:238:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+matrix.c: In function 'ray_matrix_rotate':
+matrix.c:257:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling mo.c
+mo.c: In function 'mo_array_set':
+mo.c:64:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+mo.c: In function 'mo_array_insert':
+mo.c:81:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+mo.c: In function 'mo_array_delete':
+mo.c:101:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+mo.c: In function 'mo_hash_grow':
+mo.c:444:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+mo.c: In function 'mo_hash_set':
+mo.c:478:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+mo.c: In function 'mo_hash_of_pointer':
+mo.c:605:10: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+compiling music.c
+music.c: In function 'ray_rb2music':
+music.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling pixel_bus.c
+pixel_bus.c: In function 'ray_rb2pixel_bus':
+pixel_bus.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+pixel_bus.c: In function 'ray_pixel_bus_init':
+pixel_bus.c:42:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+pixel_bus.c:49:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+pixel_bus.c: In function 'ray_pixel_bus_pull':
+pixel_bus.c:130:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+pixel_bus.c:141:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+pixel_bus.c:154:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+pixel_bus.c:172:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+pixel_bus.c: In function 'ray_pixel_bus_push':
+pixel_bus.c:211:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+pixel_bus.c:224:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+pixel_bus.c:234:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling polygon.c
+polygon.c: In function 'ray_rb2polygon':
+polygon.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+polygon.c: In function 'ray_polygon_line':
+polygon.c:66:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+polygon.c: In function 'ray_polygon_rectangle':
+polygon.c:96:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+polygon.c: In function 'ray_polygon_circle':
+polygon.c:135:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+polygon.c: In function 'ray_polygon_ellipse':
+polygon.c:173:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+polygon.c:182:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+polygon.c: In function 'ray_polygon_add_point':
+polygon.c:214:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+polygon.c: In function 'ray_polygon_set_pos_of':
+polygon.c:349:14: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'size_t' [-Wformat]
+polygon.c:349:14: warning: format '%ld' expects argument of type 'long int', but argument 4 has type 'size_t' [-Wformat]
+polygon.c: In function 'ray_polygon_set_color_of':
+polygon.c:369:14: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'size_t' [-Wformat]
+polygon.c:369:14: warning: format '%ld' expects argument of type 'long int', but argument 4 has type 'size_t' [-Wformat]
+polygon.c: In function 'ray_polygon_set_outline_of':
+polygon.c:389:14: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'size_t' [-Wformat]
+polygon.c:389:14: warning: format '%ld' expects argument of type 'long int', but argument 4 has type 'size_t' [-Wformat]
+compiling ray.c
+compiling rect.c
+rect.c: In function 'ray_rb2rect_ptr':
+rect.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+rect.c: In function 'ray_init_rect':
+rect.c:53:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+rect.c: In function 'ray_rect_set_x':
+rect.c:128:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+rect.c: In function 'ray_rect_set_y':
+rect.c:147:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+rect.c: In function 'ray_rect_set_w':
+rect.c:166:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+rect.c: In function 'ray_rect_set_h':
+rect.c:185:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_audio.c
+say_audio.c: In function 'say_audio_set_direction':
+say_audio.c:16:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_audio.c: In function 'say_audio_get_volume':
+say_audio.c:27:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_audio.c: In function 'say_audio_get_pos':
+say_audio.c:36:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_audio.c: In function 'say_audio_get_direction':
+say_audio.c:45:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_audio_context.c
+compiling say_audio_source.c
+say_audio_source.c: In function 'say_audio_source_create':
+say_audio_source.c:6:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_basic_type.c
+compiling say_buffer.c
+say_buffer.c: In function 'say_buffer_setup_pointer':
+say_buffer.c:113:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer.c:119:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer.c:145:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer.c: In function 'say_buffer_create':
+say_buffer.c:209:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer.c:227:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer.c: In function 'say_buffer_update_part':
+say_buffer.c:329:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer.c: In function 'say_buffer_update_instance_part':
+say_buffer.c:362:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_buffer_renderer.c
+say_buffer_renderer.c: In function 'say_buffer_renderer_push':
+say_buffer_renderer.c:45:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer_renderer.c:54:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer_renderer.c: In function 'say_buffer_renderer_render':
+say_buffer_renderer.c:90:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer_renderer.c:93:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer_renderer.c:110:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer_renderer.c:115:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_buffer_slice.c
+say_buffer_slice.c: In function 'say_global_buffer_find':
+say_buffer_slice.c:72:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer_slice.c:78:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer_slice.c:91:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer_slice.c: In function 'say_global_buffer_reserve':
+say_buffer_slice.c:139:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_buffer_slice.c:152:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_clean_up.c
+compiling say_context.c
+In file included from say_context.c:12:0:
+say_win_context.h: In function 'say_win_context_build':
+say_win_context.h:61:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_context.c: In function 'say_context_create_for_window':
+say_context.c:105:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_context.c: In function 'say_context_create_initial':
+say_context.c:143:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_drawable.c
+say_drawable.c: In function 'say_drawable_enable_blend_mode':
+say_drawable.c:36:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_drawable.c: In function 'say_drawable_draw_at':
+say_drawable.c:270:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_drawable.c: In function 'say_drawable_draw':
+say_drawable.c:301:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_drawable.c:311:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_error.c
+say_error.c: In function 'say_error_set':
+say_error.c:16:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_font.c
+say_font.c: In function 'say_page_find_rect':
+say_font.c:65:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_font.c:77:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_font.c: In function 'say_font_set_size':
+say_font.c:97:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_font.c: In function 'say_font_load_glyph':
+say_font.c:114:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_font.c:126:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_font.c:130:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_font.c:139:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_font.c:150:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_font.c:164:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_font.c:170:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_get_proc.c
+compiling say_image.c
+In file included from say_image.c:3:0:
+stb_image.h:438:0: warning: "__forceinline" redefined [enabled by default]
+In file included from d:\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/crtdefs.h:10:0,
+                 from d:\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/stdlib.h:9,
+                 from mo.h:11,
+                 from say_all.h:7,
+                 from say_basic_type.h:4,
+                 from say.h:4,
+                 from say_image.c:1:
+d:\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/_mingw.h:286:0: note: this is the location of the previous definition
+In file included from say_image.c:3:0:
+stb_image.h: In function 'bmp_load':
+stb_image.h:3366:51: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+stb_image.h:3208:38: warning: variable 'fake_a' set but not used [-Wunused-but-set-variable]
+say_image.c: In function 'say_image_create':
+say_image.c:50:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_image.c: In function 'say_image_write_bmp':
+say_image.c:187:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_image.c: In function 'say_image_write_png':
+say_image.c:204:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_image.c: In function 'say_image_write_tga':
+say_image.c:216:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_image.c: In function 'say_image_resize':
+say_image.c:256:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_image.c:266:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_image.c: In function 'say_image_set_smooth':
+say_image.c:300:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_image_target.c
+say_image_target.c: In function 'say_image_target_create':
+say_image_target.c:87:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_image_target.c: In function 'say_image_target_set_image':
+say_image_target.c:122:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_image_target.c: In function 'say_image_target_bind':
+say_image_target.c:151:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_index_buffer.c
+say_index_buffer.c: In function 'say_index_buffer_create':
+say_index_buffer.c:24:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_index_buffer_slice.c
+say_index_buffer_slice.c: In function 'say_global_ibo_find_in':
+say_index_buffer_slice.c:81:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_index_buffer_slice.c:88:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_index_buffer_slice.c:101:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_index_buffer_slice.c: In function 'say_global_ibo_find':
+say_index_buffer_slice.c:129:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_index_buffer_slice.c:137:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_input.c
+compiling say_matrix.c
+say_matrix.c: In function 'say_matrix_rotation':
+say_matrix.c:58:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_matrix.c: In function 'say_matrix_looking_at':
+say_matrix.c:126:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_matrix.c: In function 'say_matrix_cofactor':
+say_matrix.c:180:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_matrix.c: In function 'say_matrix_comatrix':
+say_matrix.c:200:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_matrix.c: In function 'say_matrix_set_transformation':
+say_matrix.c:323:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_music.c
+say_music.c: In function 'say_music_start_stream':
+say_music.c:34:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_music.c: In function 'say_music_playback_thread':
+say_music.c:54:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_music.c:58:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_music.c:66:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_music.c:83:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_pixel_bus.c
+say_pixel_bus.c: In function 'say_pixel_bus_create':
+say_pixel_bus.c:40:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_pixel_bus.c: In function 'say_pixel_bus_resize':
+say_pixel_bus.c:131:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_polygon.c
+say_polygon.c: In function 'say_polygon_fill_vertices':
+say_polygon.c:24:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_polygon.c:41:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_polygon.c:86:7: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_polygon.c:95:7: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_polygon.c: In function 'say_polygon_draw':
+say_polygon.c:122:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_renderer.c
+compiling say_shader.c
+say_shader.c: In function 'say_shader_create_shader':
+say_shader.c:27:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_shader.c:34:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_shader.c: In function 'say_shader_create':
+say_shader.c:150:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_shader.c:156:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_shader.c:183:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_shader.c: In function 'say_shader_apply_vertex_type':
+say_shader.c:244:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_shader.c: In function 'say_shader_link':
+say_shader.c:255:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_shader.c:262:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_shader.c: In function 'say_shader_set_matrix':
+say_shader.c:279:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_shader.c: In function 'say_shader_set_current_texture':
+say_shader.c:285:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_shader.c: In function 'say_shader_set_int':
+say_shader.c:291:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_shader.c: In function 'say_shader_set_color_loc':
+say_shader.c:332:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_sound.c
+compiling say_sound_buffer.c
+say_sound_buffer.c: In function 'say_sound_buffer_load':
+say_sound_buffer.c:39:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_sound_buffer.c: In function 'say_sound_buffer_load_from_memory':
+say_sound_buffer.c:61:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_sprite.c
+say_sprite.c: In function 'say_sprite_fill_rect':
+say_sprite.c:21:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_string.c
+compiling say_target.c
+say_target.c: In function 'say_target_get':
+say_target.c:214:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_target.c: In function 'say_target_get_rect':
+say_target.c:226:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_text.c
+say_text.c: In function 'say_text_update_rect':
+say_text.c:12:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_text.c: In function 'say_text_fill_vertices':
+say_text.c:111:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_text.c:122:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_text.c:194:7: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_text.c: In function 'say_text_draw':
+say_text.c:264:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_text.c:273:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_text.c: In function 'say_text_get_rect':
+say_text.c:447:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_thread.c
+say_thread.c: In function 'say_thread_create':
+say_thread.c:20:10: warning: assignment makes pointer from integer without a cast [enabled by default]
+compiling say_thread_variable.c
+compiling say_utf.c
+compiling say_vertex_type.c
+say_vertex_type.c: In function 'say_vertex_type_get_all':
+say_vertex_type.c:18:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_vertex_type.c:22:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_vfile.c
+say_vfile.c: In function 'say_vfile_seek':
+say_vfile.c:17:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling say_view.c
+compiling say_window.c
+In file included from say_window.c:16:0:
+say_win_window.h: In function 'say_win_window_translate':
+say_win_window.h:211:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h:279:7: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h:352:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h:358:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h:363:7: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h:374:7: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h: In function 'say_win_callback':
+say_win_window.h:389:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h: In function 'say_imp_window_open':
+say_win_window.h:493:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h:498:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h:512:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h: In function 'say_imp_window_set_icon':
+say_win_window.h:583:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h:591:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h: In function 'say_imp_window_resize':
+say_win_window.h:627:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h:629:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+say_win_window.h: In function 'say_imp_window_wait_event':
+say_win_window.h:664:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling shader.c
+shader.c: In function 'ray_rb2shader':
+shader.c:20:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+shader.c: In function 'ray_shader_set_array':
+shader.c:202:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+shader.c:222:14: warning: unknown conversion type character 'z' in format [-Wformat]
+shader.c:222:14: warning: too many arguments for format [-Wformat-extra-args]
+compiling sound.c
+sound.c: In function 'ray_rb2sound':
+sound.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling sound_buffer.c
+sound_buffer.c: In function 'ray_rb2sound_buffer':
+sound_buffer.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling sprite.c
+sprite.c: In function 'ray_rb2sprite':
+sprite.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling target.c
+compiling text.c
+text.c: In function 'ray_rb2text':
+text.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling utils.c
+compiling vector.c
+vector.c: In function 'ray_rb2vector2_ptr':
+vector.c:12:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+vector.c: In function 'ray_rb2vector3_ptr':
+vector.c:39:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+vector.c: In function 'ray_vector2_init':
+vector.c:78:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+vector.c: In function 'ray_vector3_init':
+vector.c:150:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling vertex.c
+vertex.c: In function 'ray_rb2vertex':
+vertex.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling view.c
+view.c: In function 'ray_rb2view':
+view.c:17:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling window.c
+window.c: In function 'ray_rb2window':
+window.c:11:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+window.c: In function 'ray_window_open':
+window.c:39:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+window.c:53:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+linking shared-object ray_ext.so
+gl.o: In function `ray_gl_has_callback':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/gl.c:270: undefined reference to `__imp___glewDebugMessageCallbackARB'
+gl.o: In function `ray_gl_set_callback':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/gl.c:305: undefined reference to `__imp___glewDebugMessageCallbackARB'
+gl.o: In function `ray_gl_multi_draw_elements':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/gl.c:122: undefined reference to `__imp___glewMultiDrawElements'
+gl.o: In function `ray_gl_multi_draw_arrays':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/gl.c:99: undefined reference to `__imp___glewMultiDrawArrays'
+gl.o: In function `ray_gl_draw_elements_instanced':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/gl.c:71: undefined reference to `__imp___glewDrawElementsInstanced'
+gl.o: In function `ray_gl_draw_arrays_instanced':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/gl.c:49: undefined reference to `__imp___glewDrawArraysInstanced'
+say_audio.o: In function `say_audio_set_volume':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio.c:5: undefined reference to `__imp_alListenerf'
+say_audio.o: In function `say_audio_set_pos':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio.c:10: undefined reference to `__imp_alListener3f'
+say_audio.o: In function `say_audio_set_direction':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio.c:21: undefined reference to `__imp_alListenerfv'
+say_audio.o: In function `say_audio_get_volume':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio.c:28: undefined reference to `__imp_alGetListenerf'
+say_audio.o: In function `say_audio_get_pos':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio.c:37: undefined reference to `__imp_alGetListener3f'
+say_audio.o: In function `say_audio_get_direction':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio.c:46: undefined reference to `__imp_alGetListenerfv'
+say_audio.o: In function `say_audio_get_format':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio.c:60: undefined reference to `__imp_alGetEnumValue'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio.c:60: undefined reference to `__imp_alGetEnumValue'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio.c:60: undefined reference to `__imp_alGetEnumValue'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio.c:60: undefined reference to `__imp_alGetEnumValue'
+say_audio_context.o: In function `say_audio_context_ensure':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_context.c:16: undefined reference to `__imp_alcCreateContext'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_context.c:22: undefined reference to `__imp_alcMakeContextCurrent'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_context.c:8: undefined reference to `__imp_alcOpenDevice'
+say_audio_context.o: In function `say_audio_context_clean_up':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_context.c:27: undefined reference to `__imp_alcMakeContextCurrent'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_context.c:30: undefined reference to `__imp_alcDestroyContext'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_context.c:33: undefined reference to `__imp_alcCloseDevice'
+say_audio_source.o: In function `say_audio_source_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:7: undefined reference to `__imp_alGenSources'
+say_audio_source.o: In function `say_audio_source_free':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:13: undefined reference to `__imp_alSourcei'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:14: undefined reference to `__imp_alDeleteSources'
+say_audio_source.o: In function `say_audio_source_set_pitch':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:19: undefined reference to `__imp_alSourcef'
+say_audio_source.o: In function `say_audio_source_get_pitch':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:24: undefined reference to `__imp_alGetSourcef'
+say_audio_source.o: In function `say_audio_source_set_volume':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:30: undefined reference to `__imp_alSourcef'
+say_audio_source.o: In function `say_audio_source_get_volume':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:35: undefined reference to `__imp_alGetSourcef'
+say_audio_source.o: In function `say_audio_source_set_pos':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:41: undefined reference to `__imp_alSource3f'
+say_audio_source.o: In function `say_audio_source_get_pos':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:46: undefined reference to `__imp_alGetSource3f'
+say_audio_source.o: In function `say_audio_source_set_relative':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:52: undefined reference to `__imp_alSourcei'
+say_audio_source.o: In function `say_audio_source_get_relative':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:57: undefined reference to `__imp_alGetSourcei'
+say_audio_source.o: In function `say_audio_source_set_min_distance':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:63: undefined reference to `__imp_alSourcef'
+say_audio_source.o: In function `say_audio_source_get_min_distance':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:69: undefined reference to `__imp_alGetSourcef'
+say_audio_source.o: In function `say_audio_source_set_attenuation':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:75: undefined reference to `__imp_alSourcef'
+say_audio_source.o: In function `say_audio_source_get_attenuation':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:80: undefined reference to `__imp_alGetSourcef'
+say_audio_source.o: In function `say_audio_source_get_status':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_audio_source.c:87: undefined reference to `__imp_alGetSourcei'
+say_buffer.o: In function `say_buffer_register_pointer':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:77: undefined reference to `__imp___glewVertexAttribPointer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:89: undefined reference to `__imp___glewVertexAttribPointer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:85: undefined reference to `__imp___glewVertexAttribPointer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:94: undefined reference to `__imp___glewVertexAttribPointer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:102: undefined reference to `__imp___glewVertexAttribPointer'
+say_buffer.o:C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:98: more undefined references to `__imp___glewVertexAttribPointer' follow
+say_buffer.o: In function `say_buffer_delete_vao_pair':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:66: undefined reference to `__imp___glewDeleteVertexArrays'
+say_buffer.o: In function `say_vbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+say_buffer.o: In function `say_buffer_setup_pointer':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:143: undefined reference to `__imp___glewEnableVertexAttribArray'
+say_buffer.o: In function `say_vbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+say_buffer.o: In function `say_buffer_setup_pointer':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:120: undefined reference to `__imp___glewVertexAttribDivisor'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:159: undefined reference to `__imp___glewEnableVertexAttribArray'
+say_buffer.o: In function `say_vbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+say_buffer.o: In function `say_buffer_setup_pointer':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:172: undefined reference to `__imp___glewGetVertexAttribiv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:177: undefined reference to `__imp___glewDisableVertexAttribArray'
+say_buffer.o: In function `say_has_vao':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:4: undefined reference to `__imp___GLEW_ARB_vertex_array_object'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:4: undefined reference to `__imp___GLEW_VERSION_3_0'
+say_buffer.o: In function `say_buffer_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:222: undefined reference to `__imp___glewGenBuffers'
+say_buffer.o: In function `say_vbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+say_buffer.o: In function `say_buffer_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:232: undefined reference to `__imp___glewBufferData'
+say_buffer.o: In function `say_vbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+say_buffer.o: In function `say_buffer_free':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:257: undefined reference to `__imp___glewDeleteBuffers'
+say_buffer.o: In function `say_has_vao':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:4: undefined reference to `__imp___GLEW_ARB_vertex_array_object'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:4: undefined reference to `__imp___GLEW_VERSION_3_0'
+say_buffer.o: In function `say_vao_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:26: undefined reference to `__imp___glewBindVertexArray'
+say_buffer.o: In function `say_buffer_get_vao':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:194: undefined reference to `__imp___glewGenVertexArrays'
+say_buffer.o: In function `say_vao_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:26: undefined reference to `__imp___glewBindVertexArray'
+say_buffer.o: In function `say_vbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+say_buffer.o: In function `say_has_vao':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:4: undefined reference to `__imp___GLEW_ARB_vertex_array_object'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:4: undefined reference to `__imp___GLEW_VERSION_3_0'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:4: undefined reference to `__imp___glewGetVertexAttribiv'
+say_buffer.o: In function `say_buffer_unbind':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:312: undefined reference to `__imp___glewDisableVertexAttribArray'
+say_buffer.o: In function `say_vao_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:26: undefined reference to `__imp___glewBindVertexArray'
+say_buffer.o: In function `say_vbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+say_buffer.o: In function `say_buffer_update_part':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:331: undefined reference to `__imp___glewBufferSubData'
+say_buffer.o: In function `say_vbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+say_buffer.o: In function `say_buffer_update_part':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:331: undefined reference to `__imp___glewBufferSubData'
+say_buffer.o: In function `say_vbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+say_buffer.o: In function `say_buffer_resize':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:350: undefined reference to `__imp___glewBufferData'
+say_buffer.o: In function `say_vbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+say_buffer.o: In function `say_buffer_update_instance_part':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:364: undefined reference to `__imp___glewBufferSubData'
+say_buffer.o: In function `say_vbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+say_buffer.o: In function `say_buffer_update_instance_part':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:364: undefined reference to `__imp___glewBufferSubData'
+say_buffer.o: In function `say_vbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:12: undefined reference to `__imp___glewBindBuffer'
+say_buffer.o: In function `say_buffer_resize_instance':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_buffer.c:384: undefined reference to `__imp___glewBufferData'
+say_context.o: In function `say_context_glew_init':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:216: undefined reference to `__imp_glewExperimental'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:217: undefined reference to `__imp_glewInit'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:231: undefined reference to `__imp___glewCreateShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:232: undefined reference to `__imp___glewShaderSource'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:233: undefined reference to `__imp___glewCompileShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:234: undefined reference to `__imp___glewGetShaderiv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:235: undefined reference to `__imp___glewGetProgramiv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:236: undefined reference to `__imp___glewGetShaderInfoLog'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:237: undefined reference to `__imp___glewGetProgramInfoLog'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:238: undefined reference to `__imp___glewGetUniformLocation'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:239: undefined reference to `__imp___glewCreateProgram'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:240: undefined reference to `__imp___glewAttachShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:241: undefined reference to `__imp___glewDetachShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:242: undefined reference to `__imp___glewBindAttribLocation'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:243: undefined reference to `__imp___glewBindFragDataLocation'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:244: undefined reference to `__imp___glewLinkProgram'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:245: undefined reference to `__imp___glewUseProgram'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:246: undefined reference to `__imp___glewDeleteShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:247: undefined reference to `__imp___glewDeleteProgram'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:248: undefined reference to `__imp___glewUniform1i'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:249: undefined reference to `__imp___glewUniform1f'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:250: undefined reference to `__imp___glewUniform2f'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:251: undefined reference to `__imp___glewUniform3f'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:252: undefined reference to `__imp___glewUniform1fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:253: undefined reference to `__imp___glewUniform2fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:254: undefined reference to `__imp___glewUniform3fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:255: undefined reference to `__imp___glewUniform4fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:256: undefined reference to `__imp___glewUniformMatrix4fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:259: undefined reference to `__imp___glewGenBuffers'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:261: undefined reference to `__imp___glewBindBuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:262: undefined reference to `__imp___glewBufferData'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:263: undefined reference to `__imp___glewBufferSubData'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:264: undefined reference to `__imp___glewGetBufferSubData'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:267: undefined reference to `__imp___glewVertexAttribPointer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:268: undefined reference to `__imp___glewEnableVertexAttribArray'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:269: undefined reference to `__imp___glewVertexAttribDivisor'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:270: undefined reference to `__imp___glewGetVertexAttribiv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:271: undefined reference to `__imp___glewDisableVertexAttribArray'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:274: undefined reference to `__imp___glewGenFramebuffers'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:275: undefined reference to `__imp___glewDeleteFramebuffers'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:276: undefined reference to `__imp___glewBindFramebuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:277: undefined reference to `__imp___glewFramebufferTexture2D'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:278: undefined reference to `__imp___glewFramebufferRenderbuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:281: undefined reference to `__imp___glewGenRenderbuffers'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:282: undefined reference to `__imp___glewDeleteRenderbuffers'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:283: undefined reference to `__imp___glewBindRenderbuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:284: undefined reference to `__imp___glewRenderbufferStorage'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:287: undefined reference to `__imp___glewGenerateMipmap'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:287: undefined reference to `__imp___glewGenerateMipmapEXT'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:231: undefined reference to `__imp___glewCreateShaderObjectARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:232: undefined reference to `__imp___glewShaderSource'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:232: undefined reference to `__imp___glewShaderSourceARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:233: undefined reference to `__imp___glewCompileShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:233: undefined reference to `__imp___glewCompileShaderARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:234: undefined reference to `__imp___glewGetShaderiv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:234: undefined reference to `__imp___glewGetObjectParameterivARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:235: undefined reference to `__imp___glewGetProgramiv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:235: undefined reference to `__imp___glewGetObjectParameterivARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:236: undefined reference to `__imp___glewGetShaderInfoLog'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:236: undefined reference to `__imp___glewGetInfoLogARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:237: undefined reference to `__imp___glewGetProgramInfoLog'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:237: undefined reference to `__imp___glewGetInfoLogARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:238: undefined reference to `__imp___glewGetUniformLocation'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:238: undefined reference to `__imp___glewGetUniformLocationARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:239: undefined reference to `__imp___glewCreateProgram'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:239: undefined reference to `__imp___glewCreateProgramObjectARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:240: undefined reference to `__imp___glewAttachShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:240: undefined reference to `__imp___glewAttachObjectARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:241: undefined reference to `__imp___glewDetachShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:241: undefined reference to `__imp___glewDetachObjectARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:242: undefined reference to `__imp___glewBindAttribLocation'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:242: undefined reference to `__imp___glewBindAttribLocationARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:243: undefined reference to `__imp___glewBindFragDataLocation'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:243: undefined reference to `__imp___glewBindFragDataLocationEXT'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:244: undefined reference to `__imp___glewLinkProgram'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:244: undefined reference to `__imp___glewLinkProgramARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:245: undefined reference to `__imp___glewUseProgram'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:245: undefined reference to `__imp___glewUseProgramObjectARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:246: undefined reference to `__imp___glewDeleteShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:246: undefined reference to `__imp___glewDeleteObjectARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:247: undefined reference to `__imp___glewDeleteProgram'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:247: undefined reference to `__imp___glewDeleteObjectARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:248: undefined reference to `__imp___glewUniform1i'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:248: undefined reference to `__imp___glewUniform1iARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:249: undefined reference to `__imp___glewUniform1f'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:249: undefined reference to `__imp___glewUniform1fARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:250: undefined reference to `__imp___glewUniform2f'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:250: undefined reference to `__imp___glewUniform2fARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:251: undefined reference to `__imp___glewUniform3f'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:251: undefined reference to `__imp___glewUniform3fARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:252: undefined reference to `__imp___glewUniform1fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:252: undefined reference to `__imp___glewUniform1fvARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:253: undefined reference to `__imp___glewUniform2fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:253: undefined reference to `__imp___glewUniform2fvARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:254: undefined reference to `__imp___glewUniform3fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:254: undefined reference to `__imp___glewUniform3fvARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:255: undefined reference to `__imp___glewUniform4fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:255: undefined reference to `__imp___glewUniform4fvARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:256: undefined reference to `__imp___glewUniformMatrix4fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:256: undefined reference to `__imp___glewUniformMatrix4fvARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:259: undefined reference to `__imp___glewGenBuffers'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:259: undefined reference to `__imp___glewGenBuffersARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:261: undefined reference to `__imp___glewBindBuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:261: undefined reference to `__imp___glewBindBufferARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:262: undefined reference to `__imp___glewBufferData'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:262: undefined reference to `__imp___glewBufferDataARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:263: undefined reference to `__imp___glewBufferSubData'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:263: undefined reference to `__imp___glewBufferSubDataARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:264: undefined reference to `__imp___glewGetBufferSubData'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:264: undefined reference to `__imp___glewGetBufferSubDataARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:267: undefined reference to `__imp___glewVertexAttribPointer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:267: undefined reference to `__imp___glewVertexAttribPointerARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:268: undefined reference to `__imp___glewEnableVertexAttribArray'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:268: undefined reference to `__imp___glewEnableVertexAttribArrayARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:269: undefined reference to `__imp___glewVertexAttribDivisor'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:269: undefined reference to `__imp___glewVertexAttribDivisorARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:270: undefined reference to `__imp___glewGetVertexAttribiv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:270: undefined reference to `__imp___glewGetVertexAttribivARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:271: undefined reference to `__imp___glewDisableVertexAttribArray'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:271: undefined reference to `__imp___glewDisableVertexAttribArrayARB'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:274: undefined reference to `__imp___glewGenFramebuffers'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:274: undefined reference to `__imp___glewGenFramebuffersEXT'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:275: undefined reference to `__imp___glewDeleteFramebuffers'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:275: undefined reference to `__imp___glewDeleteFramebuffersEXT'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:276: undefined reference to `__imp___glewBindFramebuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:276: undefined reference to `__imp___glewBindFramebufferEXT'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:277: undefined reference to `__imp___glewFramebufferTexture2D'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:277: undefined reference to `__imp___glewFramebufferTexture2DEXT'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:278: undefined reference to `__imp___glewFramebufferRenderbuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:278: undefined reference to `__imp___glewFramebufferRenderbufferEXT'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:281: undefined reference to `__imp___glewGenRenderbuffers'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:281: undefined reference to `__imp___glewGenRenderbuffersEXT'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:282: undefined reference to `__imp___glewDeleteRenderbuffers'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:282: undefined reference to `__imp___glewDeleteRenderbuffersEXT'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:283: undefined reference to `__imp___glewBindRenderbuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:283: undefined reference to `__imp___glewBindRenderbufferEXT'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:284: undefined reference to `__imp___glewRenderbufferStorage'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_context.c:284: undefined reference to `__imp___glewRenderbufferStorageEXT'
+say_font.o: In function `say_font_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:208: undefined reference to `__imp_FT_Init_FreeType'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:208: undefined reference to `__imp_FT_Init_FreeType'
+say_font.o: In function `say_font_load_from_memory':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:261: undefined reference to `__imp_FT_New_Memory_Face'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:267: undefined reference to `__imp_FT_Select_Charmap'
+say_font.o: In function `say_font_free':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:241: undefined reference to `__imp_FT_Done_Face'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:244: undefined reference to `__imp_FT_Done_FreeType'
+say_font.o: In function `say_font_load_from_file':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:251: undefined reference to `__imp_FT_New_Face'
+say_font.o: In function `say_font_load_from_memory':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:261: undefined reference to `__imp_FT_New_Memory_Face'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:267: undefined reference to `__imp_FT_Select_Charmap'
+say_font.o: In function `say_font_set_size':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:90: undefined reference to `__imp_FT_Set_Pixel_Sizes'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:97: undefined reference to `__imp_FT_Select_Charmap'
+say_font.o: In function `say_font_load_glyph':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:123: undefined reference to `__imp_FT_Load_Char'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:127: undefined reference to `__imp_FT_Get_Glyph'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:138: undefined reference to `__imp_FT_Glyph_To_Bitmap'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:200: undefined reference to `__imp_FT_Done_Glyph'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:143: undefined reference to `__imp_FT_Bitmap_Embolden'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:135: undefined reference to `__imp_FT_Outline_Embolden'
+say_font.o: In function `say_font_set_size':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:90: undefined reference to `__imp_FT_Set_Pixel_Sizes'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:97: undefined reference to `__imp_FT_Select_Charmap'
+say_font.o: In function `say_font_get_kerning':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:309: undefined reference to `__imp_FT_Get_Char_Index'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:313: undefined reference to `__imp_FT_Get_Kerning'
+say_font.o: In function `say_font_set_size':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:90: undefined reference to `__imp_FT_Set_Pixel_Sizes'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:97: undefined reference to `__imp_FT_Select_Charmap'
+say_font.o: In function `say_font_free':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:241: undefined reference to `__imp_FT_Done_Face'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_font.c:244: undefined reference to `__imp_FT_Done_FreeType'
+say_image.o: In function `say_texture_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image.c:12: undefined reference to `__imp___glewActiveTexture'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image.c:12: undefined reference to `__imp___glewActiveTexture'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image.c:12: undefined reference to `__imp___glewActiveTexture'
+say_image_target.o: In function `say_fbo_delete_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:17: undefined reference to `__imp___glewDeleteFramebuffers'
+say_image_target.o: In function `say_fbo_build':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:26: undefined reference to `__imp___glewGenFramebuffers'
+say_image_target.o: In function `say_fbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:51: undefined reference to `__imp___glewBindFramebuffer'
+say_image_target.o: In function `say_fbo_build':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:31: undefined reference to `__imp___glewGenerateMipmap'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:33: undefined reference to `__imp___glewFramebufferTexture2D'
+say_image_target.o: In function `say_rbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:60: undefined reference to `__imp___glewBindRenderbuffer'
+say_image_target.o: In function `say_fbo_build':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:37: undefined reference to `__imp___glewRenderbufferStorage'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:41: undefined reference to `__imp___glewFramebufferRenderbuffer'
+say_image_target.o: In function `say_fbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:51: undefined reference to `__imp___glewBindFramebuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:51: undefined reference to `__imp___glewBindFramebuffer'
+say_image_target.o: In function `say_rbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:60: undefined reference to `__imp___glewBindRenderbuffer'
+say_image_target.o: In function `say_image_target_is_available':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:82: undefined reference to `__imp___GLEW_EXT_framebuffer_object'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:82: undefined reference to `__imp___GLEW_VERSION_3_0'
+say_image_target.o: In function `say_image_target_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:97: undefined reference to `__imp___glewGenRenderbuffers'
+say_image_target.o: In function `say_image_target_free':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:106: undefined reference to `__imp___glewDeleteRenderbuffers'
+say_image_target.o: In function `say_image_target_is_available':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:82: undefined reference to `__imp___GLEW_EXT_framebuffer_object'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:82: undefined reference to `__imp___GLEW_VERSION_3_0'
+say_image_target.o: In function `say_fbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_image_target.c:51: undefined reference to `__imp___glewBindFramebuffer'
+say_index_buffer.o: In function `say_index_buffer_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:26: undefined reference to `__imp___glewGenBuffers'
+say_index_buffer.o: In function `say_ibo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:7: undefined reference to `__imp___glewBindBuffer'
+say_index_buffer.o: In function `say_index_buffer_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:33: undefined reference to `__imp___glewBufferData'
+say_index_buffer.o: In function `say_index_buffer_free':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:43: undefined reference to `__imp___glewDeleteBuffers'
+say_index_buffer.o: In function `say_ibo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:7: undefined reference to `__imp___glewBindBuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:7: undefined reference to `__imp___glewBindBuffer'
+say_index_buffer.o: In function `say_index_buffer_rebind':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:59: undefined reference to `__imp___glewBindBuffer'
+say_index_buffer.o: In function `say_ibo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:7: undefined reference to `__imp___glewBindBuffer'
+say_index_buffer.o: In function `say_index_buffer_update_part':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:67: undefined reference to `__imp___glewBufferSubData'
+say_index_buffer.o: In function `say_ibo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:7: undefined reference to `__imp___glewBindBuffer'
+say_index_buffer.o: In function `say_index_buffer_update_part':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:67: undefined reference to `__imp___glewBufferSubData'
+say_index_buffer.o: In function `say_ibo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:7: undefined reference to `__imp___glewBindBuffer'
+say_index_buffer.o: In function `say_index_buffer_resize':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_index_buffer.c:88: undefined reference to `__imp___glewBufferData'
+say_music.o: In function `say_music_start_stream':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:29: undefined reference to `__imp_alGetSourcei'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:31: undefined reference to `__imp_alSourceUnqueueBuffers'
+say_music.o: In function `say_music_read_chunk':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:9: undefined reference to `sf_read_short'
+say_music.o: In function `say_music_fill_buffer':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:19: undefined reference to `__imp_alBufferData'
+say_music.o: In function `say_music_start_stream':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:40: undefined reference to `__imp_alSourceQueueBuffers'
+say_music.o: In function `say_music_read_chunk':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:9: undefined reference to `sf_read_short'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:9: undefined reference to `sf_read_short'
+say_music.o: In function `say_music_playback_thread':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:46: undefined reference to `__imp_alSourceUnqueueBuffers'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:46: undefined reference to `__imp_alGetBufferi'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:46: undefined reference to `__imp_alBufferData'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:49: undefined reference to `__imp_alGetSourcei'
+say_music.o: In function `say_music_read_chunk':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:9: undefined reference to `sf_read_short'
+say_music.o: In function `say_music_seek':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:178: undefined reference to `sf_seek'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:182: undefined reference to `__imp_alSourceStop'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:186: undefined reference to `__imp_alSourcePlay'
+say_music.o: In function `say_music_playback_thread':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:76: undefined reference to `__imp_alSourceQueueBuffers'
+say_music.o: In function `say_music_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:99: undefined reference to `__imp_alGenBuffers'
+say_music.o: In function `say_music_free':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:126: undefined reference to `__imp_alSourceStop'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:127: undefined reference to `__imp_alDeleteBuffers'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:132: undefined reference to `sf_close'
+say_music.o: In function `say_music_open':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:139: undefined reference to `__imp_alSourceStop'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:142: undefined reference to `sf_close'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:145: undefined reference to `sf_open'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:154: undefined reference to `sf_close'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:148: undefined reference to `sf_strerror'
+say_music.o: In function `say_music_seek':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:178: undefined reference to `sf_seek'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:182: undefined reference to `__imp_alSourceStop'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:186: undefined reference to `__imp_alSourcePlay'
+say_music.o: In function `say_music_get_time':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:194: undefined reference to `__imp_alGetSourcef'
+say_music.o: In function `say_music_play':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:206: undefined reference to `__imp_alSourcePlay'
+say_music.o: In function `say_music_seek':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:178: undefined reference to `sf_seek'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:182: undefined reference to `__imp_alSourceStop'
+say_music.o: In function `say_music_pause':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:219: undefined reference to `__imp_alSourcePause'
+say_music.o: In function `say_music_seek':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:178: undefined reference to `sf_seek'
+say_music.o: In function `say_music_stop':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:227: undefined reference to `__imp_alSourceStop'
+say_music.o: In function `say_music_seek':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:182: undefined reference to `__imp_alSourceStop'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_music.c:186: undefined reference to `__imp_alSourcePlay'
+say_pixel_bus.o: In function `say_pixel_bus_is_available':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:33: undefined reference to `__imp___GLEW_ARB_pixel_buffer_object'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:33: undefined reference to `__imp___GLEW_VERSION_2_1'
+say_pixel_bus.o: In function `say_pixel_bus_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:42: undefined reference to `__imp___glewGenBuffers'
+say_pixel_bus.o: In function `say_pack_pbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:7: undefined reference to `__imp___glewBindBuffer'
+say_pixel_bus.o: In function `say_pixel_bus_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:48: undefined reference to `__imp___glewBufferData'
+say_pixel_bus.o: In function `say_pixel_bus_free':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:57: undefined reference to `__imp___glewDeleteBuffers'
+say_pixel_bus.o: In function `say_pack_pbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:7: undefined reference to `__imp___glewBindBuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:7: undefined reference to `__imp___glewBindBuffer'
+say_pixel_bus.o: In function `say_unpack_pbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:16: undefined reference to `__imp___glewBindBuffer'
+say_pixel_bus.o: In function `say_pack_pbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:7: undefined reference to `__imp___glewBindBuffer'
+say_pixel_bus.o: In function `say_unpack_pbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:16: undefined reference to `__imp___glewBindBuffer'
+say_pixel_bus.o: In function `say_pixel_bus_is_available':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:33: undefined reference to `__imp___GLEW_ARB_pixel_buffer_object'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:33: undefined reference to `__imp___GLEW_VERSION_2_1'
+say_pixel_bus.o: In function `say_pack_pbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:7: undefined reference to `__imp___glewBindBuffer'
+say_pixel_bus.o: In function `say_pixel_bus_is_available':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:33: undefined reference to `__imp___GLEW_ARB_pixel_buffer_object'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:33: undefined reference to `__imp___GLEW_VERSION_2_1'
+say_pixel_bus.o: In function `say_unpack_pbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:16: undefined reference to `__imp___glewBindBuffer'
+say_pixel_bus.o: In function `say_pack_pbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:7: undefined reference to `__imp___glewBindBuffer'
+say_pixel_bus.o: In function `say_unpack_pbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:16: undefined reference to `__imp___glewBindBuffer'
+say_pixel_bus.o: In function `say_pixel_bus_is_available':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:33: undefined reference to `__imp___GLEW_ARB_pixel_buffer_object'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:33: undefined reference to `__imp___GLEW_VERSION_2_1'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:33: undefined reference to `__imp___GLEW_VERSION_2_1'
+say_pixel_bus.o: In function `say_unpack_pbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:16: undefined reference to `__imp___glewBindBuffer'
+say_pixel_bus.o: In function `say_pack_pbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:7: undefined reference to `__imp___glewBindBuffer'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:7: undefined reference to `__imp___glewBindBuffer'
+say_pixel_bus.o: In function `say_pixel_bus_resize':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:133: undefined reference to `__imp___glewGetBufferSubData'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:136: undefined reference to `__imp___glewBufferData'
+say_pixel_bus.o: In function `say_pack_pbo_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:7: undefined reference to `__imp___glewBindBuffer'
+say_pixel_bus.o: In function `say_pixel_bus_resize_fast':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_pixel_bus.c:148: undefined reference to `__imp___glewBufferData'
+say_shader.o: In function `say_shader_is_geometry_available':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:144: undefined reference to `__imp___GLEW_ARB_geometry_shader4'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:144: undefined reference to `__imp___GLEW_VERSION_3_2'
+say_shader.o: In function `say_shader_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:152: undefined reference to `__imp___glewCreateShader'
+say_shader.o: In function `say_shader_create_shader':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:23: undefined reference to `__imp___glewShaderSource'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:25: undefined reference to `__imp___glewCompileShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:28: undefined reference to `__imp___glewGetShaderiv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:37: undefined reference to `__imp___glewGetShaderInfoLog'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:37: undefined reference to `__imp___glewGetShaderInfoLog'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:23: undefined reference to `__imp___glewShaderSource'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:25: undefined reference to `__imp___glewCompileShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:28: undefined reference to `__imp___glewGetShaderiv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:37: undefined reference to `__imp___glewGetShaderInfoLog'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:37: undefined reference to `__imp___glewGetShaderInfoLog'
+say_shader.o: In function `say_shader_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:169: undefined reference to `__imp___glewCreateProgram'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:171: undefined reference to `__imp___glewAttachShader'
+say_shader.o: In function `say_shader_apply_vertex_type':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:246: undefined reference to `__imp___glewBindAttribLocation'
+say_shader.o: In function `say_shader_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:177: undefined reference to `__imp___glewBindFragDataLocation'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:179: undefined reference to `__imp___glewLinkProgram'
+say_shader.o: In function `say_shader_find_locations':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:48: undefined reference to `__imp___glewGetUniformLocation'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_matrix':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:280: undefined reference to `__imp___glewUniformMatrix4fv'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_current_texture':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:286: undefined reference to `__imp___glewUniform1i'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_free':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:199: undefined reference to `__imp___glewDeleteShader'
+say_shader.o: In function `say_shader_detach_geometry':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:235: undefined reference to `__imp___glewDetachShader'
+say_shader.o: In function `say_shader_free':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:205: undefined reference to `__imp___glewDeleteProgram'
+say_shader.o: In function `say_shader_create_shader':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:23: undefined reference to `__imp___glewShaderSource'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:25: undefined reference to `__imp___glewCompileShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:28: undefined reference to `__imp___glewGetShaderiv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:37: undefined reference to `__imp___glewGetShaderInfoLog'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:23: undefined reference to `__imp___glewShaderSource'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:25: undefined reference to `__imp___glewCompileShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:28: undefined reference to `__imp___glewGetShaderiv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:37: undefined reference to `__imp___glewGetShaderInfoLog'
+say_shader.o: In function `say_shader_compile_geometry':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:222: undefined reference to `__imp___GLEW_ARB_geometry_shader4'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:222: undefined reference to `__imp___GLEW_VERSION_3_2'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:227: undefined reference to `__imp___glewCreateShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:228: undefined reference to `__imp___glewAttachShader'
+say_shader.o: In function `say_shader_create_shader':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:23: undefined reference to `__imp___glewShaderSource'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:25: undefined reference to `__imp___glewCompileShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:28: undefined reference to `__imp___glewGetShaderiv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:37: undefined reference to `__imp___glewGetShaderInfoLog'
+say_shader.o: In function `say_shader_detach_geometry':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:235: undefined reference to `__imp___glewDetachShader'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:236: undefined reference to `__imp___glewDeleteShader'
+say_shader.o: In function `say_shader_apply_vertex_type':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:246: undefined reference to `__imp___glewBindAttribLocation'
+say_shader.o: In function `say_shader_link':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:253: undefined reference to `__imp___glewLinkProgram'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:256: undefined reference to `__imp___glewGetProgramiv'
+say_shader.o: In function `say_shader_find_locations':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:48: undefined reference to `__imp___glewGetUniformLocation'
+say_shader.o: In function `say_shader_link':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:265: undefined reference to `__imp___glewGetProgramInfoLog'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_matrix':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:279: undefined reference to `__imp___glewGetUniformLocation'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:280: undefined reference to `__imp___glewUniformMatrix4fv'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_current_texture':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:285: undefined reference to `__imp___glewGetUniformLocation'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:286: undefined reference to `__imp___glewUniform1i'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_int':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:291: undefined reference to `__imp___glewGetUniformLocation'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:292: undefined reference to `__imp___glewUniform1i'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_matrix_id':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:298: undefined reference to `__imp___glewUniformMatrix4fv'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_current_texture_id':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:303: undefined reference to `__imp___glewUniform1i'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_int_id':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:308: undefined reference to `__imp___glewUniform1i'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_locate':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:317: undefined reference to `__imp___glewGetUniformLocation'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_vector2_loc':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:322: undefined reference to `__imp___glewUniform2f'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_vector3_loc':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:327: undefined reference to `__imp___glewUniform3f'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_color_loc':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:333: undefined reference to `__imp___glewUniform4fv'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_matrix_loc':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:338: undefined reference to `__imp___glewUniformMatrix4fv'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_float_loc':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:343: undefined reference to `__imp___glewUniform1f'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_floats_loc':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:361: undefined reference to `__imp___glewUniform4fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:358: undefined reference to `__imp___glewUniform3fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:355: undefined reference to `__imp___glewUniform2fv'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:352: undefined reference to `__imp___glewUniform1fv'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_image_loc':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:368: undefined reference to `__imp___glewUniform1i'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_current_texture_loc':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:373: undefined reference to `__imp___glewUniform1i'
+say_shader.o: In function `say_shader_make_current':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:7: undefined reference to `__imp___glewUseProgram'
+say_shader.o: In function `say_shader_set_bool_loc':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_shader.c:378: undefined reference to `__imp___glewUniform1i'
+say_sound.o: In function `say_sound_stop':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound.c:66: undefined reference to `__imp_alSourceStop'
+say_sound.o: In function `say_sound_set_buffer':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound.c:21: undefined reference to `__imp_alSourcei'
+say_sound.o: In function `say_sound_set_looping':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound.c:29: undefined reference to `__imp_alSourcei'
+say_sound.o: In function `say_sound_is_looping':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound.c:34: undefined reference to `__imp_alGetSourcei'
+say_sound.o: In function `say_sound_seek':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound.c:40: undefined reference to `__imp_alSourcef'
+say_sound.o: In function `say_sound_get_time':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound.c:45: undefined reference to `__imp_alGetSourcef'
+say_sound.o: In function `say_sound_play':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound.c:58: undefined reference to `__imp_alSourcePlay'
+say_sound.o: In function `say_sound_pause':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound.c:62: undefined reference to `__imp_alSourcePause'
+say_sound.o: In function `say_sound_stop':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound.c:66: undefined reference to `__imp_alSourceStop'
+say_sound_buffer.o: In function `say_sound_buffer_create':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:7: undefined reference to `__imp_alGenBuffers'
+say_sound_buffer.o: In function `say_sound_buffer_free':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:21: undefined reference to `__imp_alDeleteBuffers'
+say_sound_buffer.o: In function `say_sound_buffer_load_from_memory':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:61: undefined reference to `sf_open_virtual'
+say_sound_buffer.o: In function `say_sound_buffer_load':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:35: undefined reference to `sf_read_short'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:37: undefined reference to `sf_close'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:45: undefined reference to `__imp_alBufferData'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:28: undefined reference to `sf_strerror'
+say_sound_buffer.o: In function `say_sound_buffer_load_from_file':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:68: undefined reference to `sf_open'
+say_sound_buffer.o: In function `say_sound_buffer_load':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:35: undefined reference to `sf_read_short'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:37: undefined reference to `sf_close'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:45: undefined reference to `__imp_alBufferData'
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:28: undefined reference to `sf_strerror'
+say_sound_buffer.o: In function `say_sound_buffer_get_channel_count':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:82: undefined reference to `__imp_alGetBufferi'
+say_sound_buffer.o: In function `say_sound_buffer_get_sample_rate':
+C:\Ruby22-x64\lib\ruby\gems\2.2.0\gems\ray-0.2.1\ext/say_sound_buffer.c:89: undefined reference to `__imp_alGetBufferi'
+collect2.exe: error: ld returned 1 exit status
+make: *** [ray_ext.so] Error 1
+
+make failed, exit code 2

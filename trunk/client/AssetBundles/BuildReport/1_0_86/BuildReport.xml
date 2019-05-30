@@ -1,0 +1,1941 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildReport>
+    <Summary>
+      <ProductName>Demo1</ProductName>
+      <CompanyName>DefaultCompany</CompanyName>
+      <GameIdentifier>unity.MoreMountains.TopDown</GameIdentifier>
+      <ApplicableGameVersion>1.0</ApplicableGameVersion>
+      <InternalResourceVersion>86</InternalResourceVersion>
+      <UnityVersion>2018.3.13f1</UnityVersion>
+      <Platforms>MacOS</Platforms>
+      <ZipSelected>True</ZipSelected>
+      <BuildAssetBundleOptions>272</BuildAssetBundleOptions>
+    </Summary>
+    <AssetBundles Count="236">
+      <AssetBundle Name="gamescript/localization/default" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="e23ba536d4c314f5d9ed8649c7e787b0" Name="Assets/GameScript/Localization/Default.xml" Length="181" HashCode="-1201316828" />
+        </Assets>
+        <Codes>
+          <MacOS Length="1300" HashCode="-93571050" ZipLength="1094" ZipHashCode="1098190078" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="gamescript/utilsscript/configdata/asset/normal_table_tabledata" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="0fed9dc0a657f44f4ae426a9594f998d" Name="Assets/GameScript/UtilsScript/ConfigData/Asset/NORMAL_TABLE_TableData.txt" Length="508" HashCode="-66867885" />
+        </Assets>
+        <Codes>
+          <MacOS Length="1307" HashCode="-1154611611" ZipLength="1103" ZipHashCode="400174210" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="prefab/characters/footsoldier" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="96a9cec4f92ef447ca98ba45474dc6c0" Name="Assets/Prefab/Characters/FootSoldier.prefab" Length="5174" HashCode="-819264194">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/Prefab/Characters/FootSoldierBase.prefab" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <MacOS Length="127932" HashCode="-1656702610" ZipLength="110294" ZipHashCode="-2015150969" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="prefab/characters/footsoldierbase" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="9d58de61004294813ba9ac0d8e60e73d" Name="Assets/Prefab/Characters/FootSoldierBase.prefab" Length="4412" HashCode="-878970497" />
+        </Assets>
+        <Codes>
+          <MacOS Length="127339" HashCode="-1119260779" ZipLength="109697" ZipHashCode="-2064592042" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="prefab/characters/path" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="46f11d9e14e034148b7d17e0d9c6acc2" Name="Assets/Prefab/Characters/Path.prefab" Length="3394" HashCode="-236589160">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/Resources/GoldenSkullStudios/path.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <MacOS Length="16477" HashCode="991886702" ZipLength="11809" ZipHashCode="278107281" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="prefab/terrain/city" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="4a504b17bdf224f5ea8859f431b5ec22" Name="Assets/Prefab/Terrain/City.prefab" Length="2580" HashCode="-1265503558">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/Resources/Image/City.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <MacOS Length="15898" HashCode="2108335928" ZipLength="11271" ZipHashCode="-980115288" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="prefab/terrain/ground" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c9fc1522b17a641039419b97f5c20387" Name="Assets/Prefab/Terrain/Ground.prefab" Length="4171" HashCode="1284274565">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_01.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <MacOS Length="16498" HashCode="-289615821" ZipLength="11836" ZipHashCode="-700128357" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="prefab/terrain/mountain" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="0d5f95ab5946e4516bfef4e9bb4732bb" Name="Assets/Prefab/Terrain/Mountain.prefab" Length="4170" HashCode="-589613235">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_01.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <MacOS Length="16506" HashCode="-382447798" ZipLength="11832" ZipHashCode="-1857622744" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="prefab/terrain/water" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="a22f6f9567c944249b02e9b63bed38bf" Name="Assets/Prefab/Terrain/Water.prefab" Length="3438" HashCode="1486356422">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/Resources/GoldenSkullStudios/Water/Water00000000.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <MacOS Length="15959" HashCode="1421553003" ZipLength="11356" ZipHashCode="846094037" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="prefab/ui/createcharacter" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="52bbc2883dd74435f9bbc519a230ea4e" Name="Assets/Prefab/UI/CreateCharacter.prefab" Length="17891" HashCode="-880593693" />
+        </Assets>
+        <Codes>
+          <MacOS Length="10979" HashCode="-1575963277" ZipLength="8999" ZipHashCode="-470991424" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="prefab/ui/gameinfosettings" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="9e820449f9bd5406d9b2887c477d4a2d" Name="Assets/Prefab/UI/GameInfoSettings.prefab" Length="34383" HashCode="-142607631" />
+        </Assets>
+        <Codes>
+          <MacOS Length="15004" HashCode="-1469412882" ZipLength="12083" ZipHashCode="1052255259" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="prefab/ui/loading" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="447aaf1fdec064f5f9bd98922945af0c" Name="Assets/Prefab/UI/Loading.prefab" Length="7447" HashCode="-1719923725" />
+        </Assets>
+        <Codes>
+          <MacOS Length="5031" HashCode="-342257327" ZipLength="4191" ZipHashCode="-1717274608" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="prefab/ui/selectmode" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="5bf42eed73a154624932b0c77d8b0bce" Name="Assets/Prefab/UI/SelectMode.prefab" Length="24095" HashCode="-806829503" />
+        </Assets>
+        <Codes>
+          <MacOS Length="11251" HashCode="-900880784" ZipLength="9234" ZipHashCode="1101617093" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="prefab/ui/startmenu" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="88723bce0a36c4147af3ef7b63296628" Name="Assets/Prefab/UI/StartMenu.prefab" Length="36551" HashCode="-242629363" />
+        </Assets>
+        <Codes>
+          <MacOS Length="11901" HashCode="-2049112079" ZipLength="9804" ZipHashCode="-562864664" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/brick/iso_tile_brick_brick_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="6dacdbed3a6b7514399df3d1f7af634a" Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_01.png" Length="43927" HashCode="-1743949175" />
+        </Assets>
+        <Codes>
+          <MacOS Length="63112" HashCode="408068162" ZipLength="55626" ZipHashCode="1141858589" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/brick/iso_tile_brick_brick_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="30cc86803a5ed6c42a8f299a8fa84ed8" Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_02.png" Length="42957" HashCode="-1384360318" />
+        </Assets>
+        <Codes>
+          <MacOS Length="61887" HashCode="84904368" ZipLength="54454" ZipHashCode="98185472" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/brick/iso_tile_brick_brick_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c497a200b5b458a44b0c5a5451fc52fd" Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_03.png" Length="43488" HashCode="1169188213" />
+        </Assets>
+        <Codes>
+          <MacOS Length="62091" HashCode="-119360952" ZipLength="54255" ZipHashCode="-769077964" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/brick/iso_tile_brick_brick_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="b4646e1022a113e45a25e58262f2fa93" Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_04.png" Length="40437" HashCode="941452576" />
+        </Assets>
+        <Codes>
+          <MacOS Length="60045" HashCode="-1265116034" ZipLength="52095" ZipHashCode="883062132" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/brick/iso_tile_brick_sandstone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="48bdf5dbe052507438163310dfb7020f" Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_SandStone_01.png" Length="40237" HashCode="1460615882" />
+        </Assets>
+        <Codes>
+          <MacOS Length="53559" HashCode="-503732913" ZipLength="45099" ZipHashCode="976980917" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/brick/iso_tile_brick_snow_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="a1b0a68c44519324d9fec5baa1bce9fb" Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Snow_01.png" Length="32074" HashCode="-1799044385" />
+        </Assets>
+        <Codes>
+          <MacOS Length="43539" HashCode="-1033266939" ZipLength="35875" ZipHashCode="-757137893" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/brick/iso_tile_brick_stone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="ff1328e61be82ba4cb0d533e0bc16578" Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01.png" Length="29070" HashCode="-1049052172" />
+        </Assets>
+        <Codes>
+          <MacOS Length="52056" HashCode="-105669684" ZipLength="39231" ZipHashCode="2004103024" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/brick/iso_tile_brick_stone_01_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="0b063a986bd70f041a1bf0e0e65b935a" Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01_02.png" Length="38027" HashCode="577016988" />
+        </Assets>
+        <Codes>
+          <MacOS Length="52732" HashCode="789856622" ZipLength="42568" ZipHashCode="-428546734" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/brick/iso_tile_brick_stone_01_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="a2272796b6753cf4a856601971d9dd5a" Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01_03.png" Length="33337" HashCode="993514322" />
+        </Assets>
+        <Codes>
+          <MacOS Length="49192" HashCode="1671081833" ZipLength="40090" ZipHashCode="-854000594" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/brick/iso_tile_brick_stone_01_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f235e569219587c41a45ec42c5bc2899" Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01_04.png" Length="32191" HashCode="2038877226" />
+        </Assets>
+        <Codes>
+          <MacOS Length="50601" HashCode="1040247367" ZipLength="42368" ZipHashCode="1528765890" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/brick/iso_tile_brick_stone_01_05" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d24b97af131668849bcfba3ee1accc16" Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_01_05.png" Length="29810" HashCode="1428868973" />
+        </Assets>
+        <Codes>
+          <MacOS Length="51091" HashCode="-457543863" ZipLength="38415" ZipHashCode="1190252700" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/brick/iso_tile_brick_stone_02_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="5beeaad761521af4a93280f706454502" Name="Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Stone_02_01.png" Length="40381" HashCode="-364485500" />
+        </Assets>
+        <Codes>
+          <MacOS Length="72961" HashCode="1481464239" ZipLength="62548" ZipHashCode="-286516982" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/dirt/iso_tile_dirt_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="38f0f07655250c84c8d60e98f52ddd59" Name="Assets/Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01.png" Length="31599" HashCode="-18669516" />
+        </Assets>
+        <Codes>
+          <MacOS Length="57852" HashCode="-869704165" ZipLength="49092" ZipHashCode="-919927274" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/dirt/iso_tile_dirt_01_tosnow_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="9ff3665d6c157c5428234650deac5faf" Name="Assets/Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01_ToSnow_01.png" Length="41754" HashCode="-317363423" />
+        </Assets>
+        <Codes>
+          <MacOS Length="76490" HashCode="666651171" ZipLength="67900" ZipHashCode="-1861785158" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/dirt/iso_tile_dirt_01_tosnow_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="2047b67e95877e24b9ad5dd4a2b51c8e" Name="Assets/Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01_ToSnow_02.png" Length="43731" HashCode="405867568" />
+        </Assets>
+        <Codes>
+          <MacOS Length="77134" HashCode="-354601193" ZipLength="68750" ZipHashCode="-1113209843" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/dirt/iso_tile_dirt_01_tostone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="351d188ac5383de43a0c2fe2129e7789" Name="Assets/Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01_ToStone_01.png" Length="38383" HashCode="2137152651" />
+        </Assets>
+        <Codes>
+          <MacOS Length="65400" HashCode="-501855883" ZipLength="55979" ZipHashCode="1020914841" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/dirt/iso_tile_dirt_01_tostone_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="cdd25e8ee4271f047b3ecb7bdcd1df9b" Name="Assets/Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_01_ToStone_02.png" Length="41388" HashCode="1368030268" />
+        </Assets>
+        <Codes>
+          <MacOS Length="73356" HashCode="2137339295" ZipLength="63108" ZipHashCode="-563447709" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/dirt/iso_tile_dirt_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="73c381840b9e96945986aa9fac9dcaf5" Name="Assets/Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_02.png" Length="25283" HashCode="1626455548" />
+        </Assets>
+        <Codes>
+          <MacOS Length="42508" HashCode="-2052031631" ZipLength="35819" ZipHashCode="638203943" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/dirt/iso_tile_dirt_02_tostone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="8ba6494715c915547b322c0c281b7b78" Name="Assets/Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_02_ToStone_01.png" Length="40802" HashCode="-1939870943" />
+        </Assets>
+        <Codes>
+          <MacOS Length="71627" HashCode="-2052480644" ZipLength="62550" ZipHashCode="787704683" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/dirt/iso_tile_dirt_02_tostone_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="b3362a07a7667a64d8a17c12c19ff704" Name="Assets/Resources/GoldenSkullStudios/Dirt/ISO_Tile_Dirt_02_ToStone_02.png" Length="35319" HashCode="1897270423" />
+        </Assets>
+        <Codes>
+          <MacOS Length="61629" HashCode="1395455207" ZipLength="53701" ZipHashCode="895350368" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grass_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="5730cda6685e57845ae807d3a19f8386" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_Grass_01.png" Length="36738" HashCode="-1350857287" />
+        </Assets>
+        <Codes>
+          <MacOS Length="67142" HashCode="-2019976674" ZipLength="58238" ZipHashCode="-1823277604" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspatch_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="4a40a5d6062d3994eb89546484780c26" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPatch_01.png" Length="35381" HashCode="1321321502" />
+        </Assets>
+        <Codes>
+          <MacOS Length="66125" HashCode="-884490623" ZipLength="57270" ZipHashCode="-676248087" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspatch_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="ef14886e0a930b54ab5a29ec3d7b60b9" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPatch_02.png" Length="41044" HashCode="2065115797" />
+        </Assets>
+        <Codes>
+          <MacOS Length="71391" HashCode="2080996366" ZipLength="61471" ZipHashCode="-902081608" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspatch_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c6731511aa78ff2469895f654ba9957a" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPatch_03.png" Length="36180" HashCode="1598732261" />
+        </Assets>
+        <Codes>
+          <MacOS Length="65585" HashCode="59430554" ZipLength="57201" ZipHashCode="-1606907407" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_3cross_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="a57785f55a3f9dd4dbfc3fa955962baf" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_01.png" Length="35472" HashCode="-1388077302" />
+        </Assets>
+        <Codes>
+          <MacOS Length="65817" HashCode="-313485482" ZipLength="57616" ZipHashCode="-1069328343" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_3cross_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="8d0ea7c6932260f418e7e2b8dd14f2a6" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_02.png" Length="35318" HashCode="369986754" />
+        </Assets>
+        <Codes>
+          <MacOS Length="65106" HashCode="440322375" ZipLength="56968" ZipHashCode="-959930098" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_3cross_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="1d284d309e6360c4d99983c54657443c" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_03.png" Length="35150" HashCode="1368802735" />
+        </Assets>
+        <Codes>
+          <MacOS Length="65072" HashCode="1294658394" ZipLength="56814" ZipHashCode="-1016085790" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_3cross_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f9cd6857dc77920479e5554e295b406e" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_3Cross_04.png" Length="35413" HashCode="-456220940" />
+        </Assets>
+        <Codes>
+          <MacOS Length="66174" HashCode="-947626701" ZipLength="57931" ZipHashCode="-497801849" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_4cross" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="2f859d245f0aa0c4e923833663d25f04" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_4Cross.png" Length="34791" HashCode="-1931107172" />
+        </Assets>
+        <Codes>
+          <MacOS Length="64134" HashCode="-1175065066" ZipLength="55953" ZipHashCode="-1532007267" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_curve_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f19fa1a145c3d644ead1a5e87518ac35" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Curve_01.png" Length="36028" HashCode="-1785179194" />
+        </Assets>
+        <Codes>
+          <MacOS Length="67108" HashCode="-1472389062" ZipLength="58653" ZipHashCode="-21232045" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_curve_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="ec1b266780a724d4d8c8d46e6b212f85" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Curve_02.png" Length="36034" HashCode="-1189984526" />
+        </Assets>
+        <Codes>
+          <MacOS Length="66993" HashCode="808552034" ZipLength="58536" ZipHashCode="-581013918" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_curve_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c9e9398b6c8f12e42a340ed2b455d191" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Curve_03.png" Length="35975" HashCode="1460858372" />
+        </Assets>
+        <Codes>
+          <MacOS Length="66592" HashCode="455730380" ZipLength="58276" ZipHashCode="-1255529596" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_curve_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="618a53cdf166b5948991fb74cc6b130c" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Curve_04.png" Length="35840" HashCode="795604177" />
+        </Assets>
+        <Codes>
+          <MacOS Length="66420" HashCode="-2029033422" ZipLength="57919" ZipHashCode="-459123196" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_end_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="96bc81499313d7940bb89c0bb487f1c9" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_01.png" Length="36273" HashCode="-1533198898" />
+        </Assets>
+        <Codes>
+          <MacOS Length="67259" HashCode="1485925648" ZipLength="58838" ZipHashCode="1610535129" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_end_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="154cf741d9069c549b326d280d5a3573" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_02.png" Length="36142" HashCode="1105351791" />
+        </Assets>
+        <Codes>
+          <MacOS Length="66898" HashCode="-1081769085" ZipLength="58433" ZipHashCode="925176359" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_end_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="5f31dcef41c3a1f4c926e4148766fc19" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_03.png" Length="36147" HashCode="2010110702" />
+        </Assets>
+        <Codes>
+          <MacOS Length="67148" HashCode="1099100578" ZipLength="58701" ZipHashCode="-1961757919" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_end_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="5698fcbf22e5dd24989b4cb3e2a8c16a" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_End_04.png" Length="36286" HashCode="1272288102" />
+        </Assets>
+        <Codes>
+          <MacOS Length="67339" HashCode="1911124107" ZipLength="58911" ZipHashCode="1998114696" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_single" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="4fa1d04c987d2824ab1a53a2abad9069" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Single.png" Length="36576" HashCode="-523184525" />
+        </Assets>
+        <Codes>
+          <MacOS Length="68042" HashCode="1923015999" ZipLength="59348" ZipHashCode="346624661" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_straight_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="4a0616b303beb3c458acd3efd863e3ab" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Straight_01.png" Length="35819" HashCode="-1518881377" />
+        </Assets>
+        <Codes>
+          <MacOS Length="66587" HashCode="1071985630" ZipLength="58282" ZipHashCode="-1199707963" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/grass/iso_tile_dirt_01_grasspath_straight_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="4bee87d22d490ae468271651b579a909" Name="Assets/Resources/GoldenSkullStudios/Grass/ISO_Tile_Dirt_01_GrassPath_Straight_02.png" Length="35831" HashCode="-1057406482" />
+        </Assets>
+        <Codes>
+          <MacOS Length="66345" HashCode="-466845493" ZipLength="58077" ZipHashCode="1634997211" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/iso_tile_template_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="3f8ea39f9b01d3b4c8b98ebcb81088c9" Name="Assets/Resources/GoldenSkullStudios/ISO_Tile_Template_01.png" Length="4778" HashCode="-76203724" />
+        </Assets>
+        <Codes>
+          <MacOS Length="8233" HashCode="1499511842" ZipLength="6195" ZipHashCode="-1831945538" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/lava/iso_tile_lava_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="4ae23acbbd0567947a6051d8f4ef6629" Name="Assets/Resources/GoldenSkullStudios/Lava/ISO_Tile_Lava_01.png" Length="27101" HashCode="-1255014929" />
+        </Assets>
+        <Codes>
+          <MacOS Length="41975" HashCode="1981519407" ZipLength="35249" ZipHashCode="-1157873350" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/lava/iso_tile_lava_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="eef2814b295b565498b6c5a7d12f33e7" Name="Assets/Resources/GoldenSkullStudios/Lava/ISO_Tile_Lava_02.png" Length="38616" HashCode="-928437497" />
+        </Assets>
+        <Codes>
+          <MacOS Length="66493" HashCode="-1881005970" ZipLength="58104" ZipHashCode="63344588" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/lava/iso_tile_lavacracks_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="13ea1d8428e49c14c90442cec4ef095e" Name="Assets/Resources/GoldenSkullStudios/Lava/ISO_Tile_LavaCracks_01.png" Length="38666" HashCode="-2041039201" />
+        </Assets>
+        <Codes>
+          <MacOS Length="74054" HashCode="528113675" ZipLength="64638" ZipHashCode="-371392326" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/lava/iso_tile_lavastone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="9be0ebe527c711448a4c393676ede500" Name="Assets/Resources/GoldenSkullStudios/Lava/ISO_Tile_LavaStone_01.png" Length="27628" HashCode="1692863528" />
+        </Assets>
+        <Codes>
+          <MacOS Length="43766" HashCode="1195465690" ZipLength="36561" ZipHashCode="1112978888" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_dirt_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="9d6298f2cc3f78643a2c2a7645effaf0" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_Dirt_01.png" Length="37032" HashCode="-886289328" />
+        </Assets>
+        <Codes>
+          <MacOS Length="37575" HashCode="754805178" ZipLength="32087" ZipHashCode="405134294" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_dirttostonetransition_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="fb0e7cfd4c205ee4f8ccc1588e5dfb02" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_DirtToStoneTransition_01.png" Length="24498" HashCode="-674786231" />
+        </Assets>
+        <Codes>
+          <MacOS Length="44089" HashCode="1205558255" ZipLength="38101" ZipHashCode="1954936018" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_dirttostonetransition_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="128cb0d643b04e149bd6022e421521a9" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_DirtToStoneTransition_02.png" Length="23053" HashCode="2031240740" />
+        </Assets>
+        <Codes>
+          <MacOS Length="41685" HashCode="-84590030" ZipLength="36057" ZipHashCode="-1210020319" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_riverbed_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c116e528227f1f841aaada1a74ab4013" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_Riverbed_01.png" Length="28787" HashCode="1394451174" />
+        </Assets>
+        <Codes>
+          <MacOS Length="45994" HashCode="-1393912205" ZipLength="40976" ZipHashCode="560104713" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_riverbed_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d8456e6c819c51a40bab5e28c5746ed1" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_Riverbed_02.png" Length="28087" HashCode="329071514" />
+        </Assets>
+        <Codes>
+          <MacOS Length="45949" HashCode="1368399520" ZipLength="40583" ZipHashCode="1325979876" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_riverbed_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="1f153e23efcc85c4dba48df6301da55a" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_Riverbed_03.png" Length="27550" HashCode="1933403031" />
+        </Assets>
+        <Codes>
+          <MacOS Length="43263" HashCode="10972655" ZipLength="38202" ZipHashCode="-17208735" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_riverbed_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="4fb6317702b904547933117de6dd6647" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_Riverbed_04.png" Length="27391" HashCode="427472239" />
+        </Assets>
+        <Codes>
+          <MacOS Length="47884" HashCode="-1549364399" ZipLength="41566" ZipHashCode="1677842161" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_sand_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f6cf977306fdf9843a5a111111ce4d5f" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_Sand_01.png" Length="19158" HashCode="469287764" />
+        </Assets>
+        <Codes>
+          <MacOS Length="35461" HashCode="796667400" ZipLength="31108" ZipHashCode="1857538683" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_sand_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="035f00ee1289dd147a384068f68ef852" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_Sand_02.png" Length="19296" HashCode="151324308" />
+        </Assets>
+        <Codes>
+          <MacOS Length="36756" HashCode="1391713247" ZipLength="32747" ZipHashCode="-1610831830" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_sand_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="bb816b6bfac6508489d7914e92369deb" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_Sand_03.png" Length="23779" HashCode="-78146049" />
+        </Assets>
+        <Codes>
+          <MacOS Length="40128" HashCode="-86771072" ZipLength="35548" ZipHashCode="-1982769237" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_stone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="937a0e285256b9348b5561d142b3fe43" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_Stone_01.png" Length="41481" HashCode="-2123530918" />
+        </Assets>
+        <Codes>
+          <MacOS Length="39602" HashCode="1059833486" ZipLength="33828" ZipHashCode="854610157" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_stone_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f8262ca9b28baaa4c934bb5a7d1bc4a9" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_Stone_02.png" Length="24292" HashCode="-1805369561" />
+        </Assets>
+        <Codes>
+          <MacOS Length="39160" HashCode="528174044" ZipLength="34522" ZipHashCode="-1360976186" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/low/iso_lowtile_stone_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="9e19b743955d8b74199963a542ab000e" Name="Assets/Resources/GoldenSkullStudios/Low/ISO_LowTile_Stone_03.png" Length="26565" HashCode="1673586487" />
+        </Assets>
+        <Codes>
+          <MacOS Length="44419" HashCode="-1548280897" ZipLength="39286" ZipHashCode="263621454" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_cracks_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="8769273d12914a44f96e82d7322b66b1" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Cracks_01.png" Length="15709" HashCode="-890679989" />
+        </Assets>
+        <Codes>
+          <MacOS Length="25814" HashCode="-352800913" ZipLength="21476" ZipHashCode="-790593345" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_cracks_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="7035e0c524722e042adadca5083ff968" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Cracks_02.png" Length="10949" HashCode="1440417249" />
+        </Assets>
+        <Codes>
+          <MacOS Length="16682" HashCode="-173000824" ZipLength="13680" ZipHashCode="-607968717" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_glow_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="5a631a29761112147a95067939cfdb28" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Glow_01.png" Length="26505" HashCode="1533842629" />
+        </Assets>
+        <Codes>
+          <MacOS Length="54773" HashCode="1704813697" ZipLength="45626" ZipHashCode="-2135709825" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_glow_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="84c6f0f8006966a4fa3b1b8ed8a8cffb" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Glow_02.png" Length="6760" HashCode="1814012746" />
+        </Assets>
+        <Codes>
+          <MacOS Length="13834" HashCode="221159618" ZipLength="10953" ZipHashCode="-453856973" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c307387b4bdf33b48be172c0d53c8ab6" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_01.png" Length="20928" HashCode="-423482177" />
+        </Assets>
+        <Codes>
+          <MacOS Length="36160" HashCode="1084766198" ZipLength="31819" ZipHashCode="-64627940" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_half_h_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="dfe2a770858303943b5f831706023cad" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Half_H_01.png" Length="17128" HashCode="1050811000" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28810" HashCode="-2106817399" ZipLength="24927" ZipHashCode="-555145914" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_half_h_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="55466e1209e73754d83ee65e4904d72b" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Half_H_02.png" Length="18663" HashCode="-34212212" />
+        </Assets>
+        <Codes>
+          <MacOS Length="27201" HashCode="2032027847" ZipLength="23193" ZipHashCode="2068057543" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_half_v_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="9caaffbb44d47cf4d81e42ffb704389e" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Half_V_01.png" Length="19484" HashCode="-185613282" />
+        </Assets>
+        <Codes>
+          <MacOS Length="25473" HashCode="796594447" ZipLength="22003" ZipHashCode="1183659023" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch__h_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="5c809256ff0eb254a99ffbe029ba5513" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch__H_01.png" Length="11580" HashCode="1126239693" />
+        </Assets>
+        <Codes>
+          <MacOS Length="17669" HashCode="758586394" ZipLength="15033" ZipHashCode="969450373" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch__h_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="39c46cd7b33b3d44b9ef3a19d7741763" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch__H_02.png" Length="16977" HashCode="-1375081502" />
+        </Assets>
+        <Codes>
+          <MacOS Length="22114" HashCode="-2559584" ZipLength="19146" ZipHashCode="1055519614" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch__v_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="68c3b30b9bbac7a4fbfb8162c72e25f0" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch__V_01.png" Length="15596" HashCode="1505481005" />
+        </Assets>
+        <Codes>
+          <MacOS Length="20003" HashCode="1043467147" ZipLength="17210" ZipHashCode="-455813388" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch__v_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="6a1d4b7690f1d7b40bfc6aef4804ce18" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch__V_02.png" Length="12837" HashCode="-551750377" />
+        </Assets>
+        <Codes>
+          <MacOS Length="19716" HashCode="990144680" ZipLength="16983" ZipHashCode="1694774080" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="a12c85220205a2c49a382440bfc32f41" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_01.png" Length="18322" HashCode="-128517406" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29069" HashCode="-737518174" ZipLength="25726" ZipHashCode="-1216546515" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="ac2dc907e36233c47977e698270dd634" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02.png" Length="30722" HashCode="659304994" />
+        </Assets>
+        <Codes>
+          <MacOS Length="43058" HashCode="-43213364" ZipLength="39479" ZipHashCode="424759346" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch_02_h_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f1c54e49b8e6a294d90bfd7e637f460c" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02_H_01.png" Length="18150" HashCode="-70516049" />
+        </Assets>
+        <Codes>
+          <MacOS Length="27279" HashCode="-1378149604" ZipLength="24696" ZipHashCode="794418369" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch_02_h_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="9b09cd0c7aeec79409fcaa63a355d957" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02_H_02.png" Length="25346" HashCode="1335591653" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28488" HashCode="-923080496" ZipLength="25758" ZipHashCode="779762425" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch_02_v_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="60191b1b55063b0489e2cd2ac8378ea7" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02_V_01.png" Length="26178" HashCode="-818018327" />
+        </Assets>
+        <Codes>
+          <MacOS Length="27235" HashCode="2052907941" ZipLength="24511" ZipHashCode="436480796" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch_02_v_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="28e3a2eda563a9843bda5129e0f2e2ba" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_02_V_02.png" Length="20000" HashCode="873368301" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28392" HashCode="1759897489" ZipLength="25993" ZipHashCode="2078252874" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="83f7c01fabea4a44e8482d2bf7ac7843" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03.png" Length="19826" HashCode="346178129" />
+        </Assets>
+        <Codes>
+          <MacOS Length="31409" HashCode="-548556442" ZipLength="29029" ZipHashCode="1707310582" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch_03_h_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f1773a959527d0840a123bde24932a80" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03_H_01.png" Length="15218" HashCode="-528884882" />
+        </Assets>
+        <Codes>
+          <MacOS Length="23000" HashCode="1373305615" ZipLength="20717" ZipHashCode="-1576372851" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch_03_h_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="03714e6aaa131ca4f83cdccfdf4222f3" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03_H_02.png" Length="13562" HashCode="-196763680" />
+        </Assets>
+        <Codes>
+          <MacOS Length="21092" HashCode="-498255613" ZipLength="18582" ZipHashCode="-647145000" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch_03_v_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="b70c6eb7dea2dc34cbdea09d655ac249" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03_V_01.png" Length="17451" HashCode="-954061636" />
+        </Assets>
+        <Codes>
+          <MacOS Length="23086" HashCode="21849144" ZipLength="20669" ZipHashCode="-1772341562" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_grass_patch_03_v_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="cc426c28c0496f74e9950b929c98b022" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Grass_Patch_03_V_02.png" Length="13577" HashCode="2055463563" />
+        </Assets>
+        <Codes>
+          <MacOS Length="20704" HashCode="1007168337" ZipLength="18730" ZipHashCode="-1230882783" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_cross" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="24b9df42d5e538141bb028763b6f6ed9" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross.png" Length="19284" HashCode="554762729" />
+        </Assets>
+        <Codes>
+          <MacOS Length="33264" HashCode="2017363405" ZipLength="29528" ZipHashCode="-1876527823" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_cross3_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="e36f146cca9c61c46bfa476c624759e5" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross3_01.png" Length="19945" HashCode="-835126497" />
+        </Assets>
+        <Codes>
+          <MacOS Length="35083" HashCode="132170263" ZipLength="31250" ZipHashCode="-1101798683" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_cross3_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="7802a33db07bcaf43a94c27eb7a7137a" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross3_02.png" Length="19822" HashCode="-543272727" />
+        </Assets>
+        <Codes>
+          <MacOS Length="33939" HashCode="-2049330257" ZipLength="30431" ZipHashCode="-280533299" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_cross3_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="a2877342a79c82c4ab8c1d41c3be26ec" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross3_03.png" Length="19637" HashCode="77758692" />
+        </Assets>
+        <Codes>
+          <MacOS Length="34583" HashCode="-790561774" ZipLength="30855" ZipHashCode="1327614680" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_cross3_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f1a367eae4851fb4f8acf77aaf240b7c" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Cross3_04.png" Length="19925" HashCode="1026444131" />
+        </Assets>
+        <Codes>
+          <MacOS Length="35230" HashCode="2101490798" ZipLength="31325" ZipHashCode="-928751599" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_curve_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="95df30394352b864a8b93321f5d13d72" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Curve_01.png" Length="20340" HashCode="687693039" />
+        </Assets>
+        <Codes>
+          <MacOS Length="36049" HashCode="-858554302" ZipLength="32194" ZipHashCode="1164245797" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_curve_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="003ccdb1a474b4748aeeaa090fe5e37f" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Curve_02.png" Length="20523" HashCode="-601465685" />
+        </Assets>
+        <Codes>
+          <MacOS Length="36451" HashCode="-1928868081" ZipLength="32571" ZipHashCode="1149686166" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_curve_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="176584fb763af9c4098890c74260ab8d" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Curve_03.png" Length="20457" HashCode="-948419672" />
+        </Assets>
+        <Codes>
+          <MacOS Length="35976" HashCode="-2034017619" ZipLength="31997" ZipHashCode="-1919922487" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_curve_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="0590e34ada19a3e4c98aa2c89b6ad262" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Curve_04.png" Length="20557" HashCode="362157007" />
+        </Assets>
+        <Codes>
+          <MacOS Length="36623" HashCode="1017386927" ZipLength="32603" ZipHashCode="-1130035560" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_end_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="8d4e61c74ae78854697316f19e4257f6" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_01.png" Length="20760" HashCode="-742556884" />
+        </Assets>
+        <Codes>
+          <MacOS Length="36515" HashCode="-231661623" ZipLength="32532" ZipHashCode="-918073398" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_end_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="6bda9484823acea41a1b479642322a86" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_02.png" Length="20653" HashCode="-451875931" />
+        </Assets>
+        <Codes>
+          <MacOS Length="36430" HashCode="-1778442367" ZipLength="32536" ZipHashCode="2067616416" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_end_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="0d24fd69acb911047a1538d90d9094f6" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_03.png" Length="20697" HashCode="-1225639828" />
+        </Assets>
+        <Codes>
+          <MacOS Length="36506" HashCode="228235147" ZipLength="32494" ZipHashCode="1633934209" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_end_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="97d7363c3727cbe4fa7b3e4ea4a759e6" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_End_04.png" Length="20806" HashCode="260928842" />
+        </Assets>
+        <Codes>
+          <MacOS Length="37030" HashCode="107582916" ZipLength="33083" ZipHashCode="-291018824" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_single" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d694043208e401f4a831fee8590fd520" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Single.png" Length="21141" HashCode="-968856145" />
+        </Assets>
+        <Codes>
+          <MacOS Length="37719" HashCode="1835804578" ZipLength="33470" ZipHashCode="1600180586" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_straight_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="0304ac18602995447abd0bd6973ae28e" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Straight_01.png" Length="20417" HashCode="604496050" />
+        </Assets>
+        <Codes>
+          <MacOS Length="35619" HashCode="1861419502" ZipLength="31882" ZipHashCode="428107046" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_path_straight_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="4aa5b579a6924be44b8209e0e44ac421" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Path_Straight_02.png" Length="20318" HashCode="-1284861918" />
+        </Assets>
+        <Codes>
+          <MacOS Length="35869" HashCode="-1941584946" ZipLength="32041" ZipHashCode="-449607770" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_shore_corner_d" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f70fd254b9525d1488d6d4f8ef80ed54" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_D.png" Length="4368" HashCode="-1592717721" />
+        </Assets>
+        <Codes>
+          <MacOS Length="6746" HashCode="269503617" ZipLength="5065" ZipHashCode="-1498697968" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_shore_corner_l" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="0c603f767ac321a4f84cc515a722ecc4" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_L.png" Length="4048" HashCode="1910182654" />
+        </Assets>
+        <Codes>
+          <MacOS Length="6069" HashCode="-1325391311" ZipLength="4538" ZipHashCode="-1126549396" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_shore_corner_r" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="ed5f57bb66487884b91b52bca0ed8c51" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_R.png" Length="4029" HashCode="2135963349" />
+        </Assets>
+        <Codes>
+          <MacOS Length="5887" HashCode="1738058768" ZipLength="4421" ZipHashCode="-439078816" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_shore_corner_ru" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="9b2a2a6871c82e141b55447e1c5c8d84" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_RU.png" Length="4012" HashCode="886560213" />
+        </Assets>
+        <Codes>
+          <MacOS Length="6067" HashCode="2002529966" ZipLength="4512" ZipHashCode="-761556002" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_shore_corner_u" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f43c57fe04fc4b041bd2035a199b4f96" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Corner_U.png" Length="4012" HashCode="886560213" />
+        </Assets>
+        <Codes>
+          <MacOS Length="6051" HashCode="1134446141" ZipLength="4503" ZipHashCode="645968649" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_shore_straight_ld" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="71e9db2a1fe1bd74cb18c16eec2b3f62" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Straight_LD.png" Length="5623" HashCode="-1636454934" />
+        </Assets>
+        <Codes>
+          <MacOS Length="8979" HashCode="-1777215432" ZipLength="6984" ZipHashCode="-981767098" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_shore_straight_lu" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="202bdd2d9a2b4b64a871f63421fb7fcb" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Straight_LU.png" Length="5642" HashCode="-1739682051" />
+        </Assets>
+        <Codes>
+          <MacOS Length="8850" HashCode="-440823159" ZipLength="6862" ZipHashCode="-711168156" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_shore_straight_rd" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="4252029de9db04d4199f6e3defe30553" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Straight_RD.png" Length="5715" HashCode="1293213350" />
+        </Assets>
+        <Codes>
+          <MacOS Length="8932" HashCode="1005936542" ZipLength="6916" ZipHashCode="64150275" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_shore_straight_ru" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="38428ec49eccef2408e918cd1e061ec7" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_Shore_Straight_RU.png" Length="5978" HashCode="-563815400" />
+        </Assets>
+        <Codes>
+          <MacOS Length="9467" HashCode="-1878349867" ZipLength="7329" ZipHashCode="527538161" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_stonepieces_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="2f54e04c282e9974fa282c5f24c0b640" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01.png" Length="45567" HashCode="1092373006" />
+        </Assets>
+        <Codes>
+          <MacOS Length="68923" HashCode="-1958090255" ZipLength="59787" ZipHashCode="322534623" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_stonepieces_01_half_h_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="6ba61ff10f4e4704090da619160cff57" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01_Half_H_01.png" Length="44058" HashCode="-422862940" />
+        </Assets>
+        <Codes>
+          <MacOS Length="62316" HashCode="568181373" ZipLength="53621" ZipHashCode="1385798091" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_stonepieces_01_half_h_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="ea4cfaaedf6568847997ff2633225864" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01_Half_H_02.png" Length="11726" HashCode="1899821940" />
+        </Assets>
+        <Codes>
+          <MacOS Length="16934" HashCode="-1617065374" ZipLength="14212" ZipHashCode="-803405895" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_stonepieces_01_half_v_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="3efb15a68f7b8884a93bdc854ef65112" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01_Half_V_01.png" Length="28423" HashCode="1134010478" />
+        </Assets>
+        <Codes>
+          <MacOS Length="42244" HashCode="118223360" ZipLength="36354" ZipHashCode="-1199521829" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_stonepieces_01_half_v_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c1a3bf26a4570784493b03906f787627" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_01_Half_V_02.png" Length="28668" HashCode="-79677783" />
+        </Assets>
+        <Codes>
+          <MacOS Length="39449" HashCode="584317826" ZipLength="33381" ZipHashCode="544920628" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_stonepieces_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="45b40bd7a0770fe4a988708dd77e61e3" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02.png" Length="28808" HashCode="825381126" />
+        </Assets>
+        <Codes>
+          <MacOS Length="49148" HashCode="-1963193364" ZipLength="41432" ZipHashCode="-1248166282" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_stonepieces_02_half_h_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="05c645c8f4cf019489890b173b980328" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02_Half_H_01.png" Length="28046" HashCode="-1361661357" />
+        </Assets>
+        <Codes>
+          <MacOS Length="39871" HashCode="698166856" ZipLength="32898" ZipHashCode="78145645" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_stonepieces_02_half_h_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="6baa8c28728a4ed40a4d94760a52b417" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02_Half_H_02.png" Length="12115" HashCode="432923815" />
+        </Assets>
+        <Codes>
+          <MacOS Length="17433" HashCode="-1161349583" ZipLength="14519" ZipHashCode="-1448919261" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_stonepieces_02_half_v_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="74b09da65e1639b4a9185bf4fb91cd50" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02_Half_V_01.png" Length="17996" HashCode="-2069004109" />
+        </Assets>
+        <Codes>
+          <MacOS Length="26946" HashCode="-2053822468" ZipLength="22345" ZipHashCode="-1997089783" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/overlay/iso_overlay_stonepieces_02_half_v_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="eb1f5fa0cc7f2924cad75355d3f6085b" Name="Assets/Resources/GoldenSkullStudios/Overlay/ISO_Overlay_StonePieces_02_Half_V_02.png" Length="26058" HashCode="1343436450" />
+        </Assets>
+        <Codes>
+          <MacOS Length="33584" HashCode="-72755836" ZipLength="27843" ZipHashCode="741962278" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/path" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="35014c7487370414296060e8e3cc5397" Name="Assets/Resources/GoldenSkullStudios/path.png" Length="4127" HashCode="1261737952" />
+        </Assets>
+        <Codes>
+          <MacOS Length="4723" HashCode="-721432655" ZipLength="3804" ZipHashCode="837182515" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="943916d9019ebd04799ced3b2f79d638" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_01.png" Length="22741" HashCode="-744233183" />
+        </Assets>
+        <Codes>
+          <MacOS Length="41190" HashCode="-1616835403" ZipLength="35805" ZipHashCode="-1888889049" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="3482f4445309da0488dca83e75962869" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_02.png" Length="21372" HashCode="1403142242" />
+        </Assets>
+        <Codes>
+          <MacOS Length="38842" HashCode="1171868232" ZipLength="33410" ZipHashCode="384939310" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="7706d86777e7c7245ac761585cada2cd" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_03.png" Length="10744" HashCode="614569774" />
+        </Assets>
+        <Codes>
+          <MacOS Length="18327" HashCode="-1710806668" ZipLength="15038" ZipHashCode="-490279604" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="0c493dbfa170c2041a423ab369d896ea" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_04.png" Length="9017" HashCode="-1155544943" />
+        </Assets>
+        <Codes>
+          <MacOS Length="17094" HashCode="1320484139" ZipLength="13957" ZipHashCode="-77457187" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_05" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="22227a38cfcc1ad4eae607ee7031ba94" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_05.png" Length="25152" HashCode="2017234410" />
+        </Assets>
+        <Codes>
+          <MacOS Length="48442" HashCode="77115293" ZipLength="42126" ZipHashCode="-405740753" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_06" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="b97b6eee9abd8cb4cad13acd131feeb9" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_06.png" Length="9418" HashCode="-1587740607" />
+        </Assets>
+        <Codes>
+          <MacOS Length="16074" HashCode="-1809443826" ZipLength="12886" ZipHashCode="-1803681252" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_07" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="2bc05b660a58eef499e6c969ad4ccf24" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_07.png" Length="16519" HashCode="-806026507" />
+        </Assets>
+        <Codes>
+          <MacOS Length="31567" HashCode="-1801018743" ZipLength="26905" ZipHashCode="-1510897545" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_08" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="14dc2936970870549b6885cb7ce423e3" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_08.png" Length="15063" HashCode="778949068" />
+        </Assets>
+        <Codes>
+          <MacOS Length="26271" HashCode="1765752090" ZipLength="21902" ZipHashCode="-1198868708" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_09" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="ede370f422c7f554a88320dc97c1a4b1" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_09.png" Length="20379" HashCode="211452698" />
+        </Assets>
+        <Codes>
+          <MacOS Length="31285" HashCode="-1722538375" ZipLength="26798" ZipHashCode="242354698" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_10" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="dc4d268707bcab64c9623a3ae817468f" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_10.png" Length="22305" HashCode="1484908321" />
+        </Assets>
+        <Codes>
+          <MacOS Length="45268" HashCode="-371221287" ZipLength="39421" ZipHashCode="785051101" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_11" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="b5eae027f7e49a043af114bf3d4bf733" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_11.png" Length="15380" HashCode="556771835" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29235" HashCode="1838035129" ZipLength="25015" ZipHashCode="-1913166850" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_12" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="6fe01653ac26cee4b8e779a1717afc61" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_12.png" Length="11507" HashCode="91173906" />
+        </Assets>
+        <Codes>
+          <MacOS Length="20085" HashCode="-553838042" ZipLength="16878" ZipHashCode="-183830172" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/roof/iso_overlay_roof_hay_13" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="cb3abe4ce269f43449a40999c2afa6f2" Name="Assets/Resources/GoldenSkullStudios/Roof/ISO_Overlay_Roof_Hay_13.png" Length="21567" HashCode="1778453110" />
+        </Assets>
+        <Codes>
+          <MacOS Length="35615" HashCode="2129787149" ZipLength="29795" ZipHashCode="987137627" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/sand/iso_tile_sand_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="2c5a3117d5db1264188c0e85c12e64c7" Name="Assets/Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_01.png" Length="30607" HashCode="-795761847" />
+        </Assets>
+        <Codes>
+          <MacOS Length="57767" HashCode="1002811145" ZipLength="51409" ZipHashCode="1679785631" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/sand/iso_tile_sand_01_tostone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="392702bfcd797fb428e9644451a756ef" Name="Assets/Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_01_ToStone_01.png" Length="44966" HashCode="1924362689" />
+        </Assets>
+        <Codes>
+          <MacOS Length="81934" HashCode="331971527" ZipLength="72569" ZipHashCode="-558781770" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/sand/iso_tile_sand_01_tostone_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="7bc6fe1d58f03944ca77052cf19757dd" Name="Assets/Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_01_ToStone_02.png" Length="40344" HashCode="-828946392" />
+        </Assets>
+        <Codes>
+          <MacOS Length="74986" HashCode="2106817656" ZipLength="67165" ZipHashCode="-726397936" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/sand/iso_tile_sand_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d6ee73221ba9a1348b48655847c28b3e" Name="Assets/Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_02.png" Length="29752" HashCode="-626389589" />
+        </Assets>
+        <Codes>
+          <MacOS Length="55904" HashCode="-1863101352" ZipLength="48978" ZipHashCode="-1692336136" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/sand/iso_tile_sand_02_tostone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="54c65ae917e8366478791f5328125f2a" Name="Assets/Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_02_ToStone_01.png" Length="42626" HashCode="-1132753184" />
+        </Assets>
+        <Codes>
+          <MacOS Length="78561" HashCode="1993404993" ZipLength="69117" ZipHashCode="-586746965" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/sand/iso_tile_sand_02_tostone_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="27850de8d19393545a1af52d1a5c35cb" Name="Assets/Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_02_ToStone_02.png" Length="38365" HashCode="453683775" />
+        </Assets>
+        <Codes>
+          <MacOS Length="71611" HashCode="-20543477" ZipLength="63572" ZipHashCode="1142924702" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/sand/iso_tile_sand_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="61ff7d2f444cada46bc7b947340994c5" Name="Assets/Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_03.png" Length="28157" HashCode="1218135004" />
+        </Assets>
+        <Codes>
+          <MacOS Length="49948" HashCode="-1449107953" ZipLength="43146" ZipHashCode="441375751" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/sand/iso_tile_sand_03_tostone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c4129a90a8853d044826712ddb187089" Name="Assets/Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_03_ToStone_01.png" Length="41684" HashCode="266364076" />
+        </Assets>
+        <Codes>
+          <MacOS Length="76561" HashCode="902054670" ZipLength="67109" ZipHashCode="-1603024686" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/sand/iso_tile_sand_03_tostone_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="37b19e8bcfb413c47afc3cea216d1400" Name="Assets/Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_03_ToStone_02.png" Length="36863" HashCode="1720937583" />
+        </Assets>
+        <Codes>
+          <MacOS Length="67825" HashCode="480963945" ZipLength="59802" ZipHashCode="-2001128672" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/sand/iso_tile_sand_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f60a2e6adc7a1b1499affb2860b714ca" Name="Assets/Resources/GoldenSkullStudios/Sand/ISO_Tile_Sand_04.png" Length="37754" HashCode="-219402371" />
+        </Assets>
+        <Codes>
+          <MacOS Length="63581" HashCode="665005908" ZipLength="55813" ZipHashCode="999744167" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/snow/iso_tile_snow_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="bb2c21fa0f5adea4e811730949ce9578" Name="Assets/Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_01.png" Length="23140" HashCode="690935718" />
+        </Assets>
+        <Codes>
+          <MacOS Length="35170" HashCode="218109016" ZipLength="29151" ZipHashCode="-692284035" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/snow/iso_tile_snow_01_tostone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="8f6a5216709da5543b82b29539b94be4" Name="Assets/Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_01_ToStone_01.png" Length="47221" HashCode="1754397892" />
+        </Assets>
+        <Codes>
+          <MacOS Length="80614" HashCode="932596653" ZipLength="72277" ZipHashCode="-1127792873" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/snow/iso_tile_snow_01_tostone_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="6772d1026061fd244a988489ce84f01f" Name="Assets/Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_01_ToStone_02.png" Length="39698" HashCode="1162893955" />
+        </Assets>
+        <Codes>
+          <MacOS Length="65738" HashCode="-1771867297" ZipLength="58923" ZipHashCode="-1041884501" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/snow/iso_tile_snow_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="bc88e5be61642e44885c2d7d8048513f" Name="Assets/Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_02.png" Length="29722" HashCode="-766811384" />
+        </Assets>
+        <Codes>
+          <MacOS Length="41217" HashCode="2061406635" ZipLength="33616" ZipHashCode="1166987643" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/snow/iso_tile_snow_02_tostone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="ee37e4313b2352548944e3335a14212f" Name="Assets/Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_02_ToStone_01.png" Length="47051" HashCode="-1249061830" />
+        </Assets>
+        <Codes>
+          <MacOS Length="82653" HashCode="165029899" ZipLength="74052" ZipHashCode="134326584" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/snow/iso_tile_snow_02_tostone_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="92988273c73cf3a498dc94a1b2c8c71d" Name="Assets/Resources/GoldenSkullStudios/Snow/ISO_Tile_Snow_02_ToStone_02.png" Length="42517" HashCode="-875117637" />
+        </Assets>
+        <Codes>
+          <MacOS Length="69520" HashCode="1213730281" ZipLength="62188" ZipHashCode="-429765470" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stairs/iso_prop_stair_stone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d4072cf930358cc4c90ec4812e18e05d" Name="Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_01.png" Length="37486" HashCode="1200688091" />
+        </Assets>
+        <Codes>
+          <MacOS Length="61276" HashCode="-690500714" ZipLength="51843" ZipHashCode="-1531496602" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stairs/iso_prop_stair_stone_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="0f1b8ab85a24b90408802bb9d5240da0" Name="Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_02.png" Length="35664" HashCode="-1605184386" />
+        </Assets>
+        <Codes>
+          <MacOS Length="60169" HashCode="2090184915" ZipLength="50688" ZipHashCode="-1084589543" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stairs/iso_prop_stair_stone_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="46d71b80a30deae43ac7d44d779252d4" Name="Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_03.png" Length="35563" HashCode="-915879750" />
+        </Assets>
+        <Codes>
+          <MacOS Length="48949" HashCode="230652124" ZipLength="41094" ZipHashCode="-1945817584" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stairs/iso_prop_stair_stone_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d0311ab56acbe5f41bcae6484b1d824e" Name="Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_04.png" Length="38223" HashCode="862345954" />
+        </Assets>
+        <Codes>
+          <MacOS Length="46966" HashCode="-634995953" ZipLength="39714" ZipHashCode="1412770821" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stairs/iso_prop_stair_stone_05" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f7d5a9e22477e204094f57ce65a461b8" Name="Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_05.png" Length="43935" HashCode="1326188072" />
+        </Assets>
+        <Codes>
+          <MacOS Length="70680" HashCode="-1292353733" ZipLength="59809" ZipHashCode="1405592300" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stairs/iso_prop_stair_stone_06" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d862b5309164d78429acf8df1d570a66" Name="Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_06.png" Length="42225" HashCode="-2114512376" />
+        </Assets>
+        <Codes>
+          <MacOS Length="63714" HashCode="-1014381885" ZipLength="53595" ZipHashCode="1205863473" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stairs/iso_prop_stair_stone_07" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="daee479a9545e4241ad0f4b772fac976" Name="Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_07.png" Length="37151" HashCode="-1254374383" />
+        </Assets>
+        <Codes>
+          <MacOS Length="51573" HashCode="2094568896" ZipLength="43640" ZipHashCode="-27151972" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stairs/iso_prop_stair_stone_08" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="fb435c1e87d0c1341b0d3b6ce0aadfca" Name="Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_08.png" Length="39729" HashCode="647245966" />
+        </Assets>
+        <Codes>
+          <MacOS Length="61515" HashCode="-1846190689" ZipLength="51835" ZipHashCode="-454164319" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stairs/iso_prop_stair_stone_09" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="aa47c6af9e5c1734b9250fee4078d48d" Name="Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_09.png" Length="38242" HashCode="1489721621" />
+        </Assets>
+        <Codes>
+          <MacOS Length="59666" HashCode="-307820886" ZipLength="50139" ZipHashCode="-1289052429" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stairs/iso_prop_stair_stone_10" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="73a81d9d4cf6d484688331816840d2ce" Name="Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_10.png" Length="38790" HashCode="-797438260" />
+        </Assets>
+        <Codes>
+          <MacOS Length="44753" HashCode="-2116695349" ZipLength="37430" ZipHashCode="-882310884" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stairs/iso_prop_stair_stone_11" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="57113a2de4a3b8d4ca496d483c804a22" Name="Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_11.png" Length="39087" HashCode="-1655071745" />
+        </Assets>
+        <Codes>
+          <MacOS Length="62185" HashCode="1451891557" ZipLength="52308" ZipHashCode="1373693296" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stairs/iso_prop_stair_stone_12" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="dee0490310fc19947af67d766cf51503" Name="Assets/Resources/GoldenSkullStudios/Stairs/ISO_Prop_Stair_Stone_12.png" Length="42447" HashCode="767200365" />
+        </Assets>
+        <Codes>
+          <MacOS Length="58516" HashCode="1793099710" ZipLength="48995" ZipHashCode="1084221100" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stone/iso_tile_riverbed_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="4f9d3a5b153ec5645984c247b4019dba" Name="Assets/Resources/GoldenSkullStudios/Stone/ISO_Tile_Riverbed_01.png" Length="39782" HashCode="-554978241" />
+        </Assets>
+        <Codes>
+          <MacOS Length="72136" HashCode="467947646" ZipLength="62447" ZipHashCode="2042782256" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stone/iso_tile_riverbed_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="97e5f88ad96f67f4db4e1872f3874c89" Name="Assets/Resources/GoldenSkullStudios/Stone/ISO_Tile_Riverbed_02.png" Length="38234" HashCode="116907519" />
+        </Assets>
+        <Codes>
+          <MacOS Length="61656" HashCode="1335113260" ZipLength="53901" ZipHashCode="-91816094" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stone/iso_tile_riverbed_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="9190b035fbe0d804bb633c3f6c9f3ffa" Name="Assets/Resources/GoldenSkullStudios/Stone/ISO_Tile_Riverbed_03.png" Length="41925" HashCode="454824612" />
+        </Assets>
+        <Codes>
+          <MacOS Length="67988" HashCode="124116955" ZipLength="59869" ZipHashCode="-1216553648" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stone/iso_tile_riverbed_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="fc973a14319837a49bcf418f112a1533" Name="Assets/Resources/GoldenSkullStudios/Stone/ISO_Tile_Riverbed_04.png" Length="40909" HashCode="-1643051854" />
+        </Assets>
+        <Codes>
+          <MacOS Length="63521" HashCode="-1721757887" ZipLength="56125" ZipHashCode="1329231021" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stone/iso_tile_stone_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="8101f733e050ce14d9a68d86770b02ff" Name="Assets/Resources/GoldenSkullStudios/Stone/ISO_Tile_Stone_01.png" Length="41721" HashCode="261827973" />
+        </Assets>
+        <Codes>
+          <MacOS Length="65879" HashCode="1199489191" ZipLength="56263" ZipHashCode="-1246716605" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stone/iso_tile_stone_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c53bca9d498f79c4a8e58b1dd0c9f1a2" Name="Assets/Resources/GoldenSkullStudios/Stone/ISO_Tile_Stone_02.png" Length="36508" HashCode="671473877" />
+        </Assets>
+        <Codes>
+          <MacOS Length="58857" HashCode="-715416957" ZipLength="50908" ZipHashCode="763725567" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/stone/iso_tile_stone_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="7b90af6ca594e3244b9ef0bd0f20603a" Name="Assets/Resources/GoldenSkullStudios/Stone/ISO_Tile_Stone_03.png" Length="40018" HashCode="-646223998" />
+        </Assets>
+        <Codes>
+          <MacOS Length="64021" HashCode="1413245080" ZipLength="55891" ZipHashCode="1210617371" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00000000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="5c504652684caa84c9d5b0bf8347ec39" Name="Assets/Resources/GoldenSkullStudios/Water/Water00000000.png" Length="15817" HashCode="1376746836" />
+        </Assets>
+        <Codes>
+          <MacOS Length="27696" HashCode="1537166519" ZipLength="23225" ZipHashCode="-1417596928" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00000001" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="e67a8d339d0ecf040a48d4237f0ad70d" Name="Assets/Resources/GoldenSkullStudios/Water/Water00000001.png" Length="15999" HashCode="997041349" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28104" HashCode="-1282281001" ZipLength="23511" ZipHashCode="672621073" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00000010" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="a6c63294d9ba0ab4288f62d6011d6943" Name="Assets/Resources/GoldenSkullStudios/Water/Water00000010.png" Length="16219" HashCode="1639975473" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28580" HashCode="-1334068591" ZipLength="23926" ZipHashCode="949544078" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00000100" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="92c4a08493a4c1b49b880c6c013a888a" Name="Assets/Resources/GoldenSkullStudios/Water/Water00000100.png" Length="15954" HashCode="-1190542909" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28053" HashCode="-391497036" ZipLength="23521" ZipHashCode="-601258848" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00000101" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="59faa7897e95dce4eae684fe546322db" Name="Assets/Resources/GoldenSkullStudios/Water/Water00000101.png" Length="16114" HashCode="-2026878769" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28461" HashCode="-1334182642" ZipLength="23792" ZipHashCode="1354826032" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00001000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f072c1210e6774f42a7b26d61194fd79" Name="Assets/Resources/GoldenSkullStudios/Water/Water00001000.png" Length="16266" HashCode="2114085747" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28450" HashCode="1909869343" ZipLength="23867" ZipHashCode="-468114381" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00001010" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="e37a01976df8ed344b14148af1dec545" Name="Assets/Resources/GoldenSkullStudios/Water/Water00001010.png" Length="16357" HashCode="-83509714" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28989" HashCode="760040297" ZipLength="24199" ZipHashCode="-349452556" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00001100" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="b1005c3b1984b424eac02037fff5e90e" Name="Assets/Resources/GoldenSkullStudios/Water/Water00001100.png" Length="16279" HashCode="279060935" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28760" HashCode="-500868099" ZipLength="23998" ZipHashCode="1178674642" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00010000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="dcb33a2903f6ec9428e8865f3588c134" Name="Assets/Resources/GoldenSkullStudios/Water/Water00010000.png" Length="16138" HashCode="-271004915" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28598" HashCode="-1035930421" ZipLength="23870" ZipHashCode="1835980019" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00010001" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="71fd0a1b84f12ca48be5515ddb5b854b" Name="Assets/Resources/GoldenSkullStudios/Water/Water00010001.png" Length="16264" HashCode="1667360881" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28929" HashCode="571158378" ZipLength="24077" ZipHashCode="2042728769" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00010010" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="f523ff05c4f70354086e177fec66e244" Name="Assets/Resources/GoldenSkullStudios/Water/Water00010010.png" Length="16334" HashCode="-1154281028" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29052" HashCode="-215118186" ZipLength="24304" ZipHashCode="1659998589" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00011000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="399333853072b024b974a91657b5c511" Name="Assets/Resources/GoldenSkullStudios/Water/Water00011000.png" Length="16348" HashCode="260424706" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29088" HashCode="-162989563" ZipLength="24184" ZipHashCode="-427776505" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00011010" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="b563d454609fefe489faf69b79ab6109" Name="Assets/Resources/GoldenSkullStudios/Water/Water00011010.png" Length="16431" HashCode="1072610403" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29155" HashCode="1095538342" ZipLength="24346" ZipHashCode="699477034" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00100000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="bb8ae8a9d6790474ea36d34f6f6d2b5f" Name="Assets/Resources/GoldenSkullStudios/Water/Water00100000.png" Length="15891" HashCode="905605639" />
+        </Assets>
+        <Codes>
+          <MacOS Length="27922" HashCode="-1503167324" ZipLength="23493" ZipHashCode="-1875183527" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00100001" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d3ed8f765a17c3645885937709506776" Name="Assets/Resources/GoldenSkullStudios/Water/Water00100001.png" Length="16060" HashCode="-611707588" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28389" HashCode="316587439" ZipLength="23840" ZipHashCode="2120662041" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00100010" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="e1046a3dad7a4884ea2044b778edd0c3" Name="Assets/Resources/GoldenSkullStudios/Water/Water00100010.png" Length="16310" HashCode="490881983" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28789" HashCode="-1078962145" ZipLength="24125" ZipHashCode="-2022518345" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00100100" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="6d86d19acb7e4fd4296e03b727410c84" Name="Assets/Resources/GoldenSkullStudios/Water/Water00100100.png" Length="15949" HashCode="1588323269" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28293" HashCode="-1773501575" ZipLength="23730" ZipHashCode="-293723966" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00100101" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="2d6fd31d5a94d0f40b9dd907cdd784a9" Name="Assets/Resources/GoldenSkullStudios/Water/Water00100101.png" Length="16111" HashCode="354355028" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28687" HashCode="-315645155" ZipLength="23990" ZipHashCode="1231933568" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00110000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c4f2726b0c3d9b044a219a1aac3ca205" Name="Assets/Resources/GoldenSkullStudios/Water/Water00110000.png" Length="16109" HashCode="-167349194" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28834" HashCode="1441843748" ZipLength="24010" ZipHashCode="840201610" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00110001" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="8f754b99e67acc241af3b0119abbb09d" Name="Assets/Resources/GoldenSkullStudios/Water/Water00110001.png" Length="16255" HashCode="430195181" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29095" HashCode="732717688" ZipLength="24182" ZipHashCode="484845250" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water00110010" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="fb58ce6e1a161b74fa8f92b5765058b7" Name="Assets/Resources/GoldenSkullStudios/Water/Water00110010.png" Length="16345" HashCode="697452439" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29122" HashCode="2027521514" ZipLength="24340" ZipHashCode="283067906" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water01000000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="87870c9534de46449918451f0c36595b" Name="Assets/Resources/GoldenSkullStudios/Water/Water01000000.png" Length="15997" HashCode="1565568970" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28631" HashCode="-1252489675" ZipLength="23986" ZipHashCode="1681038601" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water01000001" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="21f0655ca06d2674fb2cf03e4bcd3e12" Name="Assets/Resources/GoldenSkullStudios/Water/Water01000001.png" Length="16139" HashCode="-657060183" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28895" HashCode="15791854" ZipLength="24164" ZipHashCode="-122532802" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water01000010" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="bff4be8db472efd4eb64cb859280f23e" Name="Assets/Resources/GoldenSkullStudios/Water/Water01000010.png" Length="16101" HashCode="1346856628" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29176" HashCode="-1045923229" ZipLength="24338" ZipHashCode="-1495786015" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water01000100" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="950452833fae4eb4db71f71080a40241" Name="Assets/Resources/GoldenSkullStudios/Water/Water01000100.png" Length="15954" HashCode="982119298" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28919" HashCode="1231716309" ZipLength="24138" ZipHashCode="-542089962" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water01000101" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="4b0d831f9e18c934e80b497a715e7d6d" Name="Assets/Resources/GoldenSkullStudios/Water/Water01000101.png" Length="16082" HashCode="2027243006" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29120" HashCode="877733837" ZipLength="24273" ZipHashCode="1805556054" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water01001000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="cde0540a3ed58c840af2820dfcab3a1d" Name="Assets/Resources/GoldenSkullStudios/Water/Water01001000.png" Length="16281" HashCode="-1588201823" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28920" HashCode="-115690706" ZipLength="24240" ZipHashCode="1743002627" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water01001010" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="5b0c70040e2fa3848bf18821cee8daec" Name="Assets/Resources/GoldenSkullStudios/Water/Water01001010.png" Length="16285" HashCode="1863032458" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29118" HashCode="702541359" ZipLength="24358" ZipHashCode="-1187248213" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water01001100" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="6945c37f7a7e2354282970842401c9d4" Name="Assets/Resources/GoldenSkullStudios/Water/Water01001100.png" Length="16233" HashCode="783032386" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29124" HashCode="-1247742689" ZipLength="24303" ZipHashCode="196173531" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water01010000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d0bc5237a1130714a8c90e829db8b78a" Name="Assets/Resources/GoldenSkullStudios/Water/Water01010000.png" Length="15849" HashCode="-1764009654" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28986" HashCode="-891200625" ZipLength="24106" ZipHashCode="1935942473" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water01010001" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="32dc60015e4387947aad376940bb9294" Name="Assets/Resources/GoldenSkullStudios/Water/Water01010001.png" Length="15987" HashCode="-573920268" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29110" HashCode="1865025249" ZipLength="24261" ZipHashCode="-834594174" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water01010010" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="e59ad985b389e144290c96971476664f" Name="Assets/Resources/GoldenSkullStudios/Water/Water01010010.png" Length="16017" HashCode="996505352" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29146" HashCode="-2065934561" ZipLength="24324" ZipHashCode="1219620685" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water01011000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="3e691c28b7628f94bb6ad1fbbdfec63d" Name="Assets/Resources/GoldenSkullStudios/Water/Water01011000.png" Length="16153" HashCode="-598733096" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29067" HashCode="-1668556180" ZipLength="24272" ZipHashCode="1230081460" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10000000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="49cbee280ae08934e91f903903a803cc" Name="Assets/Resources/GoldenSkullStudios/Water/Water10000000.png" Length="15870" HashCode="1463183230" />
+        </Assets>
+        <Codes>
+          <MacOS Length="27986" HashCode="-526080766" ZipLength="23437" ZipHashCode="1377669800" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10000001" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="814d3233157368445ba630b9a4301367" Name="Assets/Resources/GoldenSkullStudios/Water/Water10000001.png" Length="16048" HashCode="1484988720" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28412" HashCode="1465647026" ZipLength="23709" ZipHashCode="1809774312" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10000010" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="ea2f363ad044c184c852780eefbf7846" Name="Assets/Resources/GoldenSkullStudios/Water/Water10000010.png" Length="16257" HashCode="-1953541506" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28834" HashCode="529683239" ZipLength="24082" ZipHashCode="1376573851" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10000100" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="cb08e37655565fc4aa0f9c211c3e90bc" Name="Assets/Resources/GoldenSkullStudios/Water/Water10000100.png" Length="15988" HashCode="-283055368" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28366" HashCode="1792394161" ZipLength="23740" ZipHashCode="2038111737" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10000101" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d1c5f017d1ca5684f948c7b37e5babd9" Name="Assets/Resources/GoldenSkullStudios/Water/Water10000101.png" Length="16150" HashCode="1913530463" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28747" HashCode="-1315053277" ZipLength="23951" ZipHashCode="641738030" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10001000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="50e9fe18a261df54da4c9385c3ce24b6" Name="Assets/Resources/GoldenSkullStudios/Water/Water10001000.png" Length="16291" HashCode="904054211" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28722" HashCode="140497344" ZipLength="24027" ZipHashCode="2068717272" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10001010" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c8b8453953370db40b2c4ba42a63fe3b" Name="Assets/Resources/GoldenSkullStudios/Water/Water10001010.png" Length="16376" HashCode="97619822" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29122" HashCode="-1216320723" ZipLength="24270" ZipHashCode="-1745631050" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10001100" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="8f092a2899216d540bd0d9379a08d8f2" Name="Assets/Resources/GoldenSkullStudios/Water/Water10001100.png" Length="16297" HashCode="-1858360035" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29000" HashCode="-506145468" ZipLength="24124" ZipHashCode="121730600" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10100000" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="1913824c68b36ab42813b2a234a8276f" Name="Assets/Resources/GoldenSkullStudios/Water/Water10100000.png" Length="15934" HashCode="-2006731090" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28283" HashCode="317412124" ZipLength="23738" ZipHashCode="912402122" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10100001" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="8b98552589603a543a3afe13d47ea132" Name="Assets/Resources/GoldenSkullStudios/Water/Water10100001.png" Length="16103" HashCode="1835249721" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28675" HashCode="732511309" ZipLength="23988" ZipHashCode="-594501966" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10100010" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="0de0d83dc4fb6e147a6016081095473c" Name="Assets/Resources/GoldenSkullStudios/Water/Water10100010.png" Length="16342" HashCode="1064209690" />
+        </Assets>
+        <Codes>
+          <MacOS Length="29000" HashCode="-870550917" ZipLength="24222" ZipHashCode="894687940" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10100100" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="b38e70e355a14b544b10c7f09e46f42b" Name="Assets/Resources/GoldenSkullStudios/Water/Water10100100.png" Length="15992" HashCode="-782523430" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28616" HashCode="-1396473948" ZipLength="23916" ZipHashCode="423903241" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water10100101" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="dece5d2e84e02af41ad903aea8dff1fc" Name="Assets/Resources/GoldenSkullStudios/Water/Water10100101.png" Length="16146" HashCode="-1819536782" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28906" HashCode="-566213614" ZipLength="24090" ZipHashCode="43518791" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/water/water11111111" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="7c6a6f4e202e191469c51b91f77a7cad" Name="Assets/Resources/GoldenSkullStudios/Water/Water11111111.png" Length="16201" HashCode="-470445190" />
+        </Assets>
+        <Codes>
+          <MacOS Length="28913" HashCode="-1908118304" ZipLength="24261" ZipHashCode="-2092518337" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/wood/iso_tile_wood_01" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="a416a1a7d55496a47950196a3edecb91" Name="Assets/Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_01.png" Length="35563" HashCode="-1036711002" />
+        </Assets>
+        <Codes>
+          <MacOS Length="60862" HashCode="-715968948" ZipLength="52376" ZipHashCode="-689340358" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/wood/iso_tile_wood_02" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c6f660a607553f44fbd0d5d8eb72a04b" Name="Assets/Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_02.png" Length="33198" HashCode="-6245064" />
+        </Assets>
+        <Codes>
+          <MacOS Length="65841" HashCode="1182794973" ZipLength="56117" ZipHashCode="1841729042" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/wood/iso_tile_wood_03" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d8826e2d807e2174ea8ed132c874418d" Name="Assets/Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_03.png" Length="35204" HashCode="-1943996235" />
+        </Assets>
+        <Codes>
+          <MacOS Length="56042" HashCode="-722536562" ZipLength="47494" ZipHashCode="-1606310979" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/goldenskullstudios/wood/iso_tile_wood_04" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="fd86dfe7337c54a49847b192495cb1d6" Name="Assets/Resources/GoldenSkullStudios/Wood/ISO_Tile_Wood_04.png" Length="28841" HashCode="699956860" />
+        </Assets>
+        <Codes>
+          <MacOS Length="57331" HashCode="-1776686306" ZipLength="47549" ZipHashCode="-1831175350" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="resources/image/city" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d0a2b7fa8593841d6ac8b02c8c5537c0" Name="Assets/Resources/Image/City.png" Length="18260" HashCode="1736633752" />
+        </Assets>
+        <Codes>
+          <MacOS Length="8294" HashCode="-1440998786" ZipLength="7316" ZipHashCode="-264439638" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="scenes/bigmap" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="6b065eeebaa474a488c1295ea7f34c81" Name="Assets/Scenes/BigMap.unity" Length="26442" HashCode="434355270" />
+        </Assets>
+        <Codes>
+          <MacOS Length="115989" HashCode="58024902" ZipLength="101446" ZipHashCode="-176636492" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="scenes/demoscenes" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="c1f8410bdc85c44a3a49824cc2a253b6" Name="Assets/Scenes/DemoScenes.unity" Length="18118" HashCode="278630506">
+            <DependencyAssets Count="4">
+              <DependencyAsset Name="Assets/Prefab/Characters/FootSoldier.prefab" />
+              <DependencyAsset Name="Assets/Prefab/Characters/FootSoldierBase.prefab" />
+              <DependencyAsset Name="Assets/Prefab/Characters/Path.prefab" />
+              <DependencyAsset Name="Assets/Prefab/Terrain/Mountain.prefab" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <MacOS Length="137991" HashCode="2141045688" ZipLength="118354" ZipHashCode="-1075833499" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="scenes/init" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="0372686897e2c4368aba2883e45dd809" Name="Assets/Scenes/Init.unity" Length="21457" HashCode="-1766083422">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/Prefab/UI/Loading.prefab" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <MacOS Length="17892" HashCode="1998252362" ZipLength="14750" ZipHashCode="1810806461" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="scenes/startmenu" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="d7bae2180659f49af86cac447f67b029" Name="Assets/Scenes/StartMenu.unity" Length="3176" HashCode="-1986891257" />
+        </Assets>
+        <Codes>
+          <MacOS Length="110315" HashCode="1593763479" ZipLength="96411" ZipHashCode="1264267904" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="sound/5" LoadType="1" Packed="True">
+        <Assets Count="1">
+          <Asset Guid="b32da4723db97474f84bf3c38dab11a1" Name="Assets/Sound/5.wav" Length="266268" HashCode="-206404387" />
+        </Assets>
+        <Codes>
+          <MacOS Length="45946" HashCode="1733955190" ZipLength="45650" ZipHashCode="-2003349286" />
+        </Codes>
+      </AssetBundle>
+    </AssetBundles>
+  </BuildReport>
+</UnityGameFramework>

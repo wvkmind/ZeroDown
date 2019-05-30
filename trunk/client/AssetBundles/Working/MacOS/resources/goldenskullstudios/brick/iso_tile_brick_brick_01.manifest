@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3899383068
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: feb6dd96e881f8abec1ff04f90e33234
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/GoldenSkullStudios/Brick/ISO_Tile_Brick_Brick_01.png
+Dependencies: []

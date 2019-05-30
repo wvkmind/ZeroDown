@@ -1,0 +1,14 @@
+C:/Ruby22-x64/bin/ruby.exe -r ./siteconf20160906-27508-1xvdbxj.rb extconf.rb
+checking for rb_wait_for_single_fd()... yes
+
+Unsupported platform 'x64-mingw32'. Supported platforms are BSD, DARWIN, and LINUX.
+Your god installation will not support event conditions.
+
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install
+make: Nothing to be done for `install'.

@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 4276007207
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 64b03d2be85865095c861aedab36facc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6f1fab127d8f907929f90e156ab1de09
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefab/Terrain/Water.prefab
+Dependencies:
+- /Users/wvkmind/MyCode/ZeroDown/trunk/client/AssetBundles/Working/MacOS/resources/goldenskullstudios/water/water00000000

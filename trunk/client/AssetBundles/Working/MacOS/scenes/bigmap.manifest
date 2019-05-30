@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 3616114860
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d9fffbaaa33f413a260e4a3592675d3a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e846f06fa17bff835027bbe2535bf53
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 63edc7c513f3f48e5a6050ad7eb34628, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9384ab8608cdc3d479fe89cd51eed48f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a2fba25a5cd15594e8f050a11e386c80, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 258
+  Script: {instanceID: 0}
+Assets:
+- Assets/Scenes/BigMap.unity
+Dependencies: []

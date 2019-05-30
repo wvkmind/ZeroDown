@@ -1,0 +1,7 @@
+C:/Ruby22-x64/bin/ruby.exe -rubygems C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rake-11.2.2/exe/rake RUBYARCHDIR=C:/Ruby22-x64/lib/ruby/gems/2.2.0/extensions/x64-mingw32/2.2.0/ruby-glfw-0.9.1 RUBYLIBDIR=C:/Ruby22-x64/lib/ruby/gems/2.2.0/extensions/x64-mingw32/2.2.0/ruby-glfw-0.9.1
+rake aborted!
+ERROR: 'rake/gempackagetask' is obsolete and no longer supported. Use 'rubygems/package_task' instead.
+
+(See full trace by running task with --trace)
+
+rake failed, exit code 1
