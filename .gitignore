@@ -1,7 +1,7 @@
 .svn/
-.bin/
-.Library/
-.obj/
-.Packages/
-.Temp/
-*.csproj
+trunk/client/Library/
+trunk/client/obj/
+trunk/client/bin/
+trunk/client/Packages/
+trunk/client/Temp/
+trunk/client/*.csproj
