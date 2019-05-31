@@ -5,3 +5,4 @@ trunk/client/bin/
 trunk/client/Packages/
 trunk/client/Temp/
 trunk/client/*.csproj
+*.dll
